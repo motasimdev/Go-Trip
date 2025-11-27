@@ -106,15 +106,37 @@ const Footer = () => {
 
           <div className="w-[50%]">
             <ParaBase>Get Updates & More</ParaBase>
-            <div className="relative">
+            <div className="relative mt-5">
               <input
                 type="text"
                 placeholder="Your Email"
                 className="py-6 pl-7.5 bg-white w-full rounded-sm"
               />
               <Link>
-              <span className={"text-textClr1 text-[15px] font-medium border-b border-textClr1 absolute top-1/2 right-7.5 transform -translate-y-1/2"}>Subscribe</span>
+                <span
+                  className={
+                    "text-textClr1 text-[15px] font-medium border-b border-textClr1 absolute top-1/2 right-7.5 transform -translate-y-1/2"
+                  }
+                >
+                  Subscribe
+                </span>
               </Link>
+            </div>
+            <div className="flex mt-18">
+              {/* =============list 01======== */}
+              <div className="">
+                <ParaBase className={"pb-7"}>Company</ParaBase>
+                <ul className="flex flex-col gap-y-6">
+                  <li className="text-[15px] text-white"> About Us </li>
+                  <li className="text-[15px] text-white">Careers </li>
+                  <li className="text-[15px] text-white">Blog</li>
+                  <li className="text-[15px] text-white">Press</li>
+                  <li className="text-[15px] text-white">Gift Cards</li>
+                  <li className="text-[15px] text-white">Magazine</li>
+                </ul>
+              </div>
+              {/* =============list 02======== */}
+              {/* =============list 03======== */}
             </div>
           </div>
         </div>
