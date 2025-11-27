@@ -38,7 +38,7 @@ const Footer = () => {
                   </ParaBase>
 
                   {/* =============btn================ */}
-                  <div className="mt-4 mb-[60px]">
+                  <div className="mt-4 mb-[80px]">
                     <Button className={"bg-[#ffffff37]"}>
                       <Flex className={"gap-x-3"}>
                         <FaApple className="text-white text-4xl" />
