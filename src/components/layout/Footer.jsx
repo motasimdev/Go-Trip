@@ -122,10 +122,10 @@ const Footer = () => {
                 </span>
               </Link>
             </div>
-            <div className="flex mt-18">
+            <div className="flex mt-18 justify-between">
               {/* =============list 01======== */}
               <div className="">
-                <ParaBase className={"pb-7"}>Company</ParaBase>
+                <ParaBase className={"pb-9"}>Company</ParaBase>
                 <ul className="flex flex-col gap-y-6">
                   <li className="text-[15px] text-white"> About Us </li>
                   <li className="text-[15px] text-white">Careers </li>
@@ -133,6 +133,30 @@ const Footer = () => {
                   <li className="text-[15px] text-white">Press</li>
                   <li className="text-[15px] text-white">Gift Cards</li>
                   <li className="text-[15px] text-white">Magazine</li>
+                </ul>
+              </div>
+              <div className="">
+                <ParaBase className={"pb-9"}>Company</ParaBase>
+                <ul className="flex flex-col gap-y-6">
+                  <li className="text-[15px] text-white"> Contact</li>
+                  <li className="text-[15px] text-white">Legal Notice</li>
+                  <li className="text-[15px] text-white">Privacy Policy</li>
+                  <li className="text-[15px] text-white">
+                    Terms and Conditions
+                  </li>
+                  <li className="text-[15px] text-white">Sitemap</li>
+                </ul>
+              </div>
+              <div className="">
+                <ParaBase className={"pb-9"}>Company</ParaBase>
+                <ul className="flex flex-col gap-y-6">
+                  <li className="text-[15px] text-white"> Car hire</li>
+                  <li className="text-[15px] text-white">Activity Finder</li>
+                  <li className="text-[15px] text-white">Tour List</li>
+                  <li className="text-[15px] text-white">Flight finder</li>
+                  <li className="text-[15px] text-white">Cruise Ticket</li>
+                  <li className="text-[15px] text-white">Holiday Rental</li>
+                  <li className="text-[15px] text-white">Travel Agents</li>
                 </ul>
               </div>
               {/* =============list 02======== */}
@@ -143,16 +167,21 @@ const Footer = () => {
 
         {/* ===================down footer start==================== */}
         <Flex className="py-5 gap-x-11">
-          <Para className={" text-white"}>
-            © 2022 GoTrip LLC All rights reserved.
-          </Para>
-          <Flex className={"gap-x-2.5"}>
-            <div className="h-2 w-2 bg-white rounded-full"></div>
-            <Para>Privacy</Para>
-            <div className="h-2 w-2 bg-white rounded-full"></div>
-            <Para>Terms</Para>
-            <div className="h-2 w-2 bg-white rounded-full"></div>
-            <Para>Site Map</Para>
+          <Flex>
+            <Para className={" text-white"}>
+              © 2022 GoTrip LLC All rights reserved.
+            </Para>
+            <Flex className={"gap-x-2.5"}>
+              <div className="h-2 w-2 bg-white rounded-full"></div>
+              <Para>Privacy</Para>
+              <div className="h-2 w-2 bg-white rounded-full"></div>
+              <Para>Terms</Para>
+              <div className="h-2 w-2 bg-white rounded-full"></div>
+              <Para>Site Map</Para>
+            </Flex>
+          </Flex>
+          <Flex>
+            
           </Flex>
         </Flex>
         {/* ===================down footer==================== */}
