@@ -12,6 +12,8 @@ import { IoLogoTwitter } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa";
+import { TfiWorld } from "react-icons/tfi";
+import { BiDollar } from "react-icons/bi";
 
 const Footer = () => {
   return (
@@ -166,7 +168,7 @@ const Footer = () => {
         </div>
 
         {/* ===================down footer start==================== */}
-        <Flex className="py-5 gap-x-11">
+        <Flex className="py-5 gap-x-11 justify-between">
           <Flex>
             <Para className={" text-white"}>
               © 2022 GoTrip LLC All rights reserved.
@@ -180,8 +182,11 @@ const Footer = () => {
               <Para>Site Map</Para>
             </Flex>
           </Flex>
-          <Flex>
-            
+          <Flex className={"gap-x-3"}>
+            <TfiWorld className="text-white"/>
+            <Para className={"font-medium"}>English (US)</Para>
+            <BiDollar className="text-white"/>
+            <Para className={"font-medium"}>USD</Para>
           </Flex>
         </Flex>
         {/* ===================down footer==================== */}
