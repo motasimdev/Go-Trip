@@ -2,20 +2,19 @@ import React from "react";
 import Flex from "./Flex";
 import { FaStar } from "react-icons/fa";
 import Badge from "./Badge";
-import cardPic from "./../assets/cardPic.jpg";
 
-const Card = () => {
+const Card = ({badgTxt, cardPic, placeTitle, city}) => {
   return (
     <div className={"max-w-[234px]  relative"}>
-      <Badge className={"absolute top-4 left-0"} bagText={"best seller"} />
+      <Badge className={"absolute top-4 left-0"} bagText={badgTxt} />
       <img src={cardPic} alt="product image" className="w-full max-h-[234px]" />
 
       <div className="mt-2.5 flex flex-col gap-y-3" >
         <h5 className="text-sm text-textClr2">6+ hourse </h5>
         <h3 className="font-medium text-textClr1 leading-7.5">
-          Natural Crystal Blue Ice Cave Tour of Vatnajökull Glacier
+          {placeTitle}
         </h3>
-        <h5 className="text-sm text-textClr2">Manhattan, New York </h5>
+        <h5 className="text-sm text-textClr2">{city} </h5>
         <Flex>
           <div className="">
             <FaStar className="text-amber-300" />
