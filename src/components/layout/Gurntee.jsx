@@ -7,14 +7,14 @@ const Gurntee = () => {
       <section className="py-10 md:py-20 bg-[#F5F5F5]">
         <Container>
           <div className="grid grid-cols-1 gap-y-5 md:gap-y-0 md:grid-cols-3 md:justify-between">
-            <div className="lg:flex px-20 md:px-10 gap-x-2.5 text-center md:text-left">
+            <div className="lg:flex px-20 md:px-10 gap-x-2.5 text-center lg:text-left">
               <svg
                 width="50"
                 height="50"
                 viewBox="0 0 50 50"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="m-auto md:m-0"
+                className="m-auto lg:m-0"
               >
                 <path
                   d="M22.0356 30.7526C21.7621 30.7531 21.5016 30.633 21.3241 30.4247L16.3821 24.6375C16.0464 24.2444 16.0928 23.6539 16.486 23.3182C16.8791 22.983 17.4696 23.0295 17.8053 23.4221L22.1536 28.5144L32.9539 19.7279C33.3548 19.4016 33.9442 19.4621 34.27 19.8631C34.5963 20.264 34.5358 20.8535 34.1348 21.1792L22.6251 30.5427C22.4591 30.6784 22.2507 30.7526 22.0356 30.7526Z"
@@ -38,14 +38,14 @@ const Gurntee = () => {
                 </p>
               </div>
             </div>
-            <div className="lg:flex px-20 md:px-10 gap-x-2.5  text-center md:text-left">
+            <div className="lg:flex px-20 md:px-10 gap-x-2.5  text-center lg:text-left">
               <svg
                 width="50"
                 height="50"
                 viewBox="0 0 50 50"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="m-auto"
+                className="m-auto lg:m-0"
               >
                 <path
                   d="M27.7168 34.1205H9.444C7.15447 34.1185 5.29866 32.2697 5.29664 29.9883V6.00805C5.29664 5.81578 5.31045 5.62351 5.33739 5.43359C3.29132 5.72216 1.76957 7.46567 1.76721 9.52459V33.5055C1.76957 35.7865 3.62504 37.6347 5.9139 37.6374H28.7941L27.7168 34.1205Z"
@@ -86,14 +86,14 @@ const Gurntee = () => {
                 </p>
               </div>
             </div>
-            <div className="lg:flex px-20 md:px-10 gap-x-2.5  text-center md:text-left">
+            <div className="lg:flex px-20 md:px-10 gap-x-2.5  text-center lg:text-left">
               <svg
                 width="50"
                 height="50"
                 viewBox="0 0 50 50"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="m-auto"
+                className="m-auto lg:m-0"
               >
                 <path
                   d="M22.4716 29.9443C21.7787 29.2528 21.2308 28.4299 20.8601 27.5239C20.4893 26.6178 20.3031 25.6469 20.3125 24.668V21.1992C20.3077 20.3751 20.5039 19.5623 20.8841 18.8311C21.2657 18.1015 21.8234 17.4789 22.5066 17.0195C22.9001 16.7552 23.3132 16.5212 23.7423 16.3196C23.5597 16.0696 23.389 15.8241 23.234 15.585L23.2312 15.5859C21.9198 15.7863 20.6694 16.276 19.5708 17.0195C18.8894 17.4791 18.3338 18.1018 17.9547 18.8311C17.5744 19.5622 17.3781 20.3751 17.3828 21.1992V24.668C17.38 25.7708 17.6223 26.8604 18.0921 27.8581C18.562 28.8558 19.2477 29.7366 20.0996 30.4369C20.9516 31.1371 21.9485 31.6393 23.0183 31.9071C24.0881 32.1749 25.204 32.2016 26.2854 31.9854C24.8402 31.6974 23.5129 30.9871 22.4716 29.9443Z"
