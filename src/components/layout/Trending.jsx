@@ -29,7 +29,8 @@ const Trending = () => {
                 type: "loop",
                 perPage: 4,
                 perMove: 1,
-                gap: "1.2rem",
+                autoWidth: true,
+                gap: "90px",
                 autoplay: true,
                 interval: 2500,
                 pauseOnHover: true,
@@ -43,7 +44,7 @@ const Trending = () => {
               }}
             >
               <SplideSlide>
-                <Card
+                <Card 
                   badgTxt={"LIKELY TO SELL OUT*"}
                   cardPic={cardImgOne}
                   city={
@@ -53,7 +54,7 @@ const Trending = () => {
                 />
               </SplideSlide>
               <SplideSlide>
-                <Card
+                <Card 
                   badgTxt={"LIKELY TO SELL OUT*"}
                   cardPic={cardImgTwo}
                   city={
@@ -63,8 +64,8 @@ const Trending = () => {
                 />
               </SplideSlide>
               <SplideSlide>
-                <Card
-                  badgTxt={"LIKELY TO SELL OUT*"}
+                <Card 
+                  badgTxt={"BEST SELLER"}
                   cardPic={cardImgThree}
                   city={
                     "Natural Crystal Blue Ice Cave Tour of Vatnajökull Glacier"
@@ -73,8 +74,8 @@ const Trending = () => {
                 />
               </SplideSlide>
               <SplideSlide>
-                <Card
-                  badgTxt={"LIKELY TO SELL OUT*"}
+                <Card 
+                  badgTxt={"TOP RATED"}
                   cardPic={cardImgeFour}
                   city={
                     "South Coast Full Day Tour by Minibus from Reykjavik"
@@ -83,7 +84,7 @@ const Trending = () => {
                 />
               </SplideSlide>
               <SplideSlide>
-                <Card
+                <Card 
                   badgTxt={"LIKELY TO SELL OUT*"}
                   cardPic={cardImgOne}
                   city={

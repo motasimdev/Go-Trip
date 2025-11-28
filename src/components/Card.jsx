@@ -3,9 +3,9 @@ import Flex from "./Flex";
 import { FaStar } from "react-icons/fa";
 import Badge from "./Badge";
 
-const Card = ({badgTxt, cardPic, placeTitle, city}) => {
+const Card = ({className, badgTxt, cardPic, placeTitle, city}) => {
   return (
-    <div className={"max-w-[234px]  relative"}>
+    <div className={`max-w-[234px] relative ${className}`}>
       <Badge className={"absolute top-4 left-0"} bagText={badgTxt} />
       <img src={cardPic} alt="product image" className="w-full max-h-[234px]" />
 
