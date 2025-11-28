@@ -12,7 +12,7 @@ const Header = () => {
   const [menu, setMenu] = useState(false);
   return (
     <>
-      <nav className="py-5 bg-gray-400 fixed top-0 left-0 w-full z-1000 hidden lg:block">
+      <nav className="py-5 bg-[#00000015] fixed top-0 left-0 w-full z-1000 hidden lg:block">
         <Container>
           <Flex className={"justify-between "}>
             <picture>
