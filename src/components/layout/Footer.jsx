@@ -26,7 +26,7 @@ const Footer = () => {
                 <img src={logo} alt="logo" className="w-20 lg:w-[140px]"/>
               </picture>
             </Link>
-            <div className="flex gap-x-5 justify-between md:justify-around lg:justify-normal">
+            <div className="flex gap-x-5 justify-around md:justify-around lg:justify-normal">
               <div className="lg:w-[33%]">
                 <div className="">
                   <Para className={"pt-8"}>Toll Free Customer Care</Para>
@@ -104,9 +104,9 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* =================================================== */}
+          {/* ========================searchbox=========================== */}
 
-          <div className="lg:w-[50%] pt-5 lg:pt-0">
+          <div className="text-center lg:text-left lg:w-[50%] pt-5 lg:pt-0">
             <ParaBase>Get Updates & More</ParaBase>
             <div className="relative mt-5">
               <input
