@@ -11,10 +11,10 @@ import cardImgeFour from "/src/assets/trendy4.png";
 const Trending = () => {
   return (
     <>
-      <section>
+      <section className="pt-15 lg:pt-[120px] lg:pb-15 px-3 lg:px-0">
         <Container className="">
           <div className="">
-            <div className="text-center mb-11">
+            <div className="text-center lg:mb-11">
               <Heading
                 title={"Trending Activity"}
                 subTitle={"Interdum et malesuada fames ac ante ipsum"}
@@ -38,7 +38,7 @@ const Trending = () => {
                 pagination: false,
                 speed: 800,
                 breakpoints: {
-                  1024: { perPage: 2 },
+                  1024: { perPage: 2, arrows: false, pagination: true, },
                   640: { perPage: 1 },
                 },
               }}
