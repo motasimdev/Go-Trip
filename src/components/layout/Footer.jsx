@@ -179,11 +179,13 @@ const Footer = () => {
                   </NavLink>
                 </ul>
               </div>
-              
+
               {/* =============list 02======== */}
 
               <div className="">
-                <ParaBase className={"pb-9"}>Support</ParaBase>
+                <NavLink>
+                  <ParaBase className={"pb-9 hover:text-blue-500 transition-colors duration-200"}>Support</ParaBase>
+                </NavLink>
                 <ul className="flex flex-col gap-y-6">
                   <NavLink to={"/"}>
                     <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
@@ -216,7 +218,9 @@ const Footer = () => {
               {/* =============list 03======== */}
 
               <div className="">
-                <ParaBase className={"pb-9"}>Oter Services</ParaBase>
+                <NavLink>
+                  <ParaBase className={"pb-9 hover:text-blue-500 transition-colors duration-200"}>Other Services</ParaBase>
+                </NavLink>
                 <ul className="flex flex-col gap-y-6">
                   <NavLink to={"/"}>
                     <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
