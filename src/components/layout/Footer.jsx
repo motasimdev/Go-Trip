@@ -1,6 +1,6 @@
 import React from "react";
 import Flex from "../Flex";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import logo from "/src/assets/logo.png";
 import Para from "../Para";
 import Container from "../Container";
@@ -19,18 +19,24 @@ const Footer = () => {
   return (
     <footer className={"bg-[#0D2857] pt-7 lg:pt-15 px-3 lg:px-0 mt-[100px]"}>
       <Container>
-        <div className={"lg:flex border-b pb-5 lg:pb-15 border-px border-[#ffffff42]"}>
+        <div
+          className={
+            "lg:flex border-b pb-5 lg:pb-15 border-px border-[#ffffff42]"
+          }
+        >
           <div className="lg:w-[50%]">
-            <Link className="">
+            <Link to={"/"} className="">
               <picture className="flex justify-center lg:justify-normal">
-                <img src={logo} alt="logo" className="w-20 lg:w-[140px]"/>
+                <img src={logo} alt="logo" className="w-20 lg:w-[140px]" />
               </picture>
             </Link>
             <div className="flex gap-x-5 justify-around md:justify-around lg:justify-normal">
               <div className="lg:w-[33%]">
                 <div className="">
                   <Para className={"pt-8"}>Toll Free Customer Care</Para>
-                  <ParaBase className={"text-lg font-medium pt-4 pb-8 lg:pb-[60px]"}>
+                  <ParaBase
+                    className={"text-lg font-medium pt-4 pb-8 lg:pb-[60px]"}
+                  >
                     +(1) 123 456 7890
                   </ParaBase>
                   <ParaBase className={"font-medium"}>
@@ -124,21 +130,49 @@ const Footer = () => {
                 </span>
               </Link>
             </div>
+
+            {/* =====================menu list======================= */}
             <div className="hidden lg:flex mt-18 justify-between">
               {/* =============list 01======== */}
               <div className="">
                 <ParaBase className={"pb-9"}>Company</ParaBase>
                 <ul className="flex flex-col gap-y-6">
-                  <li className="text-[15px] text-white"> About Us </li>
-                  <li className="text-[15px] text-white">Careers </li>
-                  <li className="text-[15px] text-white">Blog</li>
-                  <li className="text-[15px] text-white">Press</li>
-                  <li className="text-[15px] text-white">Gift Cards</li>
-                  <li className="text-[15px] text-white">Magazine</li>
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      About Us
+                    </li>
+                  </NavLink>
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Careers
+                    </li>
+                  </NavLink>
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Blog
+                    </li>
+                  </NavLink>
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Press
+                    </li>
+                  </NavLink>
+
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Gift Cards
+                    </li>
+                  </NavLink>
+
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Magazine
+                    </li>
+                  </NavLink>
                 </ul>
               </div>
               <div className="">
-                <ParaBase className={"pb-9"}>Company</ParaBase>
+                <ParaBase className={"pb-9"}>Support</ParaBase>
                 <ul className="flex flex-col gap-y-6">
                   <li className="text-[15px] text-white"> Contact</li>
                   <li className="text-[15px] text-white">Legal Notice</li>
@@ -150,7 +184,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="">
-                <ParaBase className={"pb-9"}>Company</ParaBase>
+                <ParaBase className={"pb-9"}>Oter Services</ParaBase>
                 <ul className="flex flex-col gap-y-6">
                   <li className="text-[15px] text-white"> Car hire</li>
                   <li className="text-[15px] text-white">Activity Finder</li>
@@ -169,7 +203,11 @@ const Footer = () => {
 
         {/* ===================down footer start==================== */}
         <div className="py-5 lg:flex items-center justify-between">
-          <Flex className={"justify-between lg:justify-normal lg:gap-x-11 mb-3 lg:mb-0"}>
+          <Flex
+            className={
+              "justify-between lg:justify-normal lg:gap-x-11 mb-3 lg:mb-0"
+            }
+          >
             <Para className={" text-white"}>
               © 2022 GoTrip LLC All rights reserved.
             </Para>
@@ -183,9 +221,9 @@ const Footer = () => {
             </Flex>
           </Flex>
           <Flex className={"gap-x-3 justify-center lg:justify-normal"}>
-            <TfiWorld className="text-white text-[13px] lg:text-md"/>
+            <TfiWorld className="text-white text-[13px] lg:text-md" />
             <Para className={"font-medium"}>English (US)</Para>
-            <BiDollar className="text-white text-[13px] lg:text-md"/>
+            <BiDollar className="text-white text-[13px] lg:text-md" />
             <Para className={"font-medium"}>USD</Para>
           </Flex>
         </div>
