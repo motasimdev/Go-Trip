@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 
+@import '@splidejs/react-splide/css';
+@import '@splidejs/react-splide/css/skyblue';
+@import '@splidejs/react-splide/css/sea-green';
+@import '@splidejs/react-splide/css/core';
+
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 body {
   font-family: "Jost", sans-serif;
