@@ -135,7 +135,15 @@ const Footer = () => {
             <div className="hidden lg:flex mt-18 justify-between">
               {/* =============list 01======== */}
               <div className="">
-                <ParaBase className={"pb-9"}>Company</ParaBase>
+                <NavLink>
+                  <ParaBase
+                    className={
+                      "pb-9 hover:text-blue-500 transition-colors duration-200"
+                    }
+                  >
+                    Company
+                  </ParaBase>
+                </NavLink>
                 <ul className="flex flex-col gap-y-6">
                   <NavLink to={"/"}>
                     <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
@@ -171,32 +179,82 @@ const Footer = () => {
                   </NavLink>
                 </ul>
               </div>
+              
+              {/* =============list 02======== */}
+
               <div className="">
                 <ParaBase className={"pb-9"}>Support</ParaBase>
                 <ul className="flex flex-col gap-y-6">
-                  <li className="text-[15px] text-white"> Contact</li>
-                  <li className="text-[15px] text-white">Legal Notice</li>
-                  <li className="text-[15px] text-white">Privacy Policy</li>
-                  <li className="text-[15px] text-white">
-                    Terms and Conditions
-                  </li>
-                  <li className="text-[15px] text-white">Sitemap</li>
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Contact
+                    </li>
+                  </NavLink>
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Legal Notice
+                    </li>
+                  </NavLink>
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Privacy Policy
+                    </li>
+                  </NavLink>
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Sitemap
+                    </li>
+                  </NavLink>
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Terms and Conditions
+                    </li>
+                  </NavLink>
                 </ul>
               </div>
+
+              {/* =============list 03======== */}
+
               <div className="">
                 <ParaBase className={"pb-9"}>Oter Services</ParaBase>
                 <ul className="flex flex-col gap-y-6">
-                  <li className="text-[15px] text-white"> Car hire</li>
-                  <li className="text-[15px] text-white">Activity Finder</li>
-                  <li className="text-[15px] text-white">Tour List</li>
-                  <li className="text-[15px] text-white">Flight finder</li>
-                  <li className="text-[15px] text-white">Cruise Ticket</li>
-                  <li className="text-[15px] text-white">Holiday Rental</li>
-                  <li className="text-[15px] text-white">Travel Agents</li>
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Car hire
+                    </li>
+                  </NavLink>
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Activity Finder
+                    </li>
+                  </NavLink>
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Tour List
+                    </li>
+                  </NavLink>
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Flight finder
+                    </li>
+                  </NavLink>
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Cruise Ticket
+                    </li>
+                  </NavLink>
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Holiday Rental
+                    </li>
+                  </NavLink>
+                  <NavLink to={"/"}>
+                    <li className=" text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      Travel Agents
+                    </li>
+                  </NavLink>
                 </ul>
               </div>
-              {/* =============list 02======== */}
-              {/* =============list 03======== */}
             </div>
           </div>
         </div>
