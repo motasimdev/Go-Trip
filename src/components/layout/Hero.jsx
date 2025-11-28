@@ -42,7 +42,7 @@ const Hero = () => {
                     Wed 2 Mar - Fri 11 Apr
                   </p>
                 </div>
-                <div className="text-left">
+                <div className="text-left lg:justify-self-center">
                   <p
                     className={
                       "text-[12px] lg:text-[15px] font-medium text-textClr1"
