@@ -13,7 +13,7 @@ const Hero = () => {
             <h1 className="font-semibold text-3xl lg:text-6xl text-white">
               The World is Waiting For You
             </h1>
-            <ParaBase className={"font-normal"}>
+            <ParaBase className={"font-normal pt-3 lg:pt-5 pb-3 lg:pb-7"}>
               Discover amzaing places at exclusive deals
             </ParaBase>
             <div className="bg-white rounded-2xl lg:rounded-full py-2.5 pl-8 lg:w-[900px] m-auto">
@@ -54,8 +54,8 @@ const Hero = () => {
                     Camping, Nightlife
                   </p>
                 </div>
-                <div className="">
-                  <button className="py-3 lg:py-[19px] px-[26px] lg:px-[35px] bg-[#3554D1] text-white text-[11px] lg:text-[15px] font-medium rounded-full">
+                <div className="justify-self-end pr-[11px]">
+                  <button className="py-3 lg:py-[19px] px-[26px] lg:px-[35px] bg-[#3554D1] text-white text-[11px] lg:text-[15px] font-medium rounded-xl lg:rounded-full">
                     <Flex className={"gap-x-1"}>
                       <IoMdSearch className="text-2xl" />
                       Search
