@@ -8,6 +8,7 @@ import Destination from "../layout/Destination";
 import Testimonial from "../layout/Testimonial";
 import Recommanded from "../layout/Recommanded";
 import AppAd from "../layout/AppAd";
+import Inspiration from "../layout/Inspiration";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <Testimonial />
       <Recommanded />
       <AppAd />
+      <Inspiration/>
     </>
   );
 };
