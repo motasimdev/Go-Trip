@@ -18,7 +18,7 @@ const Trending = () => {
       <section className="pt-15 lg:pt-[120px] lg:pb-15 px-3 lg:px-0">
         <Container className="">
           <div className="">
-            <div className="text-center lg:mb-11">
+            <div className="mb-8 text-center lg:mb-11">
               <Heading
                 title={"Trending Activity"}
                 subTitle={"Interdum et malesuada fames ac ante ipsum"}
@@ -26,7 +26,6 @@ const Trending = () => {
             </div>
             <div className="">
               <Swiper
-                slidesPerView={5}
                 spaceBetween={30}
                 centeredSlides={false}
                 loop={true}
@@ -36,9 +35,14 @@ const Trending = () => {
                 navigation={true}
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
+                breakpoints={{
+                  1024: { slidesPerView: 5 },
+                  768: { slidesPerView: 2 },
+                  640: { slidesPerView: 1 },
+                }}
               >
                 <SwiperSlide>
-                  <div className="">
+                  <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
                       cardPic={cardImgOne}
@@ -50,7 +54,7 @@ const Trending = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="">
+                  <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
                       cardPic={cardImgOne}

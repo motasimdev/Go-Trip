@@ -9,7 +9,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import 'swiper/css/navigation';
+import "swiper/css/navigation";
 
 const Destination = () => {
   return (
@@ -34,16 +34,20 @@ const Destination = () => {
         {/* ================================================= */}
         <div>
           <Swiper
-            slidesPerView={4}
             spaceBetween={30}
             centeredSlides={true}
             pagination={{
               clickable: true,
-              type: 'progressbar',
+              type: "progressbar",
             }}
             navigation={true}
             modules={[Pagination, Navigation]}
             className="mySwiper"
+            breakpoints={{
+              1024: { slidesPerView: 4 },
+              768: { slidesPerView: 2 },
+              640: { slidesPerView: 1 },
+            }}
           >
             <SwiperSlide>
               <div className="w-full flex justify-center">
@@ -157,7 +161,7 @@ const Destination = () => {
                       {/* ------------------- */}
                       <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 text-center">
                         <p className="text-[26px] text-white font-semibold group-hover:-translate-y-4 transition-all duration-300">
-                         Rome
+                          Rome
                         </p>
                         <div className="py-5 px-[100px] bg-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
                           <p className="text-[15px] text-textClr1 font-medium">
@@ -170,7 +174,7 @@ const Destination = () => {
                 </Link>
               </div>
             </SwiperSlide>
-            
+
             <SwiperSlide>
               <div className="w-full flex justify-center">
                 <Link to={"/"}>
@@ -283,7 +287,7 @@ const Destination = () => {
                       {/* ------------------- */}
                       <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 text-center">
                         <p className="text-[26px] text-white font-semibold group-hover:-translate-y-4 transition-all duration-300">
-                         Rome
+                          Rome
                         </p>
                         <div className="py-5 px-[100px] bg-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
                           <p className="text-[15px] text-textClr1 font-medium">
@@ -296,7 +300,6 @@ const Destination = () => {
                 </Link>
               </div>
             </SwiperSlide>
-            
           </Swiper>
         </div>
       </Container>
