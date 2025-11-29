@@ -7,6 +7,7 @@ import ParaBase from "../ParaBase";
 import Para from "../Para";
 import Hiking from "../Hiking";
 import Fire from "../Fire";
+import Zeep from "../Zeep";
 
 const Activity = () => {
   return (
@@ -48,7 +49,16 @@ const Activity = () => {
               </p>
             </div>
             <div className="group hover:bg-textClr3 transition-all duration-100 cursor-pointer px-[50px] pt-[75px] pb-6 border border-[#dddddd] text-center">
-              <CampIcon className={"m-auto mb-15 group-hover:text-white transition-all duration-100"}/>
+              <Zeep className={"m-auto mb-15 group-hover:text-white transition-all duration-100"}/>
+              <h4 className={"text-lg text-textClr1 font-medium group-hover:text-white transition-all duration-100"}>
+                Camping
+              </h4>
+              <p className={"text-[15px] text-textClr2 group-hover:text-white transition-all duration-100"}>
+                5  Tours From 550$
+              </p>
+            </div>
+            <div className="group hover:bg-textClr3 transition-all duration-100 cursor-pointer px-[50px] pt-[75px] pb-6 border border-[#dddddd] text-center">
+              <Zeep className={"m-auto mb-15 group-hover:text-white transition-all duration-100"}/>
               <h4 className={"text-lg text-textClr1 font-medium group-hover:text-white transition-all duration-100"}>
                 Camping
               </h4>
