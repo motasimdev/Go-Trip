@@ -8,19 +8,20 @@ import Para from "../Para";
 import Hiking from "../Hiking";
 import Fire from "../Fire";
 import Zeep from "../Zeep";
+import Traveller from "../Traveller";
 
 const Activity = () => {
   return (
     <>
-      <section>
+      <section className="py-[60px] px-3 lg:px-0">
         <Container>
-          <div className="text-center lg:mb-11">
+          <div className="text-center mb-8 lg:mb-11">
             <Heading
               title={"Trending Activity"}
               subTitle={"Interdum et malesuada fames ac ante ipsum"}
             />
           </div>
-          <Flex className={"justify-between"}>
+          <div className={" grid md:grid-cols-3 lg:grid-cols-5 gap-3 lg:gap-7 justify-center"}>
             <div className="group hover:bg-textClr3 transition-all duration-100 cursor-pointer px-[50px] pt-[75px] pb-6 border border-[#dddddd] text-center">
               <CampIcon className={"m-auto mb-15 group-hover:text-white transition-all duration-100"}/>
               <h4 className={"text-lg text-textClr1 font-medium group-hover:text-white transition-all duration-100"}>
@@ -58,7 +59,7 @@ const Activity = () => {
               </p>
             </div>
             <div className="group hover:bg-textClr3 transition-all duration-100 cursor-pointer px-[50px] pt-[75px] pb-6 border border-[#dddddd] text-center">
-              <Zeep className={"m-auto mb-15 group-hover:text-white transition-all duration-100"}/>
+              <Traveller className={"m-auto mb-15 group-hover:text-white transition-all duration-100"}/>
               <h4 className={"text-lg text-textClr1 font-medium group-hover:text-white transition-all duration-100"}>
                 Camping
               </h4>
@@ -66,7 +67,7 @@ const Activity = () => {
                 5  Tours From 550$
               </p>
             </div>
-          </Flex>
+          </div>
         </Container>
       </section>
     </>
