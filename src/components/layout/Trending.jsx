@@ -15,7 +15,7 @@ import "swiper/css/navigation";
 const Trending = () => {
   return (
     <>
-      <section className="pt-15 lg:pt-[120px] lg:pb-15 px-3 lg:px-0">
+      <section className="py-7.5 lg:pt-[120px] lg:pb-15 px-3 lg:px-0">
         <Container className="">
           <div className="">
             <div className="mb-8 text-center lg:mb-11">

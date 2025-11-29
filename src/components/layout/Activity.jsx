@@ -13,7 +13,7 @@ import Traveller from "../Traveller";
 const Activity = () => {
   return (
     <>
-      <section className="py-[60px] px-3 lg:px-0">
+      <section className="py-7.5 lg:py-[60px] px-3 lg:px-0">
         <Container>
           <div className="text-center mb-8 lg:mb-11">
             <Heading

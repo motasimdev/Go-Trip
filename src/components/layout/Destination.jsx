@@ -13,7 +13,7 @@ import "swiper/css/navigation";
 
 const Destination = () => {
   return (
-    <section className="pt-15 lg:pt-[120px] lg:pb-15 px-3 lg:px-0">
+    <section className="py-7.5 lg:py-[120px] px-3 lg:px-0">
       <Container>
         <div className={"mb-8 lg:mb-11 md:flex justify-between"}>
           <div className="mb-8 md:mb-0 text-center md:text-left">
