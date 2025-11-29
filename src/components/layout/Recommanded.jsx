@@ -7,6 +7,10 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Heading from "../Heading";
 import Card from "../Card";
+import recommandedOne from "/src/assets/recommanded.jpg";
+import recommandedTwo from "/src/assets/recommanded2.jpg";
+import recommandedThree from "/src/assets/recommanded3.jpg";
+import recommandedFour from "/src/assets/recommanded4.jpg";
 
 const Recommanded = () => {
   return (
@@ -41,11 +45,11 @@ const Recommanded = () => {
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
-                      cardPic={""}
+                      cardPic={recommandedOne}
                       city={
-                        "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
+                        "Westminster Borough, London"
                       }
-                      placeTitle={"Westminster Borough, London"}
+                      placeTitle={"Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day"}
                     />
                   </div>
                 </SwiperSlide>
@@ -53,11 +57,11 @@ const Recommanded = () => {
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
-                      cardPic={""}
+                      cardPic={recommandedTwo}
                       city={
-                        "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
+                        "Westminster Borough, London"
                       }
-                      placeTitle={"Westminster Borough, London"}
+                      placeTitle={"Edinburgh Sky to Sea Bike Tour by Manual or E-Bike"}
                     />
                   </div>
                 </SwiperSlide>
@@ -66,11 +70,11 @@ const Recommanded = () => {
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
-                      cardPic={""}
+                      cardPic={recommandedThree}
                       city={
-                        "Edinburgh Sky to Sea Bike Tour by Manual or E-Bike"
+                        "Manhattan, New York"
                       }
-                      placeTitle={"Westminster Borough, London"}
+                      placeTitle={"Natural Crystal Blue Ice Cave Tour of Vatnajökull Glacier"}
                     />
                   </div>
                 </SwiperSlide>
@@ -79,11 +83,11 @@ const Recommanded = () => {
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"BEST SELLER"}
-                      cardPic={""}
+                      cardPic={recommandedTwo}
                       city={
-                        "Natural Crystal Blue Ice Cave Tour of Vatnajökull Glacier"
+                        "Vaticano Prati, Rome"
                       }
-                      placeTitle={"Manhattan, New York"}
+                      placeTitle={"South Coast Full Day Tour by Minibus from Reykjavik"}
                     />
                   </div>
                 </SwiperSlide>
@@ -92,11 +96,11 @@ const Recommanded = () => {
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"TOP RATED"}
-                      cardPic={""}
+                      cardPic={recommandedThree}
                       city={
-                        "South Coast Full Day Tour by Minibus from Reykjavik"
+                        "Westminster Borough, London"
                       }
-                      placeTitle={"Vaticano Prati, Rome"}
+                      placeTitle={"Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day"}
                     />
                   </div>
                 </SwiperSlide>
@@ -104,7 +108,7 @@ const Recommanded = () => {
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
-                      cardPic={""}
+                      cardPic={recommandedOne}
                       city={
                         "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
                       }
