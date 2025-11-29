@@ -20,80 +20,88 @@ const Trending = () => {
                 subTitle={"Interdum et malesuada fames ac ante ipsum"}
               />
             </div>
-            {/* <div className="grid grid-cols-4">
-              
-            </div> */}
-            <Splide
-              aria-label="My Favorite Images"
-              options={{
-                type: "loop",
-                perPage: 4,
-                perMove: 1,
-                autoWidth: true,
-                gap: "90px",
-                autoplay: true,
-                interval: 2500,
-                pauseOnHover: true,
-                arrows: true,
-                pagination: false,
-                speed: 800,
-                breakpoints: {
-                  1024: { perPage: 2, arrows: false, pagination: true, },
-                  640: { perPage: 1 },
-                },
-              }}
-            >
-              <SplideSlide>
-                <Card 
-                  badgTxt={"LIKELY TO SELL OUT*"}
-                  cardPic={cardImgOne}
-                  city={
-                    "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
-                  }
-                  placeTitle={"Westminster Borough, London"}
-                />
-              </SplideSlide>
-              <SplideSlide>
-                <Card 
-                  badgTxt={"LIKELY TO SELL OUT*"}
-                  cardPic={cardImgTwo}
-                  city={
-                    "Edinburgh Sky to Sea Bike Tour by Manual or E-Bike"
-                  }
-                  placeTitle={"Westminster Borough, London"}
-                />
-              </SplideSlide>
-              <SplideSlide>
-                <Card 
-                  badgTxt={"BEST SELLER"}
-                  cardPic={cardImgThree}
-                  city={
-                    "Natural Crystal Blue Ice Cave Tour of Vatnajökull Glacier"
-                  }
-                  placeTitle={"Manhattan, New York"}
-                />
-              </SplideSlide>
-              <SplideSlide>
-                <Card 
-                  badgTxt={"TOP RATED"}
-                  cardPic={cardImgeFour}
-                  city={
-                    "South Coast Full Day Tour by Minibus from Reykjavik"
-                  }
-                  placeTitle={"Vaticano Prati, Rome"}
-                />
-              </SplideSlide>
-              <SplideSlide>
-                <Card 
-                  badgTxt={"LIKELY TO SELL OUT*"}
-                  cardPic={cardImgOne}
-                  city={
-                    "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
-                  }
-                  placeTitle={"Westminster Borough, London"}
-                />
-              </SplideSlide>
-            </Splide>
+            <div className="">
+              <Splide
+                aria-label="My Favorite Images"
+                options={{
+                  type: "loop",
+                  perPage: 4,
+                  perMove: 1,
+                  // gap: "90px",
+                  autoplay: true,
+                  interval: 2500,
+                  pauseOnHover: true,
+                  arrows: false,
+                  pagination: true,
+                  speed: 800,
+                  breakpoints: {
+                    1024: { perPage: 2 },
+                    640: { perPage: 1 },
+                  },
+                }}
+              >
+                <SplideSlide>
+                  <div className="w-full flex justify-center">
+                    <Card
+                      badgTxt={"LIKELY TO SELL OUT*"}
+                      cardPic={cardImgOne}
+                      city={
+                        "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
+                      }
+                      placeTitle={"Westminster Borough, London"}
+                    />
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="w-full flex justify-center">
+                    <Card
+                      badgTxt={"LIKELY TO SELL OUT*"}
+                      cardPic={cardImgTwo}
+                      city={
+                        "Edinburgh Sky to Sea Bike Tour by Manual or E-Bike"
+                      }
+                      placeTitle={"Westminster Borough, London"}
+                    />
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="w-full flex justify-center">
+                    <Card
+                      badgTxt={"BEST SELLER"}
+                      cardPic={cardImgThree}
+                      city={
+                        "Natural Crystal Blue Ice Cave Tour of Vatnajökull Glacier"
+                      }
+                      placeTitle={"Manhattan, New York"}
+                    />
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="w-full flex justify-center">
+                    <Card
+                      badgTxt={"TOP RATED"}
+                      cardPic={cardImgeFour}
+                      city={
+                        "South Coast Full Day Tour by Minibus from Reykjavik"
+                      }
+                      placeTitle={"Vaticano Prati, Rome"}
+                    />
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="w-full flex justify-center">
+                    <Card
+                      badgTxt={"LIKELY TO SELL OUT*"}
+                      cardPic={cardImgOne}
+                      city={
+                        "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
+                      }
+                      placeTitle={"Westminster Borough, London"}
+                    />
+                  </div>
+                </SplideSlide>
+              </Splide>
+            </div>
           </div>
         </Container>
       </section>
