@@ -4,6 +4,7 @@ import Gurntee from '../layout/Gurntee'
 import SpecialOffers from '../SpecialOffers'
 import Trending from '../layout/Trending'
 import Activity from '../layout/Activity'
+import Destination from '../layout/Destination'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     <SpecialOffers/>
     <Trending/>
     <Activity/>
+    <Destination/>
     </>
   )
 }
