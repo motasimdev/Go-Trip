@@ -6,6 +6,7 @@ import Trending from '../layout/Trending'
 import Activity from '../layout/Activity'
 import Destination from '../layout/Destination'
 import Testimonial from '../layout/Testimonial'
+import Recommanded from '../layout/Recommanded'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
     <Activity/>
     <Destination/>
     <Testimonial/>
+    <Recommanded/>
     </>
   )
 }

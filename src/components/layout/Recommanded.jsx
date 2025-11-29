@@ -1,5 +1,12 @@
 import React from "react";
 import Container from "../Container";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import Heading from "../Heading";
+import Card from "../Card";
 
 const Recommanded = () => {
   return (
@@ -34,7 +41,7 @@ const Recommanded = () => {
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
-                      cardPic={cardImgOne}
+                      cardPic={""}
                       city={
                         "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
                       }
@@ -46,7 +53,7 @@ const Recommanded = () => {
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
-                      cardPic={cardImgOne}
+                      cardPic={""}
                       city={
                         "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
                       }
@@ -59,7 +66,7 @@ const Recommanded = () => {
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
-                      cardPic={cardImgTwo}
+                      cardPic={""}
                       city={
                         "Edinburgh Sky to Sea Bike Tour by Manual or E-Bike"
                       }
@@ -72,7 +79,7 @@ const Recommanded = () => {
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"BEST SELLER"}
-                      cardPic={cardImgThree}
+                      cardPic={""}
                       city={
                         "Natural Crystal Blue Ice Cave Tour of Vatnajökull Glacier"
                       }
@@ -85,7 +92,7 @@ const Recommanded = () => {
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"TOP RATED"}
-                      cardPic={cardImgeFour}
+                      cardPic={""}
                       city={
                         "South Coast Full Day Tour by Minibus from Reykjavik"
                       }
@@ -97,7 +104,7 @@ const Recommanded = () => {
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
-                      cardPic={cardImgOne}
+                      cardPic={""}
                       city={
                         "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
                       }

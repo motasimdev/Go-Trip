@@ -36,23 +36,11 @@ const Trending = () => {
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
                 breakpoints={{
-                  1024: { slidesPerView: 5 },
+                  1024: { slidesPerView: 4 },
                   768: { slidesPerView: 2 },
                   640: { slidesPerView: 1 },
                 }}
               >
-                <SwiperSlide>
-                  <div className="w-full flex justify-center">
-                    <Card
-                      badgTxt={"LIKELY TO SELL OUT*"}
-                      cardPic={cardImgOne}
-                      city={
-                        "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
-                      }
-                      placeTitle={"Westminster Borough, London"}
-                    />
-                  </div>
-                </SwiperSlide>
                 <SwiperSlide>
                   <div className="w-full flex justify-center">
                     <Card
@@ -116,6 +104,7 @@ const Trending = () => {
                     />
                   </div>
                 </SwiperSlide>
+                
               </Swiper>
             </div>
           </div>
