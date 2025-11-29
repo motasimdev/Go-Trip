@@ -2,7 +2,6 @@ import React from "react";
 import Container from "../Container";
 import Card from "../Card";
 import Heading from "../Heading";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
 import cardImgOne from "/src/assets/trendy1.png";
 import cardImgTwo from "/src/assets/trendy2.png";
 import cardImgThree from "/src/assets/trendy3.png";
@@ -21,26 +20,8 @@ const Trending = () => {
               />
             </div>
             <div className="">
-              <Splide
-                aria-label="My Favorite Images"
-                options={{
-                  type: "loop",
-                  perPage: 4,
-                  perMove: 1,
-                  // gap: "90px",
-                  autoplay: true,
-                  interval: 2500,
-                  pauseOnHover: true,
-                  arrows: false,
-                  pagination: true,
-                  speed: 800,
-                  breakpoints: {
-                    1024: { perPage: 2 },
-                    640: { perPage: 1 },
-                  },
-                }}
-              >
-                <SplideSlide>
+             
+                
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
@@ -51,8 +32,8 @@ const Trending = () => {
                       placeTitle={"Westminster Borough, London"}
                     />
                   </div>
-                </SplideSlide>
-                <SplideSlide>
+                
+                
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
@@ -63,8 +44,8 @@ const Trending = () => {
                       placeTitle={"Westminster Borough, London"}
                     />
                   </div>
-                </SplideSlide>
-                <SplideSlide>
+                
+
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"BEST SELLER"}
@@ -75,8 +56,8 @@ const Trending = () => {
                       placeTitle={"Manhattan, New York"}
                     />
                   </div>
-                </SplideSlide>
-                <SplideSlide>
+
+                
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"TOP RATED"}
@@ -87,8 +68,8 @@ const Trending = () => {
                       placeTitle={"Vaticano Prati, Rome"}
                     />
                   </div>
-                </SplideSlide>
-                <SplideSlide>
+                
+                
                   <div className="w-full flex justify-center">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
@@ -99,8 +80,7 @@ const Trending = () => {
                       placeTitle={"Westminster Borough, London"}
                     />
                   </div>
-                </SplideSlide>
-              </Splide>
+                
             </div>
           </div>
         </Container>
