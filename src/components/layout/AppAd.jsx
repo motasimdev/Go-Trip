@@ -23,7 +23,7 @@ const AppAd = () => {
                 Book in advance or last-minute with GoTrip. Receive instant
                 confirmation. Access your booking info offline.
               </p>
-              <Flex className={"gap-x-6"}>
+              <Flex className={"gap-x-6 w-full justify-center lg:justify-normal"}>
                 <Button className={"bg-textClr1"}>
                   <Flex className={"gap-x-3"}>
                     <FaApple className="text-white text-2xl lg:text-4xl" />
