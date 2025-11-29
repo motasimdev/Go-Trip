@@ -73,7 +73,7 @@ const Destination = () => {
             <SwiperSlide>
               <div className="w-full flex justify-center">
                 <Link to={"/"}>
-                  <div className="relative group bg-[url(/src/assets/destination1.webp)] bg-no-repeat bg-cover bg-center ">
+                  <div className="relative group bg-[url(/src/assets/destination2.webp)] bg-no-repeat bg-cover bg-center ">
                     <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
                       {/* ------------------- */}
                       <div className="absolute w-full top-7.5 left-1/2 transform -translate-x-1/2 text-center opacity-0 -translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
@@ -82,7 +82,7 @@ const Destination = () => {
                       {/* ------------------- */}
                       <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 text-center">
                         <p className="text-[26px] text-white font-semibold group-hover:-translate-y-4 transition-all duration-300">
-                          New York
+                          London
                         </p>
                         <div className="py-5 px-[100px] bg-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
                           <p className="text-[15px] text-textClr1 font-medium">
@@ -95,6 +95,82 @@ const Destination = () => {
                 </Link>
               </div>
             </SwiperSlide>
+            <SwiperSlide>
+              <div className="w-full flex justify-center">
+                <Link to={"/"}>
+                  <div className="relative group bg-[url(/src/assets/destination3.webp)] bg-no-repeat bg-cover bg-center ">
+                    <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
+                      {/* ------------------- */}
+                      <div className="absolute w-full top-7.5 left-1/2 transform -translate-x-1/2 text-center opacity-0 -translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                        <Para>14 Hotel - 22 Cars - 18 Tours - 95 Activity</Para>
+                      </div>
+                      {/* ------------------- */}
+                      <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 text-center">
+                        <p className="text-[26px] text-white font-semibold group-hover:-translate-y-4 transition-all duration-300">
+                          Barcelona
+                        </p>
+                        <div className="py-5 px-[100px] bg-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                          <p className="text-[15px] text-textClr1 font-medium">
+                            Discover
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="w-full flex justify-center">
+                <Link to={"/"}>
+                  <div className="relative group bg-[url(/src/assets/destination4.webp)] bg-no-repeat bg-cover bg-center ">
+                    <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
+                      {/* ------------------- */}
+                      <div className="absolute w-full top-7.5 left-1/2 transform -translate-x-1/2 text-center opacity-0 -translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                        <Para>14 Hotel - 22 Cars - 18 Tours - 95 Activity</Para>
+                      </div>
+                      {/* ------------------- */}
+                      <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 text-center">
+                        <p className="text-[26px] text-white font-semibold group-hover:-translate-y-4 transition-all duration-300">
+                          Sydney
+                        </p>
+                        <div className="py-5 px-[100px] bg-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                          <p className="text-[15px] text-textClr1 font-medium">
+                            Discover
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="w-full flex justify-center">
+                <Link to={"/"}>
+                  <div className="relative group bg-[url(/src/assets/destination5.webp)] bg-no-repeat bg-cover bg-center ">
+                    <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
+                      {/* ------------------- */}
+                      <div className="absolute w-full top-7.5 left-1/2 transform -translate-x-1/2 text-center opacity-0 -translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                        <Para>14 Hotel - 22 Cars - 18 Tours - 95 Activity</Para>
+                      </div>
+                      {/* ------------------- */}
+                      <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 text-center">
+                        <p className="text-[26px] text-white font-semibold group-hover:-translate-y-4 transition-all duration-300">
+                         Rome
+                        </p>
+                        <div className="py-5 px-[100px] bg-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                          <p className="text-[15px] text-textClr1 font-medium">
+                            Discover
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </SwiperSlide>
+            
             <SwiperSlide>
               <div className="w-full flex justify-center">
                 <Link to={"/"}>
@@ -123,7 +199,7 @@ const Destination = () => {
             <SwiperSlide>
               <div className="w-full flex justify-center">
                 <Link to={"/"}>
-                  <div className="relative group bg-[url(/src/assets/destination1.webp)] bg-no-repeat bg-cover bg-center ">
+                  <div className="relative group bg-[url(/src/assets/destination2.webp)] bg-no-repeat bg-cover bg-center ">
                     <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
                       {/* ------------------- */}
                       <div className="absolute w-full top-7.5 left-1/2 transform -translate-x-1/2 text-center opacity-0 -translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
@@ -132,7 +208,7 @@ const Destination = () => {
                       {/* ------------------- */}
                       <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 text-center">
                         <p className="text-[26px] text-white font-semibold group-hover:-translate-y-4 transition-all duration-300">
-                          New York
+                          London
                         </p>
                         <div className="py-5 px-[100px] bg-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
                           <p className="text-[15px] text-textClr1 font-medium">
@@ -148,7 +224,7 @@ const Destination = () => {
             <SwiperSlide>
               <div className="w-full flex justify-center">
                 <Link to={"/"}>
-                  <div className="relative group bg-[url(/src/assets/destination1.webp)] bg-no-repeat bg-cover bg-center ">
+                  <div className="relative group bg-[url(/src/assets/destination3.webp)] bg-no-repeat bg-cover bg-center ">
                     <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
                       {/* ------------------- */}
                       <div className="absolute w-full top-7.5 left-1/2 transform -translate-x-1/2 text-center opacity-0 -translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
@@ -157,7 +233,7 @@ const Destination = () => {
                       {/* ------------------- */}
                       <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 text-center">
                         <p className="text-[26px] text-white font-semibold group-hover:-translate-y-4 transition-all duration-300">
-                          New York
+                          Barcelona
                         </p>
                         <div className="py-5 px-[100px] bg-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
                           <p className="text-[15px] text-textClr1 font-medium">
@@ -173,7 +249,7 @@ const Destination = () => {
             <SwiperSlide>
               <div className="w-full flex justify-center">
                 <Link to={"/"}>
-                  <div className="relative group bg-[url(/src/assets/destination1.webp)] bg-no-repeat bg-cover bg-center ">
+                  <div className="relative group bg-[url(/src/assets/destination4.webp)] bg-no-repeat bg-cover bg-center ">
                     <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
                       {/* ------------------- */}
                       <div className="absolute w-full top-7.5 left-1/2 transform -translate-x-1/2 text-center opacity-0 -translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
@@ -182,7 +258,7 @@ const Destination = () => {
                       {/* ------------------- */}
                       <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 text-center">
                         <p className="text-[26px] text-white font-semibold group-hover:-translate-y-4 transition-all duration-300">
-                          New York
+                          Sydney
                         </p>
                         <div className="py-5 px-[100px] bg-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
                           <p className="text-[15px] text-textClr1 font-medium">
@@ -198,7 +274,7 @@ const Destination = () => {
             <SwiperSlide>
               <div className="w-full flex justify-center">
                 <Link to={"/"}>
-                  <div className="relative group bg-[url(/src/assets/destination1.webp)] bg-no-repeat bg-cover bg-center ">
+                  <div className="relative group bg-[url(/src/assets/destination5.webp)] bg-no-repeat bg-cover bg-center ">
                     <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
                       {/* ------------------- */}
                       <div className="absolute w-full top-7.5 left-1/2 transform -translate-x-1/2 text-center opacity-0 -translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
@@ -207,7 +283,7 @@ const Destination = () => {
                       {/* ------------------- */}
                       <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 text-center">
                         <p className="text-[26px] text-white font-semibold group-hover:-translate-y-4 transition-all duration-300">
-                          New York
+                         Rome
                         </p>
                         <div className="py-5 px-[100px] bg-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
                           <p className="text-[15px] text-textClr1 font-medium">
@@ -220,81 +296,7 @@ const Destination = () => {
                 </Link>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="w-full flex justify-center">
-                <Link to={"/"}>
-                  <div className="relative group bg-[url(/src/assets/destination1.webp)] bg-no-repeat bg-cover bg-center ">
-                    <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
-                      {/* ------------------- */}
-                      <div className="absolute w-full top-7.5 left-1/2 transform -translate-x-1/2 text-center opacity-0 -translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
-                        <Para>14 Hotel - 22 Cars - 18 Tours - 95 Activity</Para>
-                      </div>
-                      {/* ------------------- */}
-                      <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 text-center">
-                        <p className="text-[26px] text-white font-semibold group-hover:-translate-y-4 transition-all duration-300">
-                          New York
-                        </p>
-                        <div className="py-5 px-[100px] bg-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
-                          <p className="text-[15px] text-textClr1 font-medium">
-                            Discover
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="w-full flex justify-center">
-                <Link to={"/"}>
-                  <div className="relative group bg-[url(/src/assets/destination1.webp)] bg-no-repeat bg-cover bg-center ">
-                    <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
-                      {/* ------------------- */}
-                      <div className="absolute w-full top-7.5 left-1/2 transform -translate-x-1/2 text-center opacity-0 -translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
-                        <Para>14 Hotel - 22 Cars - 18 Tours - 95 Activity</Para>
-                      </div>
-                      {/* ------------------- */}
-                      <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 text-center">
-                        <p className="text-[26px] text-white font-semibold group-hover:-translate-y-4 transition-all duration-300">
-                          New York
-                        </p>
-                        <div className="py-5 px-[100px] bg-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
-                          <p className="text-[15px] text-textClr1 font-medium">
-                            Discover
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="w-full flex justify-center">
-                <Link to={"/"}>
-                  <div className="relative group bg-[url(/src/assets/destination1.webp)] bg-no-repeat bg-cover bg-center ">
-                    <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
-                      {/* ------------------- */}
-                      <div className="absolute w-full top-7.5 left-1/2 transform -translate-x-1/2 text-center opacity-0 -translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
-                        <Para>14 Hotel - 22 Cars - 18 Tours - 95 Activity</Para>
-                      </div>
-                      {/* ------------------- */}
-                      <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 text-center">
-                        <p className="text-[26px] text-white font-semibold group-hover:-translate-y-4 transition-all duration-300">
-                          New York
-                        </p>
-                        <div className="py-5 px-[100px] bg-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
-                          <p className="text-[15px] text-textClr1 font-medium">
-                            Discover
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              </div>
-            </SwiperSlide>
+            
           </Swiper>
         </div>
       </Container>
