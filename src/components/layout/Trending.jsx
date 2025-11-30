@@ -11,14 +11,21 @@ import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Trending = () => {
+   AOS.init();
+    AOS.init({
+      duration: 800,
+      offset: 200,
+    });
   return (
     <>
       <section className="py-7.5 lg:pt-[120px] lg:pb-15 px-3 lg:px-0">
         <Container className="">
           <div className="">
-            <div className="mb-8 text-center lg:mb-11">
+            <div className="mb-8 text-center lg:mb-11" data-aos="fade-up">
               <Heading
                 title={"Trending Activity"}
                 subTitle={"Interdum et malesuada fames ac ante ipsum"}
@@ -42,7 +49,7 @@ const Trending = () => {
                 }}
               >
                 <SwiperSlide>
-                  <div className="w-full flex justify-center">
+                  <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
                       cardPic={cardImgOne}
@@ -55,7 +62,7 @@ const Trending = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="w-full flex justify-center">
+                  <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
                       cardPic={cardImgTwo}
@@ -68,7 +75,7 @@ const Trending = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="w-full flex justify-center">
+                  <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
                     <Card
                       badgTxt={"BEST SELLER"}
                       cardPic={cardImgThree}
@@ -81,7 +88,7 @@ const Trending = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="w-full flex justify-center">
+                  <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
                     <Card
                       badgTxt={"TOP RATED"}
                       cardPic={cardImgeFour}
@@ -93,7 +100,7 @@ const Trending = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="w-full flex justify-center">
+                  <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
                       cardPic={cardImgOne}
