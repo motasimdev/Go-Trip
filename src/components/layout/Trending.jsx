@@ -57,80 +57,55 @@ const Trending = () => {
                     city={"Westminster Borough, London"}
                     placeTitle={"Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"}
                     />
-                    {/* <Card
-                      badgTxt={"LIKELY TO SELL OUT*"}
-                      cardPic={cardImgOne}
-                      city={
-                        "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
-                      }
-                      placeTitle={"Westminster Borough, London"}
-                    /> */}
                   </div>
                 </SwiperSlide>
 
-                {/* <SwiperSlide>
+                <SwiperSlide>
                   <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
-                    <Card
-                      badgTxt={"LIKELY TO SELL OUT*"}
-                      cardPic={cardImgOne}
-                      city={
-                        "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
-                      }
-                      placeTitle={"Westminster Borough, London"}
+                    
+                    <CardTwo
+                    badgTxt={"LIKELY TO SELL OUT*"}
+                    cardPic={cardImgTwo}
+                    city={"Westminster Borough, London"}
+                    placeTitle={"Edinburgh Sky to Sea Bike Tour by Manual or E-Bike"}
                     />
                   </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
                   <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
-                    <Card
-                      badgTxt={"LIKELY TO SELL OUT*"}
-                      cardPic={cardImgTwo}
-                      city={
-                        "Edinburgh Sky to Sea Bike Tour by Manual or E-Bike"
-                      }
-                      placeTitle={"Westminster Borough, London"}
+                    
+                    <CardTwo
+                    badgTxt={"BEST SELLER"}
+                    cardPic={cardImgThree}
+                    city={"Manhattan, New York"}
+                    placeTitle={"Natural Crystal Blue Ice Cave Tour of Vatnajökull Glacier"}
                     />
                   </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
                   <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
-                    <Card
-                      badgTxt={"BEST SELLER"}
-                      cardPic={cardImgThree}
-                      city={
-                        "Natural Crystal Blue Ice Cave Tour of Vatnajökull Glacier"
-                      }
-                      placeTitle={"Manhattan, New York"}
-                    />
-                  </div>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                  <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
-                    <Card
-                      badgTxt={"TOP RATED"}
-                      cardPic={cardImgeFour}
-                      city={
-                        "South Coast Full Day Tour by Minibus from Reykjavik"
-                      }
-                      placeTitle={"Vaticano Prati, Rome"}
+                   
+                     <CardTwo
+                    badgTxt={"TOP RATED"}
+                    cardPic={cardImgeFour}
+                    city={"Vaticano Prati, Rome"}
+                    placeTitle={"South Coast Full Day Tour by Minibus from Reykjavik"}
                     />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
-                    <Card
-                      badgTxt={"LIKELY TO SELL OUT*"}
-                      cardPic={cardImgOne}
-                      city={
-                        "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
-                      }
-                      placeTitle={"Westminster Borough, London"}
+                  
+                     <CardTwo
+                    badgTxt={"LIKELY TO SELL OUT"}
+                    cardPic={cardImgOne}
+                    city={"Westminster Borough, London"}
+                    placeTitle={"Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"}
                     />
                   </div>
-                </SwiperSlide> */}
+                </SwiperSlide>
                 
               </Swiper>
             </div>
