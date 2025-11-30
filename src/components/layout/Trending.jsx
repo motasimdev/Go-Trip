@@ -13,6 +13,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import CardTwo from "../CardTwo";
 
 const Trending = () => {
    AOS.init();
@@ -49,6 +50,25 @@ const Trending = () => {
                 }}
               >
                 <SwiperSlide>
+                  <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
+                    <CardTwo
+                    badgTxt={"LIKELY TO SELL OUT*"}
+                    cardPic={cardImgOne}
+                    city={"Westminster Borough, London"}
+                    placeTitle={"Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"}
+                    />
+                    {/* <Card
+                      badgTxt={"LIKELY TO SELL OUT*"}
+                      cardPic={cardImgOne}
+                      city={
+                        "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
+                      }
+                      placeTitle={"Westminster Borough, London"}
+                    /> */}
+                  </div>
+                </SwiperSlide>
+
+                {/* <SwiperSlide>
                   <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
                     <Card
                       badgTxt={"LIKELY TO SELL OUT*"}
@@ -110,7 +130,7 @@ const Trending = () => {
                       placeTitle={"Westminster Borough, London"}
                     />
                   </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
                 
               </Swiper>
             </div>
