@@ -23,26 +23,28 @@ const Destination = () => {
             />
           </div>
           <Link to={"/"}>
-            <Flex className="bg-textClr3/5 py-3.5 px-7.5 gap-3 curpo">
-              <p className="text-[15px] text-textClr3 font-medium">
+            <Flex className="bg-textClr3/5 py-3.5 px-7.5 gap-3 curpo group hover:bg-textClr3 transition-colors duration-200 rounded-sm">
+              <p className="text-[15px] text-textClr3 font-medium group-hover:text-white transition-colors duration-200">
                 View All Destinations
               </p>
-              <MdOutlineArrowOutward className="text-textClr3" />
+              <MdOutlineArrowOutward className="text-textClr3 group-hover:text-white transition-colors duration-200" />
             </Flex>
           </Link>
         </div>
         {/* ================================================= */}
-        <div>
+        <div className="">
           <Swiper
+            className="mySwiper relative"
             spaceBetween={30}
             centeredSlides={true}
             pagination={{
               clickable: true,
               type: "progressbar",
+              
             }}
+            arrows={false}
             navigation={true}
             modules={[Pagination, Navigation]}
-            className="mySwiper"
             breakpoints={{
               1024: { slidesPerView: 4 },
               768: { slidesPerView: 2 },
@@ -301,6 +303,7 @@ const Destination = () => {
               </div>
             </SwiperSlide>
           </Swiper>
+          <div className="custom-progressbar h-1 bg-gray-300 rounded-full absolute left-0 bottom-0 overflow-hidden z-10"></div>
         </div>
       </Container>
     </section>
