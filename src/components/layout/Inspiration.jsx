@@ -34,6 +34,8 @@ const Inspiration = () => {
                 </div>
               </div>
 
+              {/*  */}
+
               {/* ================================= */}
 
               <div className="md:flex items-center justify-between lg:w-[48%]">
