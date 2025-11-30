@@ -22,7 +22,7 @@ const Activity = () => {
             />
           </div>
           <div className={" grid md:grid-cols-3 lg:grid-cols-5 gap-3 lg:gap-7 justify-center"}>
-            <div className="group hover:bg-textClr3 transition-all duration-100 cursor-pointer px-[50px] pt-[75px] pb-6 border border-[#dddddd] text-center">
+            <div className="group hover:bg-textClr3 transition-all duration-300 cursor-pointer px-[50px] pt-[75px] pb-6 border border-[#dddddd] text-center hover:-translate-y-3 rounded-sm">
               <CampIcon className={"m-auto mb-15 group-hover:text-white transition-all duration-100"}/>
               <h4 className={"text-lg text-textClr1 font-medium group-hover:text-white transition-all duration-100"}>
                 Camping
@@ -31,7 +31,7 @@ const Activity = () => {
                 5  Tours From 550$
               </p>
             </div>
-            <div className="group hover:bg-textClr3 transition-all duration-100 cursor-pointer px-[50px] pt-[75px] pb-6 border border-[#dddddd] text-center">
+            <div className="group hover:bg-textClr3 transition-all duration-300 cursor-pointer px-[50px] pt-[75px] pb-6 border border-[#dddddd] text-center hover:-translate-y-3 rounded-sm">
               <Hiking className={"m-auto mb-15 group-hover:text-white transition-all duration-100"}/>
               <h4 className={"text-lg text-textClr1 font-medium group-hover:text-white transition-all duration-100"}>
                 Camping
@@ -40,7 +40,7 @@ const Activity = () => {
                 5  Tours From 550$
               </p>
             </div>
-            <div className="group hover:bg-textClr3 transition-all duration-100 cursor-pointer px-[50px] pt-[75px] pb-6 border border-[#dddddd] text-center">
+            <div className="group hover:bg-textClr3 transition-all duration-300 cursor-pointer px-[50px] pt-[75px] pb-6 border border-[#dddddd] text-center hover:-translate-y-3 rounded-sm">
               <Fire className={"m-auto mb-15 group-hover:text-white transition-all duration-100"}/>
               <h4 className={"text-lg text-textClr1 font-medium group-hover:text-white transition-all duration-100"}>
                 Camping
@@ -49,7 +49,7 @@ const Activity = () => {
                 5  Tours From 550$
               </p>
             </div>
-            <div className="group hover:bg-textClr3 transition-all duration-100 cursor-pointer px-[50px] pt-[75px] pb-6 border border-[#dddddd] text-center">
+            <div className="group hover:bg-textClr3 transition-all duration-300 cursor-pointer px-[50px] pt-[75px] pb-6 border border-[#dddddd] text-center hover:-translate-y-3 rounded-sm">
               <Zeep className={"m-auto mb-15 group-hover:text-white transition-all duration-100"}/>
               <h4 className={"text-lg text-textClr1 font-medium group-hover:text-white transition-all duration-100"}>
                 Camping
@@ -58,7 +58,7 @@ const Activity = () => {
                 5  Tours From 550$
               </p>
             </div>
-            <div className="group hover:bg-textClr3 transition-all duration-100 cursor-pointer px-[50px] pt-[75px] pb-6 border border-[#dddddd] text-center">
+            <div className="group hover:bg-textClr3 transition-all duration-300 cursor-pointer px-[50px] pt-[75px] pb-6 border border-[#dddddd] text-center hover:-translate-y-3 rounded-sm">
               <Traveller className={"m-auto mb-15 group-hover:text-white transition-all duration-100"}/>
               <h4 className={"text-lg text-textClr1 font-medium group-hover:text-white transition-all duration-100"}>
                 Camping
