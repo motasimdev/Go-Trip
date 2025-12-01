@@ -8,7 +8,7 @@ import { Link } from "react-router";
 const Breadcrumb = () => {
   return (
     <>
-      <section className="pt-[115px]">
+      <section className="pt-[115px] pb-5">
         <Container>
           <Flex className={"justify-between"}>
             <Para className={"text-textClr2!"}>
