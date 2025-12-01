@@ -1,11 +1,23 @@
-import React from 'react'
+import React from "react";
+import Container from "../Container";
 
 const Des_recommanded = () => {
   return (
     <>
-    <section className=''></section>
+      <section className="py-7.5 lg:py-20 px-3 lg:px-0">
+        <Container>
+          <div className="">
+            <div className="mb-8 md:mb-0 lg:mb-11 text-center md:text-left">
+              <Heading
+                title={"Recommended Hotels"}
+                subTitle={"Interdum et malesuada fames ac ante ipsum"}
+              />
+            </div>
+          </div>
+        </Container>
+      </section>
     </>
-  )
-}
+  );
+};
 
-export default Des_recommanded
+export default Des_recommanded;
