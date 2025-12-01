@@ -1,18 +1,21 @@
 import React from "react";
 import Flex from "./Flex";
-import { FaStar } from "react-icons/fa";
+import { FaRegHeart, FaStar } from "react-icons/fa";
 import Badge from "./Badge";
 
 const Card = ({ className, badgTxt, cardPic, placeTitle, city }) => {
   return (
-    <div className={`max-w-[234px] relative ${className}`}>
-      <Badge className={"absolute top-4 left-0"} bagText={badgTxt} />
+    <div className={`max-w-[234px] group relative cursor-pointer ${className}`}>
+      <Badge className={"absolute top-4 left-0 z-10"} bagText={badgTxt} />
       <div className="max-h-[234px] overflow-hidden">
         <img
           src={cardPic}
           alt="product image"
-          className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+          className="relative w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
         />
+        <div className="">
+          <FaRegHeart className="absolute top-4 right-4 text-3xl z-10 bg-white rounded-full py-2 px-2 text-textClr3 hover:text-white hover:bg-textClr3" />
+        </div>
       </div>
 
       <div className="mt-2.5 flex flex-col gap-y-3">
