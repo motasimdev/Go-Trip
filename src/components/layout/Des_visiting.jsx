@@ -14,7 +14,7 @@ const Des_visiting = () => {
             {" "}
             What to know before visiting London
           </h3>
-          <div className="lg:flex items-center justify-between lg:mb-9">
+          <div className="lg:flex items-center justify-between mb-6 lg:mb-9">
             <div className="lg:w-[60%] mb-3 lg:mb-0">
               <Para15>
                 London is a shining example of a metropolis at the highest peak
@@ -64,7 +64,8 @@ const Des_visiting = () => {
               </Button>
             </div>
           </div>
-          <div className="py-10.5 border-t border-b border-gray-300">
+          {/* ============================ */}
+          <div className="py-6 lg:py-10.5 border-t border-b border-gray-300">
             <h4 className="text-lg lg:text-[22px] text-textClr1 font-medium pb-3 lg:pb-6">
               Local weather
             </h4>
@@ -82,6 +83,60 @@ const Des_visiting = () => {
                     3°
                   </p>
                 </Flex>
+              </div>
+              <div className="">
+                <Para15
+                  className={"font-medium text-textClr1 pb-2 lg:pb-5"}
+                  text={"MAR - MAY"}
+                />
+                <Flex className={"gap-2"}>
+                  <p className="text-lg lg:text-[22px] text-textClr1 font-medium">
+                    17°
+                  </p>
+                  <p className="text-lg lg:text-[22px] text-textClr2 font-medium">
+                    3°
+                  </p>
+                </Flex>
+              </div>
+              <div className="">
+                <Para15
+                  className={"font-medium text-textClr1 pb-2 lg:pb-5"}
+                  text={"JUN - AUG"}
+                />
+                <Flex className={"gap-2"}>
+                  <p className="text-lg lg:text-[22px] text-textClr1 font-medium">
+                    27°
+                  </p>
+                  <p className="text-lg lg:text-[22px] text-textClr2 font-medium">
+                    3°
+                  </p>
+                </Flex>
+              </div>
+              <div className="">
+                <Para15
+                  className={"font-medium text-textClr1 pb-2 lg:pb-5"}
+                  text={"SEP - NOV"}
+                />
+                <Flex className={"gap-2"}>
+                  <p className="text-lg lg:text-[22px] text-textClr1 font-medium">
+                    7°
+                  </p>
+                  <p className="text-lg lg:text-[22px] text-textClr2 font-medium">
+                    3°
+                  </p>
+                </Flex>
+              </div>
+            </div>
+          </div>
+          {/* ================================ */}
+          <div className="py-6 lg:py-10.5 border-b border-gray-300">
+            <h4 className="text-lg lg:text-[22px] text-textClr1 font-medium pb-3 lg:pb-6">
+             General info   
+            </h4>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+              <div className="">
+                <Para15 text={"Time Zone"}/>
+                <Para
               </div>
               <div className="">
                 <Para15
