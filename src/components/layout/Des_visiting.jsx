@@ -33,7 +33,9 @@ const Des_visiting = () => {
                 Street and the Westfield Shopping Centers, and areas referenced
                 and seen in literature and film.
                 <div className="h-3 lg:h-7.5"></div>
-                <span className="border-b border-textClr3 text-textClr3! font-medium">Show more</span>
+                <span className="border-b border-textClr3 text-textClr3! font-medium">
+                  Show more
+                </span>
               </Para15>
             </div>
             <div className="relative lg:w-[35%]">
@@ -60,6 +62,27 @@ const Des_visiting = () => {
                   />
                 </Flex>
               </Button>
+            </div>
+          </div>
+          <div className="py-10.5">
+            <h4 className="text-lg lg:text-[22px] text-textClr1 font-medium">
+              Local weather
+            </h4>
+            <div className="grid grid-cols-4 gap-3">
+              <div className="">
+                <Para15
+                  className={"font-medium text-textClr1"}
+                  text={"DEC - FEB"}
+                />
+                <Flex>
+                  <p className="text-lg lg:text-[22px] text-textClr1 font-medium">
+                    7°
+                  </p>
+                  <p className="text-lg lg:text-[22px] text-textClr2 font-medium">
+                    3°
+                  </p>
+                </Flex>
+              </div>
             </div>
           </div>
         </Container>
