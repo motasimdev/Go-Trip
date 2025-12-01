@@ -1,5 +1,6 @@
 import React from "react";
 import Breadcrumb from "../Breadcrumb";
+import Des_banner from "../layout/Des_banner";
 
 const Destination = () => {
   return (
@@ -9,6 +10,7 @@ const Destination = () => {
         pageTwo={"United Kingdom (UK)"}
         pageThree={"London"}
       />
+      <Des_banner/>
     </div>
   );
 };

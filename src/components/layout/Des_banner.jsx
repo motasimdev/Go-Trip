@@ -1,11 +1,24 @@
-import React from 'react'
+import React from "react";
+import Container from "../Container";
+import ParaBase from "../ParaBase";
 
 const Des_banner = () => {
   return (
     <>
-     <section className='bg-[url(/src/assets/)] bg-no-repeat bg-cover bg-center px-3 lg:px-0 pt-10 md:pt-20 lg:pt-[375px] pb-10 md:pb-16 lg:pb-[295px]'></section> 
+      <section className="">
+        <Container>
+          <div className="bg-[url(/src/assets/Des-banner.png)] bg-no-repeat bg-cover bg-center px-3 lg:pr-0 lg:pl-11 pt-10 md:pt-16 lg:pt-[70px] pb-30 md:pb-35 lg:pb-[355px] ">
+            <h1 className="text-3xl lg:text-[50px] text-white font-semibold">
+              Explore London
+            </h1>
+            <ParaBase>
+              Explore deals, travel guides and things to do in London
+            </ParaBase>
+          </div>
+        </Container>
+      </section>
     </>
-  )
-}
+  );
+};
 
-export default Des_banner
+export default Des_banner;
