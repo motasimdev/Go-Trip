@@ -11,6 +11,9 @@ import { Link } from "react-router";
 import Para from "../Para";
 import Heading from "../Heading";
 import CardThree from "../CardThree";
+import desPicOne from "/src/assets/recommandedDes1.jpg";
+import desPicTwo from "/src/assets/recommandedDes2.jpg";
+import desPicThree from "/src/assets/recommandedDes3.jpg";
 
 const Des_recommanded = () => {
   AOS.init();
@@ -58,12 +61,11 @@ const Des_recommanded = () => {
                     data-aos-offset="130"
                   >
                     <Link to={"/"}>
-                      <CardThree cardPic={""}/>
+                      <CardThree cardPic={desPicOne} badgTxt={"Breakfast included"} placeTitle={"The Montcalm At Brewery London City"} city={"Westminster Borough, London"}/>
                     </Link>
                   </div>
                 </SwiperSlide>
               </Swiper>
-              <div className="custom-progressbar h-1 bg-gray-300 rounded-full relative mt-[440px] overflow-hidden z-10"></div>
             </div>
           </div>
         </Container>
