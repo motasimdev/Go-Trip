@@ -12,13 +12,20 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { FaChevronRight } from "react-icons/fa6";
 import { FaChevronLeft } from "react-icons/fa6";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Destination = () => {
+   AOS.init();
+    AOS.init({
+      duration: 800,
+      offset: 200,
+    });
   return (
     <section className="py-7.5 lg:py-[120px] px-3 lg:px-0">
       <Container>
-        <div className={"mb-8 lg:mb-11 md:flex justify-between"}>
-          <div className="mb-8 md:mb-0 text-center md:text-left">
+        <div className={"mb-8 lg:mb-11 md:flex justify-between"} data-aos="fade-up">
+          <div className="mb-8 md:mb-0 text-center md:text-left" >
             <Heading
               title={"Popular Destinations"}
               subTitle={"These popular destinations have a lot to offer"}
@@ -33,6 +40,7 @@ const Destination = () => {
             </Flex>
           </Link>
         </div>
+
         {/* ================================================= */}
         <div className="relative">
           <div className="py-3 px-3 bg-white rounded-full absolute top-1/2 -left-5 transform -translate-y-1/2 z-10 cursor-pointer shadow-md">
@@ -48,7 +56,7 @@ const Destination = () => {
             pagination={{
               clickable: true,
               type: "progressbar",
-               el: ".custom-progressbar",
+              el: ".custom-progressbar",
             }}
             arrows={false}
             navigation={{
@@ -63,7 +71,8 @@ const Destination = () => {
             }}
           >
             <SwiperSlide>
-              <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center"  data-aos="fade-up"
+                    data-aos-offset="130">
                 <Link to={"/"}>
                   <div className="relative group bg-[url(/src/assets/destination1.webp)] bg-no-repeat bg-cover bg-center ">
                     <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
@@ -88,7 +97,8 @@ const Destination = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center"  data-aos="fade-up"
+                    data-aos-offset="130">
                 <Link to={"/"}>
                   <div className="relative group bg-[url(/src/assets/destination2.webp)] bg-no-repeat bg-cover bg-center ">
                     <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
@@ -113,7 +123,8 @@ const Destination = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center"  data-aos="fade-up"
+                    data-aos-offset="130">
                 <Link to={"/"}>
                   <div className="relative group bg-[url(/src/assets/destination3.webp)] bg-no-repeat bg-cover bg-center ">
                     <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
@@ -138,7 +149,8 @@ const Destination = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center"  data-aos="fade-up"
+                    data-aos-offset="130">
                 <Link to={"/"}>
                   <div className="relative group bg-[url(/src/assets/destination4.webp)] bg-no-repeat bg-cover bg-center ">
                     <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
@@ -163,7 +175,8 @@ const Destination = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center"  data-aos="fade-up"
+                    data-aos-offset="130">
                 <Link to={"/"}>
                   <div className="relative group bg-[url(/src/assets/destination5.webp)] bg-no-repeat bg-cover bg-center ">
                     <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
@@ -189,7 +202,8 @@ const Destination = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-              <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center"  data-aos="fade-up"
+                    data-aos-offset="130">
                 <Link to={"/"}>
                   <div className="relative group bg-[url(/src/assets/destination1.webp)] bg-no-repeat bg-cover bg-center ">
                     <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
@@ -214,7 +228,8 @@ const Destination = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center"  data-aos="fade-up"
+                    data-aos-offset="130">
                 <Link to={"/"}>
                   <div className="relative group bg-[url(/src/assets/destination2.webp)] bg-no-repeat bg-cover bg-center ">
                     <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
@@ -239,7 +254,8 @@ const Destination = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center" data-aos="fade-up"
+                    data-aos-offset="130">
                 <Link to={"/"}>
                   <div className="relative group bg-[url(/src/assets/destination3.webp)] bg-no-repeat bg-cover bg-center ">
                     <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
@@ -264,7 +280,8 @@ const Destination = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center" data-aos="fade-up"
+                    data-aos-offset="130">
                 <Link to={"/"}>
                   <div className="relative group bg-[url(/src/assets/destination4.webp)] bg-no-repeat bg-cover bg-center ">
                     <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
@@ -289,7 +306,8 @@ const Destination = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center" data-aos="fade-up"
+                    data-aos-offset="130">
                 <Link to={"/"}>
                   <div className="relative group bg-[url(/src/assets/destination5.webp)] bg-no-repeat bg-cover bg-center ">
                     <div className="py-[200px] px-[150px] hover:bg-black/25 transition-all duration-300">
