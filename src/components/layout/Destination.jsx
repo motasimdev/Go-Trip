@@ -10,6 +10,8 @@ import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { FaChevronRight } from "react-icons/fa6";
+import { FaChevronLeft } from "react-icons/fa6";
 
 const Destination = () => {
   return (
@@ -32,7 +34,7 @@ const Destination = () => {
           </Link>
         </div>
         {/* ================================================= */}
-        <div className="">
+        <div className="relative">
           <div className="py-3 px-3 bg-white rounded-full absolute top-1/2 -left-5 transform -translate-y-1/2 z-10 cursor-pointer shadow-md">
             <FaChevronLeft className="custom-prev text-xl " />
           </div>
@@ -42,13 +44,17 @@ const Destination = () => {
           <Swiper
             className="mySwiper relative"
             spaceBetween={30}
-            centeredSlides={true}
+            centeredSlides={false}
             pagination={{
               clickable: true,
               type: "progressbar",
+               el: ".custom-progressbar",
             }}
             arrows={false}
-            navigation={true}
+            navigation={{
+              nextEl: ".custom-next",
+              prevEl: ".custom-prev",
+            }}
             modules={[Pagination, Navigation]}
             breakpoints={{
               1024: { slidesPerView: 4 },
@@ -308,7 +314,7 @@ const Destination = () => {
               </div>
             </SwiperSlide>
           </Swiper>
-          <div className="custom-progressbar h-1 bg-gray-300 rounded-full absolute left-0 bottom-0 overflow-hidden z-10"></div>
+          <div className="custom-progressbar h-1 bg-gray-300 rounded-full relative mt-[440px] overflow-hidden z-10"></div>
         </div>
       </Container>
     </section>
