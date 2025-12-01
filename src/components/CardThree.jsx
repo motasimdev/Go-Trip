@@ -1,7 +1,11 @@
 import React from "react";
 import ParaBase from "./ParaBase";
+import Flex from "./Flex";
+import Badge from "./Badge";
+import { FaRegHeart } from "react-icons/fa";
 
-const CardThree = () => {
+
+const CardThree = ({className, badgTxt, cardPic, placeTitle, city }) => {
   return (
     <div className={`group max-w-[300px] relative cursor-pointer ${className}`}>
       <Badge className={"absolute top-4 left-0 z-10"} bagText={badgTxt} />

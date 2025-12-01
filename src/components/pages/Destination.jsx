@@ -3,6 +3,7 @@ import Breadcrumb from "../Breadcrumb";
 import Des_banner from "../layout/Des_banner";
 import Des_activity from "../layout/Des_activity";
 import Des_visiting from "../layout/Des_visiting";
+import Des_recommanded from "../layout/Des_recommanded";
 
 const Destination = () => {
   return (
@@ -15,6 +16,7 @@ const Destination = () => {
       <Des_banner/>
       <Des_activity/>
       <Des_visiting/>
+      <Des_recommanded/>
     </div>
   );
 };
