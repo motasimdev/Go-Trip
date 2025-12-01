@@ -61,7 +61,62 @@ const Des_recommanded = () => {
                     data-aos-offset="130"
                   >
                     <Link to={"/"}>
-                      <CardThree cardPic={desPicOne} badgTxt={"Breakfast included"} placeTitle={"The Montcalm At Brewery London City"} city={"Westminster Borough, London"}/>
+                      <CardThree
+                        cardPic={desPicOne}
+                        badgTxt={"Breakfast included"}
+                        placeTitle={"The Montcalm At Brewery London City"}
+                        city={"Westminster Borough, London"}
+                      />
+                    </Link>
+                  </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                  <div
+                    className="w-full flex justify-center"
+                    data-aos="fade-up"
+                    data-aos-offset="130"
+                  >
+                    <Link to={"/"}>
+                      <CardThree
+                        cardPic={desPicThree}
+                        badgTxt={"Breakfast included"}
+                        placeTitle={"Staycity Aparthotels Deptford Bridge Station"}
+                        city={"Ciutat Vella, Barcelona"}
+                      />
+                    </Link>
+                  </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                  <div
+                    className="w-full flex justify-center"
+                    data-aos="fade-up"
+                    data-aos-offset="130"
+                  >
+                    <Link to={"/"}>
+                      <CardThree
+                        cardPic={desPicOne}
+                        badgTxt={"Best Seller"}
+                        placeTitle={"The Westin New York at Times Square"}
+                        city={"Manhattan, New York"}
+                      />
+                    </Link>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div
+                    className="w-full flex justify-center"
+                    data-aos="fade-up"
+                    data-aos-offset="130"
+                  >
+                    <Link to={"/"}>
+                      <CardThree
+                        cardPic={desPicOne}
+                        badgTxt={"Top Rated"}
+                        placeTitle={"DoubleTree by Hilton Hotel New York Times Square West"}
+                        city={"Vaticano Prati, Rome"}
+                      />
                     </Link>
                   </div>
                 </SwiperSlide>
