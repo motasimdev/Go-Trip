@@ -4,6 +4,8 @@ import Flex from "../Flex";
 import Para15 from "../Para15";
 import Button from "../Button";
 import { LuMapPin } from "react-icons/lu";
+import Para from "../Para";
+import ParaBase from "../ParaBase";
 
 const Des_visiting = () => {
   return (
@@ -135,50 +137,24 @@ const Des_visiting = () => {
             </h4>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               <div className="">
-                <Para15 text={"Time Zone"}/>
-                <Para
+                <Para15 text={"Time Zone"} className={"text-textClr1"}/>
+                <ParaBase text={"GMT +00:00"} className={"text-textClr1! py-3"}/>
+                <Para15 text={"3 hours behind"} className={"text-textClr2"}/>
               </div>
               <div className="">
-                <Para15
-                  className={"font-medium text-textClr1 pb-2 lg:pb-5"}
-                  text={"MAR - MAY"}
-                />
-                <Flex className={"gap-2"}>
-                  <p className="text-lg lg:text-[22px] text-textClr1 font-medium">
-                    17°
-                  </p>
-                  <p className="text-lg lg:text-[22px] text-textClr2 font-medium">
-                    3°
-                  </p>
-                </Flex>
+                <Para15 text={"Currency"} className={"text-textClr1"}/>
+                <ParaBase text={"British Pound"} className={"text-textClr1! py-3"}/>
+                <Para15 text={"1USD = 0.76GBP"} className={"text-textClr2"}/>
               </div>
               <div className="">
-                <Para15
-                  className={"font-medium text-textClr1 pb-2 lg:pb-5"}
-                  text={"JUN - AUG"}
-                />
-                <Flex className={"gap-2"}>
-                  <p className="text-lg lg:text-[22px] text-textClr1 font-medium">
-                    27°
-                  </p>
-                  <p className="text-lg lg:text-[22px] text-textClr2 font-medium">
-                    3°
-                  </p>
-                </Flex>
+                <Para15 text={"Best time to visit"} className={"text-textClr1"}/>
+                <ParaBase text={"JUN"} className={"text-textClr1! py-3"}/>
+                <Para15 text={"The Queen's Birthday"} className={"text-textClr2"}/>
               </div>
               <div className="">
-                <Para15
-                  className={"font-medium text-textClr1 pb-2 lg:pb-5"}
-                  text={"SEP - NOV"}
-                />
-                <Flex className={"gap-2"}>
-                  <p className="text-lg lg:text-[22px] text-textClr1 font-medium">
-                    7°
-                  </p>
-                  <p className="text-lg lg:text-[22px] text-textClr2 font-medium">
-                    3°
-                  </p>
-                </Flex>
+                <Para15 text={"Best time to visit"} className={"text-textClr1"}/>
+                <ParaBase text={"DEC"} className={"text-textClr1! py-3"}/>
+                <Para15 text={"A colorful Christmas season"} className={"text-textClr2"}/>
               </div>
             </div>
           </div>
