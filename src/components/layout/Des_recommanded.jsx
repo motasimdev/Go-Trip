@@ -14,6 +14,8 @@ import CardThree from "../CardThree";
 import desPicOne from "/src/assets/recommandedDes1.jpg";
 import desPicTwo from "/src/assets/recommandedDes2.jpg";
 import desPicThree from "/src/assets/recommandedDes3.jpg";
+import { FaChevronRight } from "react-icons/fa6";
+import { FaChevronLeft } from "react-icons/fa6";
 
 const Des_recommanded = () => {
   AOS.init();
@@ -35,13 +37,17 @@ const Des_recommanded = () => {
 
             {/* ======================================================= */}
             <div className="relative">
+              <div className="py-3 px-3 bg-white rounded-full absolute top-1/2 -left-5 transform -translate-y-1/2 z-10 cursor-pointer shadow-md">
+                <FaChevronLeft className="text-black custom-prev text-xl" />
+              </div>
+              <div className="py-3 px-3 bg-white rounded-full absolute top-1/2 -right-5 transform -translate-y-1/2 z-10 cursor-pointer shadow-md">
+                <FaChevronRight className="text-black custom-next text-xl" />
+              </div>
               <Swiper
                 className="mySwiper relative"
                 spaceBetween={30}
                 centeredSlides={false}
-                pagination={{
-                  clickable: true,
-                }}
+                loop={true}
                 arrows={false}
                 navigation={{
                   nextEl: ".custom-next",
@@ -79,9 +85,11 @@ const Des_recommanded = () => {
                   >
                     <Link to={"/"}>
                       <CardThree
-                        cardPic={desPicThree}
+                        cardPic={desPicTwo}
                         badgTxt={"Breakfast included"}
-                        placeTitle={"Staycity Aparthotels Deptford Bridge Station"}
+                        placeTitle={
+                          "Staycity Aparthotels Deptford Bridge Station"
+                        }
                         city={"Ciutat Vella, Barcelona"}
                       />
                     </Link>
@@ -96,7 +104,7 @@ const Des_recommanded = () => {
                   >
                     <Link to={"/"}>
                       <CardThree
-                        cardPic={desPicOne}
+                        cardPic={desPicThree}
                         badgTxt={"Best Seller"}
                         placeTitle={"The Westin New York at Times Square"}
                         city={"Manhattan, New York"}
@@ -104,6 +112,7 @@ const Des_recommanded = () => {
                     </Link>
                   </div>
                 </SwiperSlide>
+
                 <SwiperSlide>
                   <div
                     className="w-full flex justify-center"
@@ -114,7 +123,28 @@ const Des_recommanded = () => {
                       <CardThree
                         cardPic={desPicOne}
                         badgTxt={"Top Rated"}
-                        placeTitle={"DoubleTree by Hilton Hotel New York Times Square West"}
+                        placeTitle={
+                          "DoubleTree by Hilton Hotel New York Times Square West"
+                        }
+                        city={"Vaticano Prati, Rome"}
+                      />
+                    </Link>
+                  </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                  <div
+                    className="w-full flex justify-center"
+                    data-aos="fade-up"
+                    data-aos-offset="130"
+                  >
+                    <Link to={"/"}>
+                      <CardThree
+                        cardPic={desPicOne}
+                        badgTxt={"Top Rated"}
+                        placeTitle={
+                          "DoubleTree by Hilton Hotel New York Times Square West"
+                        }
                         city={"Vaticano Prati, Rome"}
                       />
                     </Link>
