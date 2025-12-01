@@ -17,7 +17,7 @@ const Activity = () => {
         <Container>
           <div className="text-center mb-8 lg:mb-11">
             <Heading
-              title={"Trending Activity"}
+              title={"Adventure & Activity"}
               subTitle={"Interdum et malesuada fames ac ante ipsum"}
             />
           </div>

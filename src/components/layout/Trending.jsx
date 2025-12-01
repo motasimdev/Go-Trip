@@ -14,13 +14,16 @@ import "swiper/css/navigation";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import CardTwo from "../CardTwo";
+import { FaChevronRight } from "react-icons/fa6";
+import { FaChevronLeft } from "react-icons/fa6";
 
 const Trending = () => {
-   AOS.init();
-    AOS.init({
-      duration: 800,
-      offset: 200,
-    });
+  AOS.init();
+  AOS.init({
+    duration: 800,
+    offset: 200,
+  });
+
   return (
     <>
       <section className="py-7.5 lg:pt-[120px] lg:pb-15 px-3 lg:px-0">
@@ -32,7 +35,13 @@ const Trending = () => {
                 subTitle={"Interdum et malesuada fames ac ante ipsum"}
               />
             </div>
-            <div className="">
+            <div className="relative">
+              <div className="py-3 px-3 bg-white rounded-full absolute top-1/2 -left-5 transform -translate-y-1/2 z-10 cursor-pointer shadow-md">
+                <FaChevronLeft className="custom-prev text-xl " />
+              </div>
+              <div className="py-3 px-3 bg-white rounded-full absolute top-1/2 -right-5 transform -translate-y-1/2 z-10 cursor-pointer shadow-md">
+                <FaChevronRight className="custom-next text-xl" />
+              </div>
               <Swiper
                 spaceBetween={30}
                 centeredSlides={false}
@@ -40,7 +49,10 @@ const Trending = () => {
                 // pagination={{
                 //   clickable: true,
                 // }}
-                navigation={true}
+                navigation={{
+                  nextEl: ".custom-next",
+                  prevEl: ".custom-prev",
+                }}
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
                 breakpoints={{
@@ -50,63 +62,88 @@ const Trending = () => {
                 }}
               >
                 <SwiperSlide>
-                  <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
+                  <div
+                    className="w-full flex justify-center"
+                    data-aos="fade-up"
+                    data-aos-offset="130"
+                  >
                     <CardTwo
-                    badgTxt={"LIKELY TO SELL OUT*"}
-                    cardPic={cardImgOne}
-                    city={"Westminster Borough, London"}
-                    placeTitle={"Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"}
+                      badgTxt={"LIKELY TO SELL OUT*"}
+                      cardPic={cardImgOne}
+                      city={"Westminster Borough, London"}
+                      placeTitle={
+                        "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
+                      }
                     />
                   </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
-                    
+                  <div
+                    className="w-full flex justify-center"
+                    data-aos="fade-up"
+                    data-aos-offset="130"
+                  >
                     <CardTwo
-                    badgTxt={"LIKELY TO SELL OUT*"}
-                    cardPic={cardImgTwo}
-                    city={"Westminster Borough, London"}
-                    placeTitle={"Edinburgh Sky to Sea Bike Tour by Manual or E-Bike"}
+                      badgTxt={"LIKELY TO SELL OUT*"}
+                      cardPic={cardImgTwo}
+                      city={"Westminster Borough, London"}
+                      placeTitle={
+                        "Edinburgh Sky to Sea Bike Tour by Manual or E-Bike"
+                      }
                     />
                   </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
-                    
+                  <div
+                    className="w-full flex justify-center"
+                    data-aos="fade-up"
+                    data-aos-offset="130"
+                  >
                     <CardTwo
-                    badgTxt={"BEST SELLER"}
-                    cardPic={cardImgThree}
-                    city={"Manhattan, New York"}
-                    placeTitle={"Natural Crystal Blue Ice Cave Tour of Vatnajökull Glacier"}
+                      badgTxt={"BEST SELLER"}
+                      cardPic={cardImgThree}
+                      city={"Manhattan, New York"}
+                      placeTitle={
+                        "Natural Crystal Blue Ice Cave Tour of Vatnajökull Glacier"
+                      }
                     />
                   </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
-                   
-                     <CardTwo
-                    badgTxt={"TOP RATED"}
-                    cardPic={cardImgeFour}
-                    city={"Vaticano Prati, Rome"}
-                    placeTitle={"South Coast Full Day Tour by Minibus from Reykjavik"}
+                  <div
+                    className="w-full flex justify-center"
+                    data-aos="fade-up"
+                    data-aos-offset="130"
+                  >
+                    <CardTwo
+                      badgTxt={"TOP RATED"}
+                      cardPic={cardImgeFour}
+                      city={"Vaticano Prati, Rome"}
+                      placeTitle={
+                        "South Coast Full Day Tour by Minibus from Reykjavik"
+                      }
                     />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="w-full flex justify-center" data-aos="fade-up" data-aos-offset="130">
-                  
-                     <CardTwo
-                    badgTxt={"LIKELY TO SELL OUT"}
-                    cardPic={cardImgOne}
-                    city={"Westminster Borough, London"}
-                    placeTitle={"Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"}
+                  <div
+                    className="w-full flex justify-center"
+                    data-aos="fade-up"
+                    data-aos-offset="130"
+                  >
+                    <CardTwo
+                      badgTxt={"LIKELY TO SELL OUT"}
+                      cardPic={cardImgOne}
+                      city={"Westminster Borough, London"}
+                      placeTitle={
+                        "Golden Circle, Kerid Volcanic Crater, and Blue Lagoon Day Trip"
+                      }
                     />
                   </div>
                 </SwiperSlide>
-                
               </Swiper>
             </div>
           </div>

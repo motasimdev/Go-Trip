@@ -33,6 +33,12 @@ const Destination = () => {
         </div>
         {/* ================================================= */}
         <div className="">
+          <div className="py-3 px-3 bg-white rounded-full absolute top-1/2 -left-5 transform -translate-y-1/2 z-10 cursor-pointer shadow-md">
+            <FaChevronLeft className="custom-prev text-xl " />
+          </div>
+          <div className="py-3 px-3 bg-white rounded-full absolute top-1/2 -right-5 transform -translate-y-1/2 z-10 cursor-pointer shadow-md">
+            <FaChevronRight className="custom-next text-xl" />
+          </div>
           <Swiper
             className="mySwiper relative"
             spaceBetween={30}
@@ -40,7 +46,6 @@ const Destination = () => {
             pagination={{
               clickable: true,
               type: "progressbar",
-              
             }}
             arrows={false}
             navigation={true}
