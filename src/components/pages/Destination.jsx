@@ -1,12 +1,16 @@
-import React from 'react'
-import Breadcrumb from '../Breadcrumb'
+import React from "react";
+import Breadcrumb from "../Breadcrumb";
 
 const Destination = () => {
   return (
     <div>
-      <Breadcrumb/>
+      <Breadcrumb
+        pageOne={"Europe"}
+        pageTwo={"United Kingdom (UK)"}
+        pageThree={"London"}
+      />
     </div>
-  )
-}
+  );
+};
 
-export default Destination
+export default Destination;
