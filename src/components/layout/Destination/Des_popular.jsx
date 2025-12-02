@@ -69,7 +69,7 @@ const Des_popular = () => {
                       <CardTwo
                         cardPic={cardOne}
                         badgTxt={"Breakfast included"}
-                        placeTitle={"The Montcalm At Brewery London CityStonehenge, Windsor Castle and Bath with Pub Lunch in Lacock"}
+                        placeTitle={"Stonehenge, Windsor Castle and Bath with Pub Lunch in Lacock"}
                         city={"Westminster Borough, London"}
                       />
                     </Link>

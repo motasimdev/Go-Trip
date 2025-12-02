@@ -68,6 +68,8 @@ const Des_recommanded = () => {
                   >
                     <Link to={"/"}>
                       <CardThree
+                        time={"16+ hours"}
+                        type={"Full-day Tours"}
                         cardPic={desPicOne}
                         badgTxt={"Breakfast included"}
                         placeTitle={"The Montcalm At Brewery London City"}
