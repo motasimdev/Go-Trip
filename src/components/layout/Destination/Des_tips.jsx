@@ -31,7 +31,7 @@ const Des_tips = () => {
                 subTitle={"Interdum et malesuada fames ac ante ipsum"}
               />
             </div>
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div
                 className="group cursor-pointer"
                 data-aos="fade-up"
@@ -68,6 +68,23 @@ const Des_tips = () => {
               </div>
               <div
                 className="group cursor-pointer"
+                data-aos="fade-up"
+                data-aos-offset="130"
+              >
+                <div className="h-80 overflow-hidden rounded-lg">
+                  <img
+                    src={cardThree}
+                    alt=""
+                    className="relative w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                  />
+                </div>
+                <h4 className="text-lg text-textClr1 font-medium py-3">
+                  10 European ski destinations you should visit this winter
+                </h4>
+                <Para15 text={"April 06, 2022"} className={"text-textClr2! "} />
+              </div>
+              <div
+                className="group cursor-pointer hidden md:block lg:hidden"
                 data-aos="fade-up"
                 data-aos-offset="130"
               >
