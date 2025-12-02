@@ -24,8 +24,8 @@ const Des_lovelondon = () => {
     <>
       <section className="py-15 lg:py-[120px] px-3 lg:px-0 bg-[#F5F5F5]">
         <Container>
-          <div className="flex justify-between">
-            <div className="w-[48%] pr-30">
+          <div className="md:flex justify-between">
+            <div className="md:w-[48%] md:pr-30 text-center md:text-left">
               <div className="mb-8 lg:mb-11" data-aos="fade-up">
                 <Heading
                   title={"Why people love London"}
@@ -49,7 +49,7 @@ const Des_lovelondon = () => {
                   <h4 className="text-3xl text-textClr1 font-semibold">4.88</h4>
                   <ParaBase
                     text={"Overall rating"}
-                    className={"text-textClr2! py-4"}
+                    className={"text-textClr2! py-2 lg:py-4 w-co"}
                   />
                   <Flex>
                     <FaStar className="text-[12px] text-textClr3" />
@@ -64,7 +64,7 @@ const Des_lovelondon = () => {
 
             {/* ======================================= */}
 
-            <div className="w-[48%]">
+            <div className="md:w-[48%] mt-6 md:mt-3 lg:mt-0">
               <Swiper
                 className="mySwiper relative"
                 spaceBetween={30}

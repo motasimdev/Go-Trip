@@ -13,14 +13,14 @@ const Des_faq = () => {
     <>
       <section className="py-15 lg:pt-[120px] lg:pb-20 px-3 lg:px-0">
         <Container>
-          <div className="flex justify-between">
-            <div className="w-[20%]">
+          <div className="md:flex justify-between">
+            <div className="md:w-[30%] md:pl-13 lg:pl-0 mb-5 md:mb-0">
               <h3 className="text-3xl text-textClr1 font-semibold">
                 FAQs about London
               </h3>
             </div>
 
-            <div className="w-[50%]">
+            <div className="md:w-[60%]">
               <Accordion
                 type="single"
                 collapsible

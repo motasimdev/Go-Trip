@@ -12,6 +12,7 @@ import Des_tips from "../layout/Destination/Des_tips";
 import Des_topSights from "../layout/Destination/Des_topSights";
 import Des_lovelondon from "../layout/Destination/Des_lovelondon";
 import Des_faq from "../layout/Destination/Des_faq";
+import Des_nearlondon from "../layout/Destination/Des_nearlondon";
 
 const Destination = () => {
   return (
@@ -33,6 +34,7 @@ const Destination = () => {
       <Des_topSights/>
       <Des_lovelondon/>
       <Des_faq/>
+      <Des_nearlondon/>
     </div>
   );
 };
