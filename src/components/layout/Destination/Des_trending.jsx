@@ -7,9 +7,10 @@ import "swiper/css/navigation";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router";
-import cardOne from "/src/assets/Des-populer1.png";
-import cardTwo from "/src/assets/Des-populer2.png";
-import cardThree from "/src/assets/Des-populer3.png";
+import cardOne from "/src/assets/trendy1.png";
+import cardTwo from "/src/assets/trendy2.png";
+import cardThree from "/src/assets/trendy3.png";
+import cardFour from "/src/assets/trendy4.png";
 import { FaChevronRight } from "react-icons/fa6";
 import { FaChevronLeft } from "react-icons/fa6";
 import Container from "../../Container";
@@ -140,7 +141,7 @@ const Des_trending = () => {
                   >
                     <Link to={"/"}>
                       <CardTwo
-                        cardPic={cardOne}
+                        cardPic={cardFour}
                         badgTxt={"Top Rated"}
                         placeTitle={
                           "DoubleTree by Hilton Hotel New York Times Square West"
