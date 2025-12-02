@@ -2,6 +2,8 @@ import React from "react";
 import Container from "../../Container";
 import Heading from "../../Heading";
 import insOne from "/src/assets/inpiration1.png";
+import { Link } from "react-router";
+import Para from "../../Para";
 
 
 const Des_topSights = () => {
@@ -19,6 +21,7 @@ const Des_topSights = () => {
                 subTitle={"Interdum et malesuada fames ac ante ipsum"}
               />
             </div>
+            {/* ============================================ */}
             <div className="lg:flex items-center">
               <div
                 className="md:flex items-center justify-between lg:w-[48%] pb-10 lg:pb-0"
@@ -29,14 +32,16 @@ const Des_topSights = () => {
                   <img src={insOne} alt="" className="w-full" />
                 </div>
                 <div className="text-center md:text-left pt-5 md:pt-0 md:w-[65%] md:pr-17">
-                  <p className="text-[15px] text-textClr2">April 06, 2022</p>
+                  {/* <p className="text-[15px] text-textClr2">April 06, 2022</p> */}
                   <h4 className="text-[22px] text-textClr1 font-semibold">
-                    10 European ski destinations you should visit this winter
+                    The British Museum
                   </h4>
                   <p className="text-[15px] text-textClr2">
-                    Ut enim ad minim veniam, quis nostrud exerc ullamco laboris
-                    nisi ut aliquip.
+                   Learn about British history at the Tower of London, a medieval castle that was first built in 1066 by William the Conqueror.
                   </p>
+                  <Link>
+                  <span className="text-textClr3 text-[12px] lg:text-sm border-b border-textClr3 font-medium">see more</span>
+                  </Link>
                 </div>
               </div>
 
@@ -53,14 +58,16 @@ const Des_topSights = () => {
                   <img src={insOne} alt="" className="w-full" />
                 </div>
                 <div className="text-center md:text-left pt-5 md:pt-0 md:w-[65%] md:pr-17">
-                  <p className="text-[15px] text-textClr2">April 06, 2022</p>
+                  {/* <p className="text-[15px] text-textClr2">April 06, 2022</p> */}
                   <h4 className="text-[22px] text-textClr1 font-semibold">
-                    10 European ski destinations you should visit this winter
+                    London Eye
                   </h4>
                   <p className="text-[15px] text-textClr2">
-                    Ut enim ad minim veniam, quis nostrud exerc ullamco laboris
-                    nisi ut aliquip.
+                   Learn about British history at the Tower of London, a medieval castle that was first built in 1066 by William the Conqueror.
                   </p>
+                  <Link>
+                  <span className="text-textClr3 text-[12px] lg:text-sm border-b border-textClr3 font-medium">see more</span>
+                  </Link>
                 </div>
               </div>
             </div>
