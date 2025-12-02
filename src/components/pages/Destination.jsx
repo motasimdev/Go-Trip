@@ -8,6 +8,7 @@ import Des_popular from "../layout/Destination/Des_popular";
 import Des_trending from "../layout/Destination/Des_trending";
 import Des_holiday from "../layout/Destination/Des_holiday";
 import Des_carHire from "../layout/Destination/Des_carHire";
+import Des_tips from "../layout/Destination/Des_tips";
 
 const Destination = () => {
   return (
@@ -25,6 +26,7 @@ const Destination = () => {
       <Des_trending/>
       <Des_holiday/>
       <Des_carHire/>
+      <Des_tips/>
     </div>
   );
 };
