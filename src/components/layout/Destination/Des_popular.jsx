@@ -7,23 +7,27 @@ import "swiper/css/navigation";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router";
-import desPicOne from "/src/assets/recommandedDes1.jpg";
-import desPicTwo from "/src/assets/recommandedDes2.jpg";
-import desPicThree from "/src/assets/recommandedDes3.jpg";
+import cardOne from "/src/assets/Des-populer1.png";
+import cardTwo from "/src/assets/Des-populer2.png";
+import cardThree from "/src/assets/Des-populer3.png";
 import { FaChevronRight } from "react-icons/fa6";
 import { FaChevronLeft } from "react-icons/fa6";
 import Container from "../../Container";
 import Heading from "../../Heading";
-import CardThree from "../../CardThree";
 import CardTwo from "../../CardTwo";
 
 const Des_popular = () => {
+  AOS.init();
+    AOS.init({
+      duration: 800,
+      offset: 200,
+    });
   return (
     <>
       <section className="py-7.5 lg:py-20 px-3 lg:px-0">
         <Container>
           <div className="">
-            <div className="mb-8 md:mb-0 lg:mb-11 text-center md:text-left">
+            <div className="mb-8 md:mb-0 lg:mb-11 text-center md:text-left" data-aos="fade-up">
               <Heading
                 title={"Most Popular Tours"}
                 subTitle={"Interdum et malesuada fames ac ante ipsum"}
@@ -63,9 +67,9 @@ const Des_popular = () => {
                   >
                     <Link to={"/"}>
                       <CardTwo
-                        cardPic={desPicOne}
+                        cardPic={cardOne}
                         badgTxt={"Breakfast included"}
-                        placeTitle={"The Montcalm At Brewery London City"}
+                        placeTitle={"The Montcalm At Brewery London CityStonehenge, Windsor Castle and Bath with Pub Lunch in Lacock"}
                         city={"Westminster Borough, London"}
                       />
                     </Link>
@@ -80,10 +84,10 @@ const Des_popular = () => {
                   >
                     <Link to={"/"}>
                       <CardTwo
-                        cardPic={desPicTwo}
+                        cardPic={cardTwo}
                         badgTxt={"Breakfast included"}
                         placeTitle={
-                          "Staycity Aparthotels Deptford Bridge Station"
+                          "Westminster Walking Tour & Westminster Abbey Entry"
                         }
                         city={"Ciutat Vella, Barcelona"}
                       />
@@ -99,9 +103,9 @@ const Des_popular = () => {
                   >
                     <Link to={"/"}>
                       <CardTwo
-                        cardPic={desPicThree}
+                        cardPic={cardThree}
                         badgTxt={"Best Seller"}
-                        placeTitle={"The Westin New York at Times Square"}
+                        placeTitle={"High-Speed Thames River RIB Cruise in London"}
                         city={"Manhattan, New York"}
                       />
                     </Link>
@@ -116,10 +120,10 @@ const Des_popular = () => {
                   >
                     <Link to={"/"}>
                       <CardTwo
-                        cardPic={desPicOne}
+                        cardPic={cardThree}
                         badgTxt={"Top Rated"}
                         placeTitle={
-                          "DoubleTree by Hilton Hotel New York Times Square West"
+                          "Edinburgh Darkside Walking Tour: Mysteries, Murder and Legends"
                         }
                         city={"Vaticano Prati, Rome"}
                       />
@@ -135,7 +139,7 @@ const Des_popular = () => {
                   >
                     <Link to={"/"}>
                       <CardTwo
-                        cardPic={desPicOne}
+                        cardPic={cardOne}
                         badgTxt={"Top Rated"}
                         placeTitle={
                           "DoubleTree by Hilton Hotel New York Times Square West"
