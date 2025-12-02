@@ -23,9 +23,9 @@ const Des_topSights = () => {
               />
             </div>
             {/* ============================================ */}
-            <div className="lg:flex items-center justify-between mb-4 md:mb-4 lg:mb-9">
+            <div className="lg:flex items-center justify-between lg:mb-9">
               <div
-                className="md:flex items-center justify-between lg:w-[48%] mb-4 md:mb-4 lg:mb-10 lg:pb-0 border border-[#dddddd]"
+                className="md:flex items-center justify-between lg:w-[48%] mb-4 lg:pb-0 border border-[#dddddd]"
                 data-aos="fade-up"
                 data-aos-offset="130"
               >
@@ -49,9 +49,9 @@ const Des_topSights = () => {
                   </Link>
                 </div>
               </div>
-
+              
               <div
-                className="md:flex items-center justify-between lg:w-[48%] border border-[#dddddd]"
+                className="md:flex items-center justify-between lg:w-[48%] mb-4 border border-[#dddddd]"
                 data-aos="fade-up"
                 data-aos-offset="130"
               >
@@ -79,7 +79,7 @@ const Des_topSights = () => {
             {/* =========================================================== */}
             <div className="lg:flex items-center justify-between">
               <div
-                className="md:flex items-center justify-between lg:w-[48%] mb-4 md:mb-4 lg:mb-10 lg:pb-0 border border-[#dddddd]"
+                className="md:flex items-center justify-between lg:w-[48%] mb-4 pb-10 md:pb-0 border border-[#dddddd]"
                 data-aos="fade-up"
                 data-aos-offset="130"
               >
@@ -105,7 +105,7 @@ const Des_topSights = () => {
               </div>
 
               <div
-                className="md:flex items-center justify-between lg:w-[48%] border border-[#dddddd]"
+                className="md:flex items-center justify-between lg:w-[48%] mb-4 border border-[#dddddd]"
                 data-aos="fade-up"
                 data-aos-offset="130"
               >
