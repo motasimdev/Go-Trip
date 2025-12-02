@@ -10,6 +10,7 @@ import Des_holiday from "../layout/Destination/Des_holiday";
 import Des_carHire from "../layout/Destination/Des_carHire";
 import Des_tips from "../layout/Destination/Des_tips";
 import Des_topSights from "../layout/Destination/Des_topSights";
+import Des_lovelondon from "../layout/Destination/Des_lovelondon";
 
 const Destination = () => {
   return (
@@ -29,6 +30,7 @@ const Destination = () => {
       <Des_carHire/>
       <Des_tips/>
       <Des_topSights/>
+      <Des_lovelondon/>
     </div>
   );
 };

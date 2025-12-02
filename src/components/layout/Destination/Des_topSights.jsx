@@ -10,7 +10,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 const Des_topSights = () => {
   return (
     <>
-      <section className="py-7.5 lg:py-20 px-3 lg:px-0">
+      <section className="py-7.5 lg:pt-20 lg:pb-[120px] px-3 lg:px-0">
         <Container>
           <div className="">
             <div
