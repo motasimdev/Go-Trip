@@ -4,6 +4,8 @@ import Heading from "../../Heading";
 import insOne from "/src/assets/Des-topsight1.png";
 import { Link } from "react-router";
 import Para from "../../Para";
+import Flex from "../../Flex";
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Des_topSights = () => {
   return (
@@ -21,9 +23,9 @@ const Des_topSights = () => {
               />
             </div>
             {/* ============================================ */}
-            <div className="lg:flex items-center justify-between">
+            <div className="lg:flex items-center justify-between mb-4 md:mb-4 lg:mb-9">
               <div
-                className="md:flex items-center justify-between lg:w-[48%] pb-10 lg:pb-0 border border-[#dddddd]"
+                className="md:flex items-center justify-between lg:w-[48%] mb-4 md:mb-4 lg:mb-10 lg:pb-0 border border-[#dddddd]"
                 data-aos="fade-up"
                 data-aos-offset="130"
               >
@@ -41,16 +43,12 @@ const Des_topSights = () => {
                     Conqueror.
                   </p>
                   <Link>
-                    <span className="text-textClr3 text-[12px] lg:text-sm hover:border-b border-b border-textClr3 font-medium">
+                    <span className="text-textClr3 text-[12px] lg:text-sm hover:border-none border-b border-textClr3 font-medium">
                       see more
                     </span>
                   </Link>
                 </div>
               </div>
-
-              {/*  */}
-
-              {/* ================================= */}
 
               <div
                 className="md:flex items-center justify-between lg:w-[48%] border border-[#dddddd]"
@@ -71,12 +69,76 @@ const Des_topSights = () => {
                     Conqueror.
                   </p>
                   <Link>
-                    <span className="text-textClr3 text-[12px] lg:text-sm hover:border-b border-b border-textClr3 font-medium">
+                    <span className="text-textClr3 text-[12px] lg:text-sm hover:border-none border-b border-textClr3 font-medium">
                       see more
                     </span>
                   </Link>
                 </div>
               </div>
+            </div>
+            {/* =========================================================== */}
+            <div className="lg:flex items-center justify-between">
+              <div
+                className="md:flex items-center justify-between lg:w-[48%] mb-4 md:mb-4 lg:mb-10 lg:pb-0 border border-[#dddddd]"
+                data-aos="fade-up"
+                data-aos-offset="130"
+              >
+                <div className="md:w-[33%] lg:w-[30%]">
+                  <img src={insOne} alt="" className="w-full h-full" />
+                </div>
+                <div className="text-center md:text-left pt-5 md:pt-0 md:w-[65%] md:pr-17">
+                  {/* <p className="text-[15px] text-textClr2">April 06, 2022</p> */}
+                  <h4 className="text-[22px] text-textClr1 font-semibold">
+                    The British Museum
+                  </h4>
+                  <p className="text-[15px] text-textClr2">
+                    Learn about British history at the Tower of London, a
+                    medieval castle that was first built in 1066 by William the
+                    Conqueror.
+                  </p>
+                  <Link>
+                    <span className="text-textClr3 text-[12px] lg:text-sm hover:border-none border-b border-textClr3 font-medium">
+                      see more
+                    </span>
+                  </Link>
+                </div>
+              </div>
+
+              <div
+                className="md:flex items-center justify-between lg:w-[48%] border border-[#dddddd]"
+                data-aos="fade-up"
+                data-aos-offset="130"
+              >
+                <div className="md:w-[33%] lg:w-[30%]">
+                  <img src={insOne} alt="" className="w-full" />
+                </div>
+                <div className="text-center md:text-left pt-5 md:pt-0 md:w-[65%] md:pr-17">
+                  {/* <p className="text-[15px] text-textClr2">April 06, 2022</p> */}
+                  <h4 className="text-[22px] text-textClr1 font-semibold">
+                    London Eye
+                  </h4>
+                  <p className="text-[15px] text-textClr2">
+                    Learn about British history at the Tower of London, a
+                    medieval castle that was first built in 1066 by William the
+                    Conqueror.
+                  </p>
+                  <Link>
+                    <span className="text-textClr3 text-[12px] lg:text-sm hover:border-none border-b border-textClr3 font-medium">
+                      see more
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="text-center mt-2 lg:mt-10">
+              <Link to={"/"}>
+                <Flex className="inline-flex bg-textClr3/5 py-3.5 px-7.5 gap-3 curpo group hover:bg-textClr3 transition-colors duration-200 rounded-sm">
+                  <p className="text-[15px] text-textClr3 font-medium group-hover:text-white transition-colors duration-200">
+                    Explore more
+                  </p>
+                  <MdOutlineArrowOutward className="text-textClr3 group-hover:text-white transition-colors duration-200" />
+                </Flex>
+              </Link>
             </div>
           </div>
         </Container>
