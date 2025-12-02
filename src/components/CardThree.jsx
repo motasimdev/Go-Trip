@@ -5,7 +5,15 @@ import Badge from "./Badge";
 import { FaRegHeart } from "react-icons/fa";
 import Para from "./Para";
 
-const CardThree = ({ className, badgTxt, cardPic, placeTitle, city, time, type }) => {
+const CardThree = ({
+  className,
+  badgTxt,
+  cardPic,
+  placeTitle,
+  city,
+  time,
+  type,
+}) => {
   return (
     <div className={`group max-w-[300px] relative cursor-pointer ${className}`}>
       <Badge className={"absolute top-4 left-0 z-10"} bagText={badgTxt} />
@@ -21,11 +29,11 @@ const CardThree = ({ className, badgTxt, cardPic, placeTitle, city, time, type }
       </div>
 
       <div className="mt-2.5 flex flex-col gap-y-3">
-        <Flex>
+        {/* <Flex>
           <Para className={"text-textClr2!"}>{time}</Para>
           <div className="h-1 w-1 rounded-full mx-2 bg-textClr2"></div>
           <Para className={"text-textClr2!"}>{type}</Para>
-        </Flex>
+        </Flex> */}
         <h3 className="font-medium text-lg text-textClr1 leading-7.5">
           {placeTitle}
         </h3>
