@@ -1,10 +1,9 @@
 import React from "react";
 import Container from "../../Container";
 import Heading from "../../Heading";
-import insOne from "/src/assets/inpiration1.png";
+import insOne from "/src/assets/Des-topsight1.png";
 import { Link } from "react-router";
 import Para from "../../Para";
-
 
 const Des_topSights = () => {
   return (
@@ -22,14 +21,14 @@ const Des_topSights = () => {
               />
             </div>
             {/* ============================================ */}
-            <div className="lg:flex items-center">
+            <div className="lg:flex items-center justify-between">
               <div
-                className="md:flex items-center justify-between lg:w-[48%] pb-10 lg:pb-0"
+                className="md:flex items-center justify-between lg:w-[48%] pb-10 lg:pb-0 border border-[#dddddd]"
                 data-aos="fade-up"
                 data-aos-offset="130"
               >
                 <div className="md:w-[33%] lg:w-[30%]">
-                  <img src={insOne} alt="" className="w-full" />
+                  <img src={insOne} alt="" className="w-full h-full" />
                 </div>
                 <div className="text-center md:text-left pt-5 md:pt-0 md:w-[65%] md:pr-17">
                   {/* <p className="text-[15px] text-textClr2">April 06, 2022</p> */}
@@ -37,10 +36,14 @@ const Des_topSights = () => {
                     The British Museum
                   </h4>
                   <p className="text-[15px] text-textClr2">
-                   Learn about British history at the Tower of London, a medieval castle that was first built in 1066 by William the Conqueror.
+                    Learn about British history at the Tower of London, a
+                    medieval castle that was first built in 1066 by William the
+                    Conqueror.
                   </p>
                   <Link>
-                  <span className="text-textClr3 text-[12px] lg:text-sm border-b border-textClr3 font-medium">see more</span>
+                    <span className="text-textClr3 text-[12px] lg:text-sm hover:border-b border-b border-textClr3 font-medium">
+                      see more
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -50,7 +53,7 @@ const Des_topSights = () => {
               {/* ================================= */}
 
               <div
-                className="md:flex items-center justify-between lg:w-[48%]"
+                className="md:flex items-center justify-between lg:w-[48%] border border-[#dddddd]"
                 data-aos="fade-up"
                 data-aos-offset="130"
               >
@@ -63,10 +66,14 @@ const Des_topSights = () => {
                     London Eye
                   </h4>
                   <p className="text-[15px] text-textClr2">
-                   Learn about British history at the Tower of London, a medieval castle that was first built in 1066 by William the Conqueror.
+                    Learn about British history at the Tower of London, a
+                    medieval castle that was first built in 1066 by William the
+                    Conqueror.
                   </p>
                   <Link>
-                  <span className="text-textClr3 text-[12px] lg:text-sm border-b border-textClr3 font-medium">see more</span>
+                    <span className="text-textClr3 text-[12px] lg:text-sm hover:border-b border-b border-textClr3 font-medium">
+                      see more
+                    </span>
                   </Link>
                 </div>
               </div>
