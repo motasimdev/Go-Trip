@@ -11,6 +11,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { HiUserCircle } from "react-icons/hi";
+import Para15 from "../../Para15";
 
 const Des_lovelondon = () => {
   AOS.init();
@@ -22,8 +24,8 @@ const Des_lovelondon = () => {
     <>
       <section className="py-15 lg:py-[120px] px-3 lg:px-0 bg-[#F5F5F5]">
         <Container>
-          <Flex className="justify-between">
-            <div className="w-[48%]">
+          <div className="flex justify-between">
+            <div className="w-[48%] pr-30">
               <div className="mb-8 lg:mb-11" data-aos="fade-up">
                 <Heading
                   title={"Why people love London"}
@@ -79,23 +81,87 @@ const Des_lovelondon = () => {
                 }}
                 modules={[Pagination, Navigation]}
                 breakpoints={{
-                  1024: { slidesPerView: 4 },
-                  768: { slidesPerView: 2 },
+                  1024: { slidesPerView: 1 },
+                  768: { slidesPerView: 1 },
                   640: { slidesPerView: 1 },
                 }}
               >
                 <SwiperSlide>
-                  <div
-                    className="w-full flex justify-center"
-                    data-aos="fade-up"
-                    data-aos-offset="130"
-                  >
-                    <Flex></Flex>
+                  <div className="" data-aos="fade-up" data-aos-offset="130">
+                    <Flex className={"mb-6"}>
+                      <div className="cursor-pointer rounded-full ">
+                        <HiUserCircle className="text-6xl lg:text-[75px]" />
+                      </div>
+                      <div className="">
+                        <ParaBase
+                          text={"Annette Black"}
+                          className={"text-textClr1! font-medium"}
+                        />
+                        <Para15
+                          text={"UX / UI Designer"}
+                          className={"text-textClr2!"}
+                        />
+                      </div>
+                    </Flex>
+                    <p className="text-lg text-textClr1 font-medium">
+                      The place is in a great location in Gumbet. The area is
+                      safe and beautiful. The apartment was comfortable and the
+                      host was kind and responsive to our requests.
+                    </p>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="" data-aos="fade-up" data-aos-offset="130">
+                    <Flex className={"mb-6"}>
+                      <div className="cursor-pointer rounded-full ">
+                        <HiUserCircle className="text-6xl lg:text-[75px]" />
+                      </div>
+                      <div className="">
+                        <ParaBase
+                          text={"Annette Black"}
+                          className={"text-textClr1! font-medium"}
+                        />
+                        <Para15
+                          text={"UX / UI Designer"}
+                          className={"text-textClr2!"}
+                        />
+                      </div>
+                    </Flex>
+                    <p className="text-lg text-textClr1 font-medium">
+                      The place is in a great location in Gumbet. The area is
+                      safe and beautiful. The apartment was comfortable and the
+                      host was kind and responsive to our requests.
+                    </p>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="" data-aos="fade-up" data-aos-offset="130">
+                    <Flex className={"mb-6"}>
+                      <div className="cursor-pointer rounded-full ">
+                        <HiUserCircle className="text-6xl lg:text-[75px]" />
+                      </div>
+                      <div className="">
+                        <ParaBase
+                          text={"Annette Black"}
+                          className={"text-textClr1! font-medium"}
+                        />
+                        <Para15
+                          text={"UX / UI Designer"}
+                          className={"text-textClr2!"}
+                        />
+                      </div>
+                    </Flex>
+                    <p className="text-lg text-textClr1 font-medium">
+                      The place is in a great location in Gumbet. The area is
+                      safe and beautiful. The apartment was comfortable and the
+                      host was kind and responsive to our requests.
+                    </p>
                   </div>
                 </SwiperSlide>
               </Swiper>
+              <div className="custom-progressbar h-1 bg-gray-300 rounded-full relative  overflow-hidden z-10"></div>
             </div>
-          </Flex>
+          </div>
         </Container>
       </section>
     </>
