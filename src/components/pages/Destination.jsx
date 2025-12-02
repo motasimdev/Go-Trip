@@ -4,6 +4,7 @@ import Des_banner from "../layout/Des_banner";
 import Des_activity from "../layout/Des_activity";
 import Des_visiting from "../layout/Des_visiting";
 import Des_recommanded from "../layout/Des_recommanded";
+import Des_popular from "../layout/Destination/Des_popular";
 
 const Destination = () => {
   return (
@@ -17,6 +18,7 @@ const Destination = () => {
       <Des_activity/>
       <Des_visiting/>
       <Des_recommanded/>
+      <Des_popular/>
     </div>
   );
 };
