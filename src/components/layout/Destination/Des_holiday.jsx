@@ -32,7 +32,7 @@ const Des_holiday = () => {
             data-aos="fade-up"
           >
             <Heading
-              title={"Recommended Hotels"}
+              title={"Featured Holiday Rentals"}
               subTitle={"Interdum et malesuada fames ac ante ipsum"}
             />
           </div>

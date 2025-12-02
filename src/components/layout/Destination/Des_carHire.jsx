@@ -32,7 +32,7 @@ const Des_carHire = () => {
               data-aos="fade-up"
             >
               <Heading
-                title={"Recommended Hotels"}
+                title={"Popular Car Hire"}
                 subTitle={"Interdum et malesuada fames ac ante ipsum"}
               />
             </div>

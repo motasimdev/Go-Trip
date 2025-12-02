@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../../Container";
+import Heading from "../../Heading";
 
 const Des_tips = () => {
   return (
@@ -12,10 +13,11 @@ const Des_tips = () => {
               data-aos="fade-up"
             >
               <Heading
-                title={"Recommended Hotels"}
+                title={"Travel guides & tips for London"}
                 subTitle={"Interdum et malesuada fames ac ante ipsum"}
               />
             </div>
+            
           </div>
         </Container>
       </section>
