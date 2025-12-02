@@ -10,9 +10,10 @@ const CardThree = ({
   badgTxt,
   cardPic,
   placeTitle,
+  city2,
   city,
   time,
-  type,
+  subTitle
 }) => {
   return (
     <div className={`group max-w-[300px] relative cursor-pointer ${className}`}>
@@ -29,15 +30,16 @@ const CardThree = ({
       </div>
 
       <div className="mt-2.5 flex flex-col gap-y-3">
+        <Para className={"text-textClr2!"}>{city}</Para>
         {/* <Flex>
-          <Para className={"text-textClr2!"}>{time}</Para>
           <div className="h-1 w-1 rounded-full mx-2 bg-textClr2"></div>
           <Para className={"text-textClr2!"}>{type}</Para>
-        </Flex> */}
+          </Flex> */}
         <h3 className="font-medium text-lg text-textClr1 leading-7.5">
           {placeTitle}
         </h3>
-        <h5 className="text-sm text-textClr2">{city} </h5>
+        {/* <h5 className="text-sm text-textClr2">{city2} </h5> */}
+        <Para className={"text-textClr2!"}>{subTitle}</Para>
 
         <Flex>
           <div className="">

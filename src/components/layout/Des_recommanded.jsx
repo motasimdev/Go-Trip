@@ -71,7 +71,7 @@ const Des_recommanded = () => {
                         cardPic={desPicOne}
                         badgTxt={"Breakfast included"}
                         placeTitle={"The Montcalm At Brewery London City"}
-                        city={"Westminster Borough, London"}
+                        subTitle={"Westminster Borough, London"}
                       />
                     </Link>
                   </div>
@@ -90,7 +90,7 @@ const Des_recommanded = () => {
                         placeTitle={
                           "Staycity Aparthotels Deptford Bridge Station"
                         }
-                        city={"Ciutat Vella, Barcelona"}
+                        subTitle={"Ciutat Vella, Barcelona"}
                       />
                     </Link>
                   </div>
@@ -107,7 +107,7 @@ const Des_recommanded = () => {
                         cardPic={desPicThree}
                         badgTxt={"Best Seller"}
                         placeTitle={"The Westin New York at Times Square"}
-                        city={"Manhattan, New York"}
+                        subTitle={"Manhattan, New York"}
                       />
                     </Link>
                   </div>
@@ -126,7 +126,7 @@ const Des_recommanded = () => {
                         placeTitle={
                           "DoubleTree by Hilton Hotel New York Times Square West"
                         }
-                        city={"Vaticano Prati, Rome"}
+                        subTitle={"Vaticano Prati, Rome"}
                       />
                     </Link>
                   </div>
@@ -145,7 +145,7 @@ const Des_recommanded = () => {
                         placeTitle={
                           "DoubleTree by Hilton Hotel New York Times Square West"
                         }
-                        city={"Vaticano Prati, Rome"}
+                        subTitle={"Vaticano Prati, Rome"}
                       />
                     </Link>
                   </div>
