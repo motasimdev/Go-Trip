@@ -1,10 +1,13 @@
 import React from "react";
 import Container from "../../Container";
+import Heading from "../../Heading";
+import insOne from "/src/assets/inpiration1.png";
+
 
 const Des_topSights = () => {
   return (
     <>
-      <section className="">
+      <section className="py-7.5 lg:py-20 px-3 lg:px-0">
         <Container>
           <div className="">
             <div
@@ -12,9 +15,54 @@ const Des_topSights = () => {
               data-aos="fade-up"
             >
               <Heading
-                title={"Travel guides & tips for London"}
+                title={"Top sights in London"}
                 subTitle={"Interdum et malesuada fames ac ante ipsum"}
               />
+            </div>
+            <div className="lg:flex items-center">
+              <div
+                className="md:flex items-center justify-between lg:w-[48%] pb-10 lg:pb-0"
+                data-aos="fade-up"
+                data-aos-offset="130"
+              >
+                <div className="md:w-[33%] lg:w-[30%]">
+                  <img src={insOne} alt="" className="w-full" />
+                </div>
+                <div className="text-center md:text-left pt-5 md:pt-0 md:w-[65%] md:pr-17">
+                  <p className="text-[15px] text-textClr2">April 06, 2022</p>
+                  <h4 className="text-[22px] text-textClr1 font-semibold">
+                    10 European ski destinations you should visit this winter
+                  </h4>
+                  <p className="text-[15px] text-textClr2">
+                    Ut enim ad minim veniam, quis nostrud exerc ullamco laboris
+                    nisi ut aliquip.
+                  </p>
+                </div>
+              </div>
+
+              {/*  */}
+
+              {/* ================================= */}
+
+              <div
+                className="md:flex items-center justify-between lg:w-[48%]"
+                data-aos="fade-up"
+                data-aos-offset="130"
+              >
+                <div className="md:w-[33%] lg:w-[30%]">
+                  <img src={insOne} alt="" className="w-full" />
+                </div>
+                <div className="text-center md:text-left pt-5 md:pt-0 md:w-[65%] md:pr-17">
+                  <p className="text-[15px] text-textClr2">April 06, 2022</p>
+                  <h4 className="text-[22px] text-textClr1 font-semibold">
+                    10 European ski destinations you should visit this winter
+                  </h4>
+                  <p className="text-[15px] text-textClr2">
+                    Ut enim ad minim veniam, quis nostrud exerc ullamco laboris
+                    nisi ut aliquip.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </Container>
