@@ -9,27 +9,29 @@ import { Link } from "react-router";
 const Con_info = () => {
   return (
     <>
-      <section className="pt-20">
+      <section className="pt-1 md:pt-16 lg:pt-20 px-3 lg:px-0">
         <Container>
           <div className="pt-15">
-            <h3 className="text-3xl text-textClr1 font-semibold">Contact Us</h3>
-            <div className="grid grid-cols-4 mt-6">
+            <h3 className="text-2xl lg:text-3xl text-textClr1 font-semibold text-center md:text-left">
+              Contact Us
+            </h3>
+            <div className="grid grid-cols-2 gap-y-5 md:gap-y-0 lg:grid-cols-4 w-full gap-x-2 mt-6">
               <div className="">
                 <ParaBase
                   text={"Address"}
                   className={"text-textClr2! font-normal"}
                 />
-                <p className="text-lg text-textClr1 font-medium pt-1">
+                <p className="text-sm lg:text-lg text-textClr1 font-medium pt-1">
                   328 Queensberry Street, <br /> North Melbourne VIC 3051,{" "}
                   <br /> Australia.
                 </p>
               </div>
-              <div className="">
+              <div className="justify-self-end lg:justify-self-auto">
                 <ParaBase
                   text={"Toll Free Customer Care"}
                   className={"text-textClr2! font-normal"}
                 />
-                <p className="text-lg text-textClr1 font-medium pt-1">
+                <p className="text-sm lg:text-lg text-textClr1 font-medium pt-1">
                   +(1) 123 456 7890
                 </p>
               </div>
@@ -38,11 +40,11 @@ const Con_info = () => {
                   text={"Need live support?"}
                   className={"text-textClr2! font-normal"}
                 />
-                <p className="text-lg text-textClr1 font-medium pt-1">
+                <p className="text-sm lg:text-lg text-textClr1 font-medium pt-1">
                   hi@gotrip.com
                 </p>
               </div>
-              <div className="">
+              <div className="justify-self-end lg:justify-self-auto">
                 <ParaBase
                   text={"Follow us on social media"}
                   className={"text-textClr2! font-normal"}
