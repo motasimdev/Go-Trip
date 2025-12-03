@@ -1,5 +1,6 @@
 import React from "react";
 import Breadcrumb from "../Breadcrumb";
+import Con_banner from "../layout/contact/Con_banner";
 
 const Contact = () => {
   return (
@@ -9,7 +10,7 @@ const Contact = () => {
         pageTwo={"United Kingdom (UK)"}
         pageThree={"London"}
       />
-      
+      <Con_banner/>
     </>
   );
 };
