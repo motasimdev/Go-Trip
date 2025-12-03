@@ -1,6 +1,7 @@
 import React from "react";
 import Breadcrumb from "../Breadcrumb";
 import Con_banner from "../layout/contact/Con_banner";
+import Con_info from "../layout/contact/Con_info";
 
 const Contact = () => {
   return (
@@ -11,6 +12,7 @@ const Contact = () => {
         pageThree={"London"}
       />
       <Con_banner/>
+      <Con_info/>
     </>
   );
 };

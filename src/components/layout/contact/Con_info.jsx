@@ -1,14 +1,19 @@
 import Container from "@/components/Container";
+import Flex from "@/components/Flex";
+import ParaBase from "@/components/ParaBase";
 import React from "react";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { IoLogoTwitter } from "react-icons/io";
+import { Link } from "react-router";
 
 const Con_info = () => {
   return (
     <>
-      <section className="">
+      <section className="pt-20">
         <Container>
           <div className="pt-15">
             <h3 className="text-3xl text-textClr1 font-semibold">Contact Us</h3>
-            <div className="grid grid-cols-4">
+            <div className="grid grid-cols-4 mt-6">
               <div className="">
                 <ParaBase
                   text={"Address"}
@@ -45,23 +50,23 @@ const Con_info = () => {
                 {/* ====================icons================ */}
                 <Flex className={"gap-x-1 "}>
                   <Link>
-                    <div className="py-2 px-2 lg:py-4 lg:px-4 rounded-full hover:bg-[#ffffff5a] transition-colors duration-300">
-                      <FaFacebookF className="text-white" />
+                    <div className="py-2 px-2 lg:py-4 lg:px-4 rounded-full hover:bg-[#75747431] transition-colors duration-300">
+                      <FaFacebookF className="text-textClr1" />
                     </div>
                   </Link>
                   <Link>
-                    <div className="py-2 px-2 lg:py-4 lg:px-4 rounded-full hover:bg-[#ffffff5a] transition-colors duration-300">
-                      <IoLogoTwitter className="text-white" />
+                    <div className="py-2 px-2 lg:py-4 lg:px-4 rounded-full hover:bg-[#75747431] transition-colors duration-300">
+                      <IoLogoTwitter className="text-textClr1" />
                     </div>
                   </Link>
                   <Link>
-                    <div className="py-2 px-2 lg:py-4 lg:px-4 rounded-full hover:bg-[#ffffff5a] transition-colors duration-300">
-                      <FaInstagram className="text-white" />
+                    <div className="py-2 px-2 lg:py-4 lg:px-4 rounded-full hover:bg-[#75747431] transition-colors duration-300">
+                      <FaInstagram className="text-textClr1" />
                     </div>
                   </Link>
                   <Link>
-                    <div className="py-2 px-2 lg:py-4 lg:px-4 rounded-full hover:bg-[#ffffff5a] transition-colors duration-300">
-                      <FaLinkedinIn className="text-white" />
+                    <div className="py-2 px-2 lg:py-4 lg:px-4 rounded-full hover:bg-[#75747431] transition-colors duration-300">
+                      <FaLinkedinIn className="text-textClr1" />
                     </div>
                   </Link>
                 </Flex>
