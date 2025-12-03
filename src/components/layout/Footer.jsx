@@ -17,7 +17,7 @@ import { BiDollar } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <footer className={"bg-[#0D2857] pt-7 lg:pt-10 px-3 lg:px-0 mt-[100px]"}>
+    <footer className={"bg-[#0D2857] pt-7 lg:pt-10 px-3 lg:px-0"}>
       <Container>
         <div
           className={

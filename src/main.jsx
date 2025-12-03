@@ -9,6 +9,7 @@ import Categories from "./components/pages/Categories";
 import Blog from "./components/pages/Blog";
 import Pages from "./components/pages/Pages";
 import Contact from "./components/pages/Contact";
+import Error from "./components/pages/Error";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: "blog", Component: Blog },
       { path: "pages", Component: Pages },
       { path: "contact", Component: Contact },
+      { path: "*", Component: Error },
     ],
   },
 ]);

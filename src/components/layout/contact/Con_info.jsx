@@ -9,7 +9,7 @@ import { Link } from "react-router";
 const Con_info = () => {
   return (
     <>
-      <section className="pt-1 md:pt-16 lg:pt-20 px-3 lg:px-0">
+      <section className="pt-1 md:py-16 lg:py-20 px-3 lg:px-0">
         <Container>
           <div className="pt-15">
             <h3 className="text-2xl lg:text-3xl text-textClr1 font-semibold text-center md:text-left">
