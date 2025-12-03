@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const Blog = () => {
   return (
-    <div>Blog</div>
-  )
-}
+    <>
+      <Breadcrumb
+        pageOne={"Europe"}
+        pageTwo={"United Kingdom (UK)"}
+        pageThree={"London"}
+      />
+    </>
+  );
+};
 
-export default Blog
+export default Blog;
