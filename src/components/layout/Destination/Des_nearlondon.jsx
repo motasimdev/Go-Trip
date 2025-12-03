@@ -67,7 +67,7 @@ const Des_nearlondon = () => {
                       data-aos="fade-up"
                       data-aos-offset="130"
                     >
-                      <div className="h-80 overflow-hidden ">
+                      <div className="h-[200px]  overflow-hidden ">
                         <img
                           src={cardOne}
                           alt=""
@@ -95,7 +95,7 @@ const Des_nearlondon = () => {
                       data-aos="fade-up"
                       data-aos-offset="130"
                     >
-                      <div className="h-80 overflow-hidden ">
+                      <div className="h-[200px] overflow-hidden ">
                         <img
                           src={cardOne}
                           alt=""
@@ -123,7 +123,7 @@ const Des_nearlondon = () => {
                       data-aos="fade-up"
                       data-aos-offset="130"
                     >
-                      <div className="h-80 overflow-hidden ">
+                      <div className="h-[200px] overflow-hidden ">
                         <img
                           src={cardOne}
                           alt=""
@@ -151,7 +151,7 @@ const Des_nearlondon = () => {
                       data-aos="fade-up"
                       data-aos-offset="130"
                     >
-                      <div className="h-80 overflow-hidden ">
+                      <div className="h-[200px] overflow-hidden ">
                         <img
                           src={cardOne}
                           alt=""
@@ -179,7 +179,7 @@ const Des_nearlondon = () => {
                       data-aos="fade-up"
                       data-aos-offset="130"
                     >
-                      <div className="h-80 overflow-hidden ">
+                      <div className="h-[200px] overflow-hidden ">
                         <img
                           src={cardOne}
                           alt=""
@@ -207,7 +207,7 @@ const Des_nearlondon = () => {
                       data-aos="fade-up"
                       data-aos-offset="130"
                     >
-                      <div className="h-80 overflow-hidden ">
+                      <div className="h-[200px] overflow-hidden ">
                         <img
                           src={cardOne}
                           alt=""
@@ -235,7 +235,7 @@ const Des_nearlondon = () => {
                       data-aos="fade-up"
                       data-aos-offset="130"
                     >
-                      <div className="h-80 overflow-hidden ">
+                      <div className="h-[200px] overflow-hidden ">
                         <img
                           src={cardOne}
                           alt=""
@@ -263,7 +263,7 @@ const Des_nearlondon = () => {
                       data-aos="fade-up"
                       data-aos-offset="130"
                     >
-                      <div className="h-80 overflow-hidden ">
+                      <div className="h-[200px] overflow-hidden ">
                         <img
                           src={cardOne}
                           alt=""
