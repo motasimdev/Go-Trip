@@ -9,7 +9,7 @@ const Contact = () => {
     <>
       <Breadcrumb
         pageOne={"Europe"}
-        pageTwo={"United Kingdom (UK)"}
+        pageTwo={"United Kingdom"}
         pageThree={"London"}
       />
       <Con_banner/>

@@ -19,7 +19,7 @@ const Destination = () => {
     <div>
       <Breadcrumb
         pageOne={"Europe"}
-        pageTwo={"United Kingdom (UK)"}
+        pageTwo={"United Kingdom"}
         pageThree={"London"}
       />
       <Des_banner/>
