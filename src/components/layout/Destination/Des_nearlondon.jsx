@@ -112,7 +112,7 @@ const Des_nearlondon = () => {
                     </div>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide>  
                   <div
                     className="w-full flex justify-center"
                     data-aos="fade-up"
