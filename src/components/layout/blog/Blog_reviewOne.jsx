@@ -53,7 +53,7 @@ const Blog_reviewOne = () => {
               </ul>
             </div>
             {/* ================= */}
-            <div className="flex">
+            <div className="flex pl-5 border-l-5 border-textClr3 pb-6 pt-3">
               <div className="">
                 <svg
                   width="37"
@@ -73,6 +73,28 @@ const Blog_reviewOne = () => {
                 Diam phasellus vestibulum lorem sed risus ultricies. Magna sit
                 amet purus gravida quis blandit. Arcu cursus vitae congue
                 mauris.“
+              </p>
+            </div>
+            <div className="">
+              <p>
+                Donec purus posuere nullam lacus aliquam egestas arcu. A egestas
+                a, tellus massa, ornare vulputate. Erat enim eget laoreet
+                ullamcorper lectus aliquet nullam tempus id. Dignissim convallis
+                quam aliquam rhoncus, lectus nullam viverra. Bibendum dignissim
+                tortor, phasellus pellentesque commodo, turpis vel eu. Donec
+                consectetur ipsum nibh lobortis elementum mus velit tincidunt
+                elementum. Ridiculus eu convallis eu mattis iaculis et, in
+                dolor. Sem libero, tortor suspendisse et, purus euismod posuere
+                sit. Risus dui ut viverra venenatis ipsum tincidunt non, proin.
+                Euismod pharetra sit ac nisi. Erat lacus, amet quisque urna
+                faucibus. Rhoncus praesent faucibus rhoncus nec adipiscing
+                tristique sed facilisis velit. 
+                <div className="py-4.5"></div>
+                Neque nulla porta ut urna rutrum.
+                Aliquam cursus arcu tincidunt mus dictum sit euismod cum id.
+                Dictum integer ultricies arcu fermentum fermentum sem
+                consectetur. Consectetur eleifend aenean eu neque euismod amet
+                parturient turpis vitae. Faucibus ipsum felis et duis fames.
               </p>
             </div>
           </div>
