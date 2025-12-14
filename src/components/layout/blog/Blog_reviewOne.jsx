@@ -18,38 +18,40 @@ const Blog_reviewOne = () => {
               className={"text-textClr1"}
             />
             {/* ======================= */}
-            <ul className="list-disc">
-              <li className="">
-                <Para15
-                  text={
-                    "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida."
-                  }
-                  className={"text-textClr1"}
-                />
-              </li>
-              <li className="">
-                <Para15
-                  text={
-                    "At urna condimentum mattis pellentesque id nibh. Laoreet non curabitur"
-                  }
-                  className={"text-textClr1"}
-                />
-              </li>
-              <li className="">
-                <Para15
-                  text={"Magna etiam tempor orci eu lobortis elementum."}
-                  className={"text-textClr1"}
-                />
-              </li>
-              <li className="">
-                <Para15
-                  text={
-                    "Bibendum est ultricies integer quis. Semper eget duis at tellus."
-                  }
-                  className={"text-textClr1"}
-                />
-              </li>
-            </ul>
+            <div className="pl-4">
+              <ul className="list-disc">
+                <li className="">
+                  <Para15
+                    text={
+                      "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida."
+                    }
+                    className={"text-textClr1"}
+                  />
+                </li>
+                <li className="">
+                  <Para15
+                    text={
+                      "At urna condimentum mattis pellentesque id nibh. Laoreet non curabitur"
+                    }
+                    className={"text-textClr1"}
+                  />
+                </li>
+                <li className="">
+                  <Para15
+                    text={"Magna etiam tempor orci eu lobortis elementum."}
+                    className={"text-textClr1"}
+                  />
+                </li>
+                <li className="">
+                  <Para15
+                    text={
+                      "Bibendum est ultricies integer quis. Semper eget duis at tellus."
+                    }
+                    className={"text-textClr1"}
+                  />
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
