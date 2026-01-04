@@ -2,6 +2,7 @@ import React from "react";
 import Breadcrumb from "../Breadcrumb";
 import Blog_banner from "../layout/blog/Blog_banner";
 import Blog_reviewOne from "../layout/blog/Blog_reviewOne";
+import Blog_share from "../layout/blog/Blog_share";
 
 const Blog = () => {
   return (
@@ -13,6 +14,7 @@ const Blog = () => {
       />
       <Blog_banner/>
       <Blog_reviewOne/>
+      <Blog_share/>
     </>
   );
 };
