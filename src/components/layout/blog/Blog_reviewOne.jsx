@@ -101,7 +101,7 @@ const Blog_reviewOne = () => {
             </div>
             <Flex>
               <div className="">
-                <img src={blogImg1} alt="" />
+                <img src={blogImg1} alt="blog image" />
               </div>
             </Flex>
           </div>
