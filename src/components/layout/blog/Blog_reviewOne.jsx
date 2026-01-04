@@ -1,5 +1,7 @@
+import Flex from "@/components/Flex";
 import Para15 from "@/components/Para15";
 import React from "react";
+import blogImg1 from "/src/assets/blog/bodyOne.png"
 
 const Blog_reviewOne = () => {
   return (
@@ -97,6 +99,11 @@ const Blog_reviewOne = () => {
                 parturient turpis vitae. Faucibus ipsum felis et duis fames.
               </p>
             </div>
+            <Flex>
+              <div className="">
+                <img src={blogImg1} alt="" />
+              </div>
+            </Flex>
           </div>
         </div>
       </section>
