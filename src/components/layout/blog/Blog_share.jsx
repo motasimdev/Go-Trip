@@ -49,7 +49,7 @@ const Blog_share = () => {
               </button>
               <button className="group py-1.5 px-5 bg-[#3554d10c] rounded-full cursor-pointer hover:bg-textClr3 transition-colors duration-200">
                 <Para15
-                  text={"Museum"}
+                  text={"Park"}
                   className={
                     "text-textClr3 font-medium group-hover:text-white transition-colors duration-200"
                   }
@@ -57,7 +57,7 @@ const Blog_share = () => {
               </button>
               <button className="group py-1.5 px-5 bg-[#3554d10c] rounded-full cursor-pointer hover:bg-textClr3 transition-colors duration-200">
                 <Para15
-                  text={"Museum"}
+                  text={"Beach"}
                   className={
                     "text-textClr3 font-medium group-hover:text-white transition-colors duration-200"
                   }
