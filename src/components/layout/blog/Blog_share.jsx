@@ -11,8 +11,8 @@ const Blog_share = () => {
     <>
       <section className="py-2 lg:pt-6 px-3 lg:px-0">
         <div className="max-w-[850px] m-auto">
-          <Flex className={"justify-between"}>
-            <Flex className={"gap-4"}>
+          <div className={"md:flex justify-between "}>
+            <Flex className={"gap-4 justify-center md:justify-normal"}>
               <ParaBase text={"Share"} className={"text-black!"} />
               <Flex className={"gap-x-1 "}>
                 <Link>
@@ -38,7 +38,7 @@ const Blog_share = () => {
               </Flex>
             </Flex>
             {/* =============== */}
-            <Flex className="">
+            <Flex className="gap-5 mt-5 justify-center md:justify-normal">
               <button className="group py-1.5 px-5 bg-[#3554d10c] rounded-full cursor-pointer hover:bg-textClr3 transition-colors duration-200">
                 <Para15
                   text={"Museum"}
@@ -64,7 +64,7 @@ const Blog_share = () => {
                 />
               </button>
             </Flex>
-          </Flex>
+          </div>
         </div>
       </section>
     </>
