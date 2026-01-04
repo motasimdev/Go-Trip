@@ -1,7 +1,8 @@
 import Flex from "@/components/Flex";
 import Para15 from "@/components/Para15";
 import React from "react";
-import blogImg1 from "/src/assets/blog/bodyOne.png"
+import blogImg1 from "/src/assets/blog/bodyOne.png";
+import blogImg2 from "/src/assets/blog/bodyTwo.png";
 
 const Blog_reviewOne = () => {
   return (
@@ -90,18 +91,23 @@ const Blog_reviewOne = () => {
                 sit. Risus dui ut viverra venenatis ipsum tincidunt non, proin.
                 Euismod pharetra sit ac nisi. Erat lacus, amet quisque urna
                 faucibus. Rhoncus praesent faucibus rhoncus nec adipiscing
-                tristique sed facilisis velit. 
+                tristique sed facilisis velit.
                 <div className="py-4.5"></div>
-                Neque nulla porta ut urna rutrum.
-                Aliquam cursus arcu tincidunt mus dictum sit euismod cum id.
-                Dictum integer ultricies arcu fermentum fermentum sem
-                consectetur. Consectetur eleifend aenean eu neque euismod amet
-                parturient turpis vitae. Faucibus ipsum felis et duis fames.
+                Neque nulla porta ut urna rutrum. Aliquam cursus arcu tincidunt
+                mus dictum sit euismod cum id. Dictum integer ultricies arcu
+                fermentum fermentum sem consectetur. Consectetur eleifend aenean
+                eu neque euismod amet parturient turpis vitae. Faucibus ipsum
+                felis et duis fames.
               </p>
             </div>
-            <Flex>
+            <Flex className={"justify-between"}>
               <div className="">
                 <img src={blogImg1} alt="blog image" />
+                <Para15 text={"Donec purus posuere nullam lacus aliquam."} />
+              </div>
+              <div className="">
+                <img src={blogImg2} alt="blog image" />
+                <Para15 text={"Donec purus posuere nullam lacus aliquam."} />
               </div>
             </Flex>
           </div>
