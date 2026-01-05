@@ -28,7 +28,7 @@ const Blog_testimonial = () => {
                   "Etiam vitae leo et diam pellentesque porta. Sed eleifend ultricies risus, vel rutrum erat commodo ut. Praesent finibus congue euismod. Nullam scelerisque massa vel augue placerat, a tempor sem egestas. Curabitur placerat finibus lacus."
                 }
                 className={
-                  "text-textClr1! max-w-[670px] line-clamp-3 lg:line-clamp-none text-justify"
+                  "pt-3 lg:pt-5 text-textClr1! max-w-[670px] line-clamp-3 lg:line-clamp-none text-justify"
                 }
               />
             </div>
@@ -36,11 +36,11 @@ const Blog_testimonial = () => {
           <Flex className="justify-between border-b py-4 lg:py-7">
             <Link>
               <div className="flex gap-x-5">
-                <FaArrowLeftLong className="mt-1" />
+                <FaArrowLeftLong className="mt-1 hover:text-textClr3 transition-all duration-200" />
                 <div className="max-w-[184px]">
                   <ParaBase
                     text={"Prev"}
-                    className={"text-lg! text-textClr1! pb-1"}
+                    className={"text-lg! text-textClr1! pb-1 "}
                   />
                   <Para15
                     text={"5 awesome steps to get rid of stress and routine"}
@@ -49,22 +49,28 @@ const Blog_testimonial = () => {
                 </div>
               </div>
             </Link>
+
+            {/* ==================== */}
+
             <div className="">
                 <BsGrid3X3GapFill  className="text-2xl"/>
             </div>
+
+            {/* ===================== */}
+
             <Link>
               <div className="flex gap-x-5">
                 <div className="max-w-[184px] text-end">
                   <ParaBase
                     text={"Next"}
-                    className={"text-lg! text-textClr1! pb-1"}
+                    className={"text-lg! text-textClr1! pb-1 "}
                   />
                   <Para15
                     text={"Happy clients leave positive feedback less often"}
                     className={"text-textClr1!"}
                   />
                 </div>
-                <FaArrowRightLong className="mt-1" />
+                <FaArrowRightLong className="mt-1 hover:text-textClr3 transition-all duration-200" />
               </div>
             </Link>
           </Flex>
