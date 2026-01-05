@@ -33,8 +33,8 @@ const Blog_testimonial = () => {
           </div>
           <div className="flex justify-between border-b py-4 lg:py-7">
             <div className="flex">
-              <FaArrowLeftLong />
-              <div className="">
+              <FaArrowLeftLong className="mt-1"/>
+              <div className="max-w-[184px]">
                 <ParaBase text={"Prev"} className={"text-lg! text-textClr1!"} />
                 <Para15
                   text={"5 awesome steps to get rid of stress and routine"}
@@ -43,15 +43,14 @@ const Blog_testimonial = () => {
               </div>
             </div>
             <div className="flex">
-              <FaArrowRightLong />
-                
-              <div className="">
+              <div className="max-w-[184px]">
                 <ParaBase text={"Next"} className={"text-lg! text-textClr1!"} />
                 <Para15
                   text={"Happy clients leave positive feedback less often"}
                   className={"text-textClr1!"}
                 />
               </div>
+              <FaArrowRightLong className="mt-1"/>
             </div>
           </div>
         </div>
