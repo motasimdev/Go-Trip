@@ -48,19 +48,21 @@ const Blog_testimonial = () => {
                 </div>
               </div>
             </Link>
-            <div className="flex gap-x-5">
-              <div className="max-w-[184px] text-end">
-                <ParaBase
-                  text={"Next"}
-                  className={"text-lg! text-textClr1! pb-1"}
-                />
-                <Para15
-                  text={"Happy clients leave positive feedback less often"}
-                  className={"text-textClr1!"}
-                />
+            <Link>
+              <div className="flex gap-x-5">
+                <div className="max-w-[184px] text-end">
+                  <ParaBase
+                    text={"Next"}
+                    className={"text-lg! text-textClr1! pb-1"}
+                  />
+                  <Para15
+                    text={"Happy clients leave positive feedback less often"}
+                    className={"text-textClr1!"}
+                  />
+                </div>
+                <FaArrowRightLong className="mt-1" />
               </div>
-              <FaArrowRightLong className="mt-1" />
-            </div>
+            </Link>
           </div>
         </div>
       </section>
