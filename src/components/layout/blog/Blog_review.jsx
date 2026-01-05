@@ -8,7 +8,7 @@ import reviwPicOne from "/src/assets/blog/mini.png";
 import reviwPicTwo from "/src/assets/blog/miniTwo.png";
 import reviwPicThree from "/src/assets/blog/miniThree.png";
 import reviwPicFour from "/src/assets/blog/miniFour.png";
-import { AiFillLike } from "react-icons/ai";
+import { AiFillDislike, AiFillLike } from "react-icons/ai";
 import { Link } from "react-router";
 
 const Blog_review = () => {
@@ -53,21 +53,22 @@ const Blog_review = () => {
               <img src={reviwPicFour} alt="" className="w-full rounded-md" />
             </div>
           </Flex>
+          
+          {/* ========================= */}
+          
           <Flex>
-            <Flex>
-              <Link>
+            <Link>
+              <Flex>
                 <AiFillLike className="text-textClr2" />
                 <Para15 text={"Helpful "} className={"text-textClr2!"} />
-              </Link>
-            </Flex>
-            <Flex>
-              <Link>
-
-              
-                <AiFillLike className="text-textClr2" />
-                <Para15 text={"Helpful "} className={"text-textClr2!"} />
-              </Link>
-            </Flex>
+              </Flex>
+            </Link>
+            <Link>
+              <Flex>
+                <AiFillDislike className="text-textClr2" />
+                <Para15 text={"Not helpful "} className={"text-textClr2!"} />
+              </Flex>
+            </Link>
           </Flex>
         </div>
       </section>
