@@ -84,6 +84,198 @@ const Blog_review = () => {
                 </Link>
               </Flex>
             </div>
+            <div className="">
+              <Flex className="gap-x-3">
+                <div className="w-10 lg:h-[70px] h-10 lg:w-[70px] overflow-hidden">
+                  <img src={user} alt="user" className="w-full" />
+                </div>
+                <div className="">
+                  <ParaBase text={"Tonko"} className={"text-textClr1!"} />
+                  <Para text={"March 2022"} className={"text-textClr2!"} />
+                </div>
+              </Flex>
+
+              <ParaBase
+                text={"9.2 Superb"}
+                className={"text-textClr3! py-3 lg:py-5"}
+              />
+              <Para15
+                text={
+                  "Nice two level apartment in great London location. Located in quiet small street, but just 50 meters from main street and bus stop. Tube station is short walk, just like two grocery stores. "
+                }
+                className={"text-textClr1"}
+              />
+              <Flex className={"gap-x-3 lg:gap-x-5 py-3 lg:py-6"}>
+                <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
+                  <img src={reviwPicOne} alt="" className="w-full rounded-md" />
+                </div>
+                <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
+                  <img src={reviwPicTwo} alt="" className="w-full rounded-md" />
+                </div>
+                <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
+                  <img
+                    src={reviwPicThree}
+                    alt=""
+                    className="w-full rounded-md"
+                  />
+                </div>
+                <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
+                  <img
+                    src={reviwPicFour}
+                    alt=""
+                    className="w-full rounded-md"
+                  />
+                </div>
+              </Flex>
+
+              {/* ========================= */}
+
+              <Flex className={"gap-x-7"}>
+                <Link>
+                  <Flex className={'gap-x-2 lg:gap-x-3'}>
+                    <AiFillLike className="text-textClr2" />
+                    <Para15 text={"Helpful "} className={"text-textClr2!"} />
+                  </Flex>
+                </Link>
+                <Link>
+                  <Flex className={'gap-x-2 lg:gap-x-3'}>
+                    <AiFillDislike className="text-textClr2" />
+                    <Para15
+                      text={"Not helpful "}
+                      className={"text-textClr2!"}
+                    />
+                  </Flex>
+                </Link>
+              </Flex>
+            </div>
+            <div className="">
+              <Flex className="gap-x-3">
+                <div className="w-10 lg:h-[70px] h-10 lg:w-[70px] overflow-hidden">
+                  <img src={user} alt="user" className="w-full" />
+                </div>
+                <div className="">
+                  <ParaBase text={"Tonko"} className={"text-textClr1!"} />
+                  <Para text={"March 2022"} className={"text-textClr2!"} />
+                </div>
+              </Flex>
+
+              <ParaBase
+                text={"9.2 Superb"}
+                className={"text-textClr3! py-3 lg:py-5"}
+              />
+              <Para15
+                text={
+                  "Nice two level apartment in great London location. Located in quiet small street, but just 50 meters from main street and bus stop. Tube station is short walk, just like two grocery stores. "
+                }
+                className={"text-textClr1"}
+              />
+              <Flex className={"gap-x-3 lg:gap-x-5 py-3 lg:py-6"}>
+                <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
+                  <img src={reviwPicOne} alt="" className="w-full rounded-md" />
+                </div>
+                <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
+                  <img src={reviwPicTwo} alt="" className="w-full rounded-md" />
+                </div>
+                <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
+                  <img
+                    src={reviwPicThree}
+                    alt=""
+                    className="w-full rounded-md"
+                  />
+                </div>
+                <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
+                  <img
+                    src={reviwPicFour}
+                    alt=""
+                    className="w-full rounded-md"
+                  />
+                </div>
+              </Flex>
+
+              {/* ========================= */}
+
+              <Flex className={"gap-x-7"}>
+                <Link>
+                  <Flex className={'gap-x-2 lg:gap-x-3'}>
+                    <AiFillLike className="text-textClr2" />
+                    <Para15 text={"Helpful "} className={"text-textClr2!"} />
+                  </Flex>
+                </Link>
+                <Link>
+                  <Flex className={'gap-x-2 lg:gap-x-3'}>
+                    <AiFillDislike className="text-textClr2" />
+                    <Para15
+                      text={"Not helpful "}
+                      className={"text-textClr2!"}
+                    />
+                  </Flex>
+                </Link>
+              </Flex>
+            </div>
+            <div className="">
+              <Flex className="gap-x-3">
+                <div className="w-10 lg:h-[70px] h-10 lg:w-[70px] overflow-hidden">
+                  <img src={user} alt="user" className="w-full" />
+                </div>
+                <div className="">
+                  <ParaBase text={"Tonko"} className={"text-textClr1!"} />
+                  <Para text={"March 2022"} className={"text-textClr2!"} />
+                </div>
+              </Flex>
+
+              <ParaBase
+                text={"9.2 Superb"}
+                className={"text-textClr3! py-3 lg:py-5"}
+              />
+              <Para15
+                text={
+                  "Nice two level apartment in great London location. Located in quiet small street, but just 50 meters from main street and bus stop. Tube station is short walk, just like two grocery stores. "
+                }
+                className={"text-textClr1"}
+              />
+              <Flex className={"gap-x-3 lg:gap-x-5 py-3 lg:py-6"}>
+                <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
+                  <img src={reviwPicOne} alt="" className="w-full rounded-md" />
+                </div>
+                <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
+                  <img src={reviwPicTwo} alt="" className="w-full rounded-md" />
+                </div>
+                <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
+                  <img
+                    src={reviwPicThree}
+                    alt=""
+                    className="w-full rounded-md"
+                  />
+                </div>
+                <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
+                  <img
+                    src={reviwPicFour}
+                    alt=""
+                    className="w-full rounded-md"
+                  />
+                </div>
+              </Flex>
+
+              {/* ========================= */}
+
+              <Flex className={"gap-x-7"}>
+                <Link>
+                  <Flex className={'gap-x-2 lg:gap-x-3'}>
+                    <AiFillLike className="text-textClr2" />
+                    <Para15 text={"Helpful "} className={"text-textClr2!"} />
+                  </Flex>
+                </Link>
+                <Link>
+                  <Flex className={'gap-x-2 lg:gap-x-3'}>
+                    <AiFillDislike className="text-textClr2" />
+                    <Para15
+                      text={"Not helpful "}
+                      className={"text-textClr2!"}
+                    />
+                  </Flex>
+                </Link>
+              </Flex>
+            </div>
           </div>
         </div>
       </section>
