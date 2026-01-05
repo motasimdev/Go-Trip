@@ -7,6 +7,7 @@ import Para15 from "@/components/Para15";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-router";
+import { BsGrid3X3GapFill } from "react-icons/bs";
 const Blog_testimonial = () => {
   return (
     <>
@@ -32,7 +33,7 @@ const Blog_testimonial = () => {
               />
             </div>
           </div>
-          <div className="flex justify-between border-b py-4 lg:py-7">
+          <Flex className="justify-between border-b py-4 lg:py-7">
             <Link>
               <div className="flex gap-x-5">
                 <FaArrowLeftLong className="mt-1" />
@@ -48,6 +49,9 @@ const Blog_testimonial = () => {
                 </div>
               </div>
             </Link>
+            <div className="">
+                <BsGrid3X3GapFill  className="text-2xl"/>
+            </div>
             <Link>
               <div className="flex gap-x-5">
                 <div className="max-w-[184px] text-end">
@@ -63,7 +67,7 @@ const Blog_testimonial = () => {
                 <FaArrowRightLong className="mt-1" />
               </div>
             </Link>
-          </div>
+          </Flex>
         </div>
       </section>
     </>
