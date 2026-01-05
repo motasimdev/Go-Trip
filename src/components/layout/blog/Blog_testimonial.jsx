@@ -33,14 +33,14 @@ const Blog_testimonial = () => {
               />
             </div>
           </div>
-          <Flex className="justify-between border-b py-4 lg:py-7">
-            <Link>
+          <Flex className=" justify-between border-b py-4 lg:py-7">
+            <Link className="group">
               <div className="flex gap-x-5">
-                <FaArrowLeftLong className="mt-1 hover:text-textClr3 transition-all duration-200" />
+                <FaArrowLeftLong className="mt-1 group-hover:text-textClr3 transition-all duration-200" />
                 <div className="max-w-[184px]">
                   <ParaBase
                     text={"Prev"}
-                    className={"text-lg! text-textClr1! pb-1 "}
+                    className={"text-lg! text-textClr1! pb-1 group-hover:text-textClr3! transition-all duration-200"}
                   />
                   <Para15
                     text={"5 awesome steps to get rid of stress and routine"}
@@ -53,24 +53,24 @@ const Blog_testimonial = () => {
             {/* ==================== */}
 
             <div className="">
-                <BsGrid3X3GapFill  className="text-2xl"/>
+                <BsGrid3X3GapFill  className="text-sm lg:text-2xl"/>
             </div>
 
             {/* ===================== */}
 
-            <Link>
+            <Link className="group">
               <div className="flex gap-x-5">
                 <div className="max-w-[184px] text-end">
                   <ParaBase
                     text={"Next"}
-                    className={"text-lg! text-textClr1! pb-1 "}
+                    className={"text-lg! text-textClr1! pb-1 group-hover:text-textClr3! transition-all duration-200"}
                   />
                   <Para15
                     text={"Happy clients leave positive feedback less often"}
                     className={"text-textClr1!"}
                   />
                 </div>
-                <FaArrowRightLong className="mt-1 hover:text-textClr3 transition-all duration-200" />
+                <FaArrowRightLong className="mt-1 group-hover:text-textClr3 transition-all duration-200" />
               </div>
             </Link>
           </Flex>
