@@ -21,7 +21,7 @@ const Blog_review = () => {
           <h6 className="pb-4 text-lg font-medium md:text-[22px] text-textClr1">
             Guest reviews
           </h6>
-          <div className="flex flex-col gap-y-8">
+          <div className="flex flex-col gap-y-8 border-b pb-10">
             <div className="">
               <Flex className="gap-x-3">
                 <div className="w-10 lg:h-[70px] h-10 lg:w-[70px] overflow-hidden">
