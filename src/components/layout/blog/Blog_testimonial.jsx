@@ -43,7 +43,8 @@ const Blog_testimonial = () => {
               </div>
             </div>
             <div className="flex">
-              <FaArrowLeftLong />
+              <FaArrowRightLong />
+                
               <div className="">
                 <ParaBase text={"Prev"} className={"text-lg! text-textClr1!"} />
                 <Para15
