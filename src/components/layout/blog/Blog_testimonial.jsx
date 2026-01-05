@@ -42,9 +42,15 @@ const Blog_testimonial = () => {
                 />
               </div>
             </div>
-            <div className=""></div>
-            <div className="cols-1">
-              <FaArrowRightLong />
+            <div className="flex">
+              <FaArrowLeftLong />
+              <div className="">
+                <ParaBase text={"Prev"} className={"text-lg! text-textClr1!"} />
+                <Para15
+                  text={"5 awesome steps to get rid of stress and routine"}
+                  className={"text-textClr1!"}
+                />
+              </div>
             </div>
           </div>
         </div>
