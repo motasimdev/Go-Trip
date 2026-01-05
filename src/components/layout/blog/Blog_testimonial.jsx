@@ -35,7 +35,7 @@ const Blog_testimonial = () => {
             <div className="flex">
               <FaArrowLeftLong className="mt-1"/>
               <div className="max-w-[184px]">
-                <ParaBase text={"Prev"} className={"text-lg! text-textClr1!"} />
+                <ParaBase text={"Prev"} className={"text-lg! text-textClr1! pb-1"} />
                 <Para15
                   text={"5 awesome steps to get rid of stress and routine"}
                   className={"text-textClr1!"}
@@ -43,8 +43,8 @@ const Blog_testimonial = () => {
               </div>
             </div>
             <div className="flex">
-              <div className="max-w-[184px]">
-                <ParaBase text={"Next"} className={"text-lg! text-textClr1!"} />
+              <div className="max-w-[184px] text-end">
+                <ParaBase text={"Next"} className={"text-lg! text-textClr1! pb-1"} />
                 <Para15
                   text={"Happy clients leave positive feedback less often"}
                   className={"text-textClr1!"}
