@@ -8,6 +8,7 @@ import reviwPicOne from "/src/assets/blog/mini.png";
 import reviwPicTwo from "/src/assets/blog/miniTwo.png";
 import reviwPicThree from "/src/assets/blog/miniThree.png";
 import reviwPicFour from "/src/assets/blog/miniFour.png";
+import { AiFillLike } from "react-icons/ai";
 
 const Blog_review = () => {
   return (
@@ -37,19 +38,23 @@ const Blog_review = () => {
             }
             className={"text-textClr1"}
           />
-          <Flex className={"gap-x-5"}>
+          <Flex className={"gap-x-3 lg:gap-x-5"}>
             <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
-              <img src={reviwPicOne} alt="" className="w-full rounded-md"/>
+              <img src={reviwPicOne} alt="" className="w-full rounded-md" />
             </div>
             <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
-              <img src={reviwPicOne} alt="" className="w-full rounded-md"/>
+              <img src={reviwPicTwo} alt="" className="w-full rounded-md" />
             </div>
             <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
-              <img src={reviwPicOne} alt="" className="w-full rounded-md"/>
+              <img src={reviwPicThree} alt="" className="w-full rounded-md" />
             </div>
             <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
-              <img src={reviwPicOne} alt="" className="w-full rounded-md"/>
+              <img src={reviwPicFour} alt="" className="w-full rounded-md" />
             </div>
+          </Flex>
+          <Flex>
+            <Para15 text={"Helpful "} className={"text-textClr2!"}/>
+            <AiFillLike />
           </Flex>
         </div>
       </section>
