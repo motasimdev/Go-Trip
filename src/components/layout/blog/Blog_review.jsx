@@ -10,6 +10,8 @@ import reviwPicThree from "/src/assets/blog/miniThree.png";
 import reviwPicFour from "/src/assets/blog/miniFour.png";
 import { AiFillDislike, AiFillLike } from "react-icons/ai";
 import { Link } from "react-router";
+import Button from "@/components/Button";
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Blog_review = () => {
   return (
@@ -19,7 +21,7 @@ const Blog_review = () => {
           <h6 className="pb-4 text-lg font-medium md:text-[22px] text-textClr1">
             Guest reviews
           </h6>
-          <div className="flex flex-col gap-y-6">
+          <div className="flex flex-col gap-y-8">
             <div className="">
               <Flex className="gap-x-3">
                 <div className="w-10 lg:h-[70px] h-10 lg:w-[70px] overflow-hidden">
@@ -68,13 +70,13 @@ const Blog_review = () => {
 
               <Flex className={"gap-x-7"}>
                 <Link>
-                  <Flex className={'gap-x-2 lg:gap-x-3'}>
+                  <Flex className={"gap-x-2 lg:gap-x-3"}>
                     <AiFillLike className="text-textClr2" />
                     <Para15 text={"Helpful "} className={"text-textClr2!"} />
                   </Flex>
                 </Link>
                 <Link>
-                  <Flex className={'gap-x-2 lg:gap-x-3'}>
+                  <Flex className={"gap-x-2 lg:gap-x-3"}>
                     <AiFillDislike className="text-textClr2" />
                     <Para15
                       text={"Not helpful "}
@@ -132,13 +134,13 @@ const Blog_review = () => {
 
               <Flex className={"gap-x-7"}>
                 <Link>
-                  <Flex className={'gap-x-2 lg:gap-x-3'}>
+                  <Flex className={"gap-x-2 lg:gap-x-3"}>
                     <AiFillLike className="text-textClr2" />
                     <Para15 text={"Helpful "} className={"text-textClr2!"} />
                   </Flex>
                 </Link>
                 <Link>
-                  <Flex className={'gap-x-2 lg:gap-x-3'}>
+                  <Flex className={"gap-x-2 lg:gap-x-3"}>
                     <AiFillDislike className="text-textClr2" />
                     <Para15
                       text={"Not helpful "}
@@ -196,13 +198,13 @@ const Blog_review = () => {
 
               <Flex className={"gap-x-7"}>
                 <Link>
-                  <Flex className={'gap-x-2 lg:gap-x-3'}>
+                  <Flex className={"gap-x-2 lg:gap-x-3"}>
                     <AiFillLike className="text-textClr2" />
                     <Para15 text={"Helpful "} className={"text-textClr2!"} />
                   </Flex>
                 </Link>
                 <Link>
-                  <Flex className={'gap-x-2 lg:gap-x-3'}>
+                  <Flex className={"gap-x-2 lg:gap-x-3"}>
                     <AiFillDislike className="text-textClr2" />
                     <Para15
                       text={"Not helpful "}
@@ -260,13 +262,13 @@ const Blog_review = () => {
 
               <Flex className={"gap-x-7"}>
                 <Link>
-                  <Flex className={'gap-x-2 lg:gap-x-3'}>
+                  <Flex className={"gap-x-2 lg:gap-x-3"}>
                     <AiFillLike className="text-textClr2" />
                     <Para15 text={"Helpful "} className={"text-textClr2!"} />
                   </Flex>
                 </Link>
                 <Link>
-                  <Flex className={'gap-x-2 lg:gap-x-3'}>
+                  <Flex className={"gap-x-2 lg:gap-x-3"}>
                     <AiFillDislike className="text-textClr2" />
                     <Para15
                       text={"Not helpful "}
@@ -276,6 +278,14 @@ const Blog_review = () => {
                 </Link>
               </Flex>
             </div>
+            <Link to={"/"}>
+              <div className="inline-flex bg-textClr3/5 py-3.5 px-7.5 gap-3 curpo group hover:bg-textClr3 transition-colors duration-200 rounded-sm">
+                <p className=" text-[15px] text-textClr3 font-medium group-hover:text-white transition-colors duration-200">
+                  Show all 116 reviews
+                </p>
+                <MdOutlineArrowOutward className="text-textClr3 group-hover:text-white transition-colors duration-200" />
+              </div>
+            </Link>
           </div>
         </div>
       </section>
