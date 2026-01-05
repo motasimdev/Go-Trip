@@ -100,7 +100,7 @@ const Blog_reviewOne = () => {
                 felis et duis fames.
               </p>
             </div>
-            <Flex className={"justify-between"}>
+            <Flex className={"justify-between gap-3"}>
               <div className="">
                 <img src={blogImg1} alt="blog image" />
                 <Para15 text={"Donec purus posuere nullam lacus aliquam."} />
