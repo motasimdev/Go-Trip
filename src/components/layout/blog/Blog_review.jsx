@@ -4,6 +4,10 @@ import React from "react";
 import user from "/src/assets/blog/user.png";
 import Para from "@/components/Para";
 import Para15 from "@/components/Para15";
+import reviwPicOne from "/src/assets/blog/mini.png";
+import reviwPicTwo from "/src/assets/blog/miniTwo.png";
+import reviwPicThree from "/src/assets/blog/miniThree.png";
+import reviwPicFour from "/src/assets/blog/miniFour.png";
 
 const Blog_review = () => {
   return (
@@ -23,8 +27,30 @@ const Blog_review = () => {
             </div>
           </Flex>
 
-          <ParaBase text={"9.2 Superb"} className={"text-textClr3! py-5"}/>
-          <Para15 text={"Nice two level apartment in great London location. Located in quiet small street, but just 50 meters from main street and bus stop. Tube station is short walk, just like two grocery stores. "} className={"text-textClr1"}/>
+          <ParaBase
+            text={"9.2 Superb"}
+            className={"text-textClr3! py-3 lg:py-5"}
+          />
+          <Para15
+            text={
+              "Nice two level apartment in great London location. Located in quiet small street, but just 50 meters from main street and bus stop. Tube station is short walk, just like two grocery stores. "
+            }
+            className={"text-textClr1"}
+          />
+          <Flex className={"gap-x-5"}>
+            <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
+              <img src={reviwPicOne} alt="" className="w-full rounded-md"/>
+            </div>
+            <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
+              <img src={reviwPicOne} alt="" className="w-full rounded-md"/>
+            </div>
+            <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
+              <img src={reviwPicOne} alt="" className="w-full rounded-md"/>
+            </div>
+            <div className="w-20 h-20 lg:w-[120px] lg:h-[120px]">
+              <img src={reviwPicOne} alt="" className="w-full rounded-md"/>
+            </div>
+          </Flex>
         </div>
       </section>
     </>
