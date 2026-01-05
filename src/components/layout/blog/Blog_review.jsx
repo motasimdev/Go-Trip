@@ -9,6 +9,7 @@ import reviwPicTwo from "/src/assets/blog/miniTwo.png";
 import reviwPicThree from "/src/assets/blog/miniThree.png";
 import reviwPicFour from "/src/assets/blog/miniFour.png";
 import { AiFillLike } from "react-icons/ai";
+import { Link } from "react-router";
 
 const Blog_review = () => {
   return (
@@ -53,8 +54,20 @@ const Blog_review = () => {
             </div>
           </Flex>
           <Flex>
-            <Para15 text={"Helpful "} className={"text-textClr2!"}/>
-            <AiFillLike />
+            <Flex>
+              <Link>
+                <AiFillLike className="text-textClr2" />
+                <Para15 text={"Helpful "} className={"text-textClr2!"} />
+              </Link>
+            </Flex>
+            <Flex>
+              <Link>
+
+              
+                <AiFillLike className="text-textClr2" />
+                <Para15 text={"Helpful "} className={"text-textClr2!"} />
+              </Link>
+            </Flex>
           </Flex>
         </div>
       </section>
