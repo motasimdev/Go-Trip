@@ -1,0 +1,11 @@
+import React from 'react'
+
+const Blog_review = () => {
+  return (
+    <>
+    <section className='py-2 lg:pt-6 px-3 lg:px-0'></section>
+    </>
+  )
+}
+
+export default Blog_review
