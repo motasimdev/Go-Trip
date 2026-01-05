@@ -6,6 +6,7 @@ import Para from "@/components/Para";
 import Para15 from "@/components/Para15";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from "react-router";
 const Blog_testimonial = () => {
   return (
     <>
@@ -32,25 +33,33 @@ const Blog_testimonial = () => {
             </div>
           </div>
           <div className="flex justify-between border-b py-4 lg:py-7">
-            <div className="flex">
-              <FaArrowLeftLong className="mt-1"/>
-              <div className="max-w-[184px]">
-                <ParaBase text={"Prev"} className={"text-lg! text-textClr1! pb-1"} />
-                <Para15
-                  text={"5 awesome steps to get rid of stress and routine"}
-                  className={"text-textClr1!"}
-                />
+            <Link>
+              <div className="flex gap-x-5">
+                <FaArrowLeftLong className="mt-1" />
+                <div className="max-w-[184px]">
+                  <ParaBase
+                    text={"Prev"}
+                    className={"text-lg! text-textClr1! pb-1"}
+                  />
+                  <Para15
+                    text={"5 awesome steps to get rid of stress and routine"}
+                    className={"text-textClr1!"}
+                  />
+                </div>
               </div>
-            </div>
-            <div className="flex">
+            </Link>
+            <div className="flex gap-x-5">
               <div className="max-w-[184px] text-end">
-                <ParaBase text={"Next"} className={"text-lg! text-textClr1! pb-1"} />
+                <ParaBase
+                  text={"Next"}
+                  className={"text-lg! text-textClr1! pb-1"}
+                />
                 <Para15
                   text={"Happy clients leave positive feedback less often"}
                   className={"text-textClr1!"}
                 />
               </div>
-              <FaArrowRightLong className="mt-1"/>
+              <FaArrowRightLong className="mt-1" />
             </div>
           </div>
         </div>
