@@ -76,7 +76,7 @@ const Header = () => {
       </nav>
 
       {/* =====================================responsive================================= */}
-      <nav className="py-5 px-3 bg-[#0D2857] w-full z-1000 lg:hidden">
+      <nav className="py-5 px-3 bg-[#0D2857] w-full z-1000 lg:hidden sticky top-0">
         <Container>
           <Flex className={"justify-between"}>
             <picture className="">
