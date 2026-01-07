@@ -3,8 +3,8 @@ import React from 'react'
 const Blog_reply = () => {
   return (
     <>
-    <section>
-        
+    <section className='py-2 lg:pt-6 px-3 lg:px-0'>
+
     </section>
     </>
   )
