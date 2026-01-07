@@ -35,10 +35,10 @@ const Blog_reply = () => {
             cols="30"
             rows="10"
             placeholder="Write your comment"
-            className="border border-gray-300 w-full pl-6 mt-10"
+            className="pt-5 border border-gray-300 w-full pl-6 mt-10"
           ></textarea>
           <Link to={"/"}>
-            <div className="inline-flex bg-textClr3 py-3.5 px-7.5 gap-3 curpo group hover:bg-textClr3/5 transition-colors duration-200 rounded-sm">
+            <div className="mt-5 inline-flex bg-textClr3 py-3.5 px-7.5 gap-3 curpo group hover:bg-textClr3/5 transition-colors duration-200 rounded-sm">
               <p className=" text-[15px] text-white font-medium group-hover:text-textClr3 transition-colors duration-200">
                 Show all 116 reviews
               </p>
