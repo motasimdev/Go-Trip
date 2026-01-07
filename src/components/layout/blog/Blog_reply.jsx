@@ -11,6 +11,7 @@ const Blog_reply = () => {
             Leave a Reply
           </h6>
           <ParaBase text={"Your email address will not be published."} className={"text-textClr1! font-normal"}/>
+          <input type="text" className="py-5 border border-gray-300"/>
         </div>
       </section>
     </>
