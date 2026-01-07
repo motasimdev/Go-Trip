@@ -19,12 +19,12 @@ const Blog_reply = () => {
             <input
               type="text"
               placeholder="text"
-              className="py-5 border border-gray-300 lg:w-[400px]"
+              className="py-5 border border-gray-300 lg:w-[400px] pl-6"
             />
             <input
               type="email"
               placeholder="email"
-              className="py-5 border border-gray-300 lg:w-[400px]"
+              className="py-5 border border-gray-300 lg:w-[400px] pl-6"
             />
           </Flex>
         </div>
