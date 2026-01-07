@@ -2,6 +2,8 @@ import Flex from "@/components/Flex";
 import Para15 from "@/components/Para15";
 import ParaBase from "@/components/ParaBase";
 import React from "react";
+import { MdOutlineArrowOutward } from "react-icons/md";
+import { Link } from "react-router";
 
 const Blog_reply = () => {
   return (
@@ -35,6 +37,14 @@ const Blog_reply = () => {
             placeholder="Write your comment"
             className="border border-gray-300 w-full pl-6 mt-10"
           ></textarea>
+          <Link to={"/"}>
+            <div className="inline-flex bg-textClr3 py-3.5 px-7.5 gap-3 curpo group hover:bg-textClr3/5 transition-colors duration-200 rounded-sm">
+              <p className=" text-[15px] text-white font-medium group-hover:text-textClr3 transition-colors duration-200">
+                Show all 116 reviews
+              </p>
+              <MdOutlineArrowOutward className="text-white group-hover:text-textClr3 transition-colors duration-200" />
+            </div>
+          </Link>
         </div>
       </section>
     </>
