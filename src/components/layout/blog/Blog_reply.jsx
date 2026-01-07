@@ -27,6 +27,7 @@ const Blog_reply = () => {
               className="py-5 border border-gray-300 lg:w-[400px] pl-6"
             />
           </Flex>
+          <textarea name="" id="" cols="30" rows="10" className=""></textarea>
         </div>
       </section>
     </>
