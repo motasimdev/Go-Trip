@@ -15,13 +15,15 @@ const Blog_reply = () => {
             text={"Your email address will not be published."}
             className={"text-textClr1! font-normal"}
           />
-          <Flex>
+          <Flex className={"justify-between"}>
             <input
               type="text"
+              placeholder="text"
               className="py-5 border border-gray-300 lg:w-[400px]"
             />
             <input
-              type="text"
+              type="email"
+              placeholder="email"
               className="py-5 border border-gray-300 lg:w-[400px]"
             />
           </Flex>
