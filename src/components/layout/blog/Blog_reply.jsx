@@ -1,4 +1,5 @@
 import Para15 from "@/components/Para15";
+import ParaBase from "@/components/ParaBase";
 import React from "react";
 
 const Blog_reply = () => {
@@ -9,7 +10,7 @@ const Blog_reply = () => {
           <h6 className="pb-4 text-lg font-medium md:text-[22px] text-textClr1">
             Leave a Reply
           </h6>
-          <Para15 text={"Your email address will not be published."}/>
+          <ParaBase text={"Your email address will not be published."} className={"text-textClr1! font-normal"}/>
         </div>
       </section>
     </>
