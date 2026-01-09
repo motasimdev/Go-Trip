@@ -40,7 +40,7 @@ const Blog_reply = () => {
           <Link to={"/"}>
             <div className="mt-5 inline-flex bg-textClr3 py-3.5 px-7.5 gap-3 curpo group hover:bg-textClr3/5 transition-colors duration-200 rounded-sm">
               <p className=" text-[15px] text-white font-medium group-hover:text-textClr3 transition-colors duration-200">
-                Post Comment
+                Post Comment  
               </p>
               <MdOutlineArrowOutward className="text-white group-hover:text-textClr3 transition-colors duration-200" />
             </div>

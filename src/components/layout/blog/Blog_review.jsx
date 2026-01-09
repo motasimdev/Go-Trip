@@ -282,7 +282,6 @@ const Blog_review = () => {
               <div className="inline-flex bg-textClr3/5 py-3.5 px-7.5 gap-3 curpo group hover:bg-textClr3 transition-colors duration-200 rounded-sm">
                 <p className=" text-[15px] text-textClr3 font-medium group-hover:text-white transition-colors duration-200">
                   Show all 116 reviews
-                  ..aksfdjkajf
                 </p>
                 <MdOutlineArrowOutward className="text-textClr3 group-hover:text-white transition-colors duration-200" />
               </div>
