@@ -45,35 +45,59 @@ const Header = () => {
                 </NavLink>
 
                 {/* ================================================== */}
-                <NavLink to={"/blog"}>
-                  <Flex className={"gap-x-3"}>
-                    <li className="font-medium text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                <li className="">
+                  <NavLink
+                    to={"/blog"}
+                    className={
+                      "block py-4 font-medium text-white text-[15px] hover:text-blue-500 transition-colors duration-200"
+                    }
+                  >
+                    <Flex className={"gap-x-3"}>
                       {" "}
                       Blog
-                    </li>
-                    <FaCaretDown className="text-white" />
-                  </Flex>
-                </NavLink>
+                      <FaCaretDown className="text-white" />
+                    </Flex>
+                  </NavLink>
+                </li>
 
                 {/* ================================================== */}
-                <NavLink to={"/pages"} className={"relative"}>
-                  <Flex className={"gap-x-3"}>
-                    <li className="font-medium text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                <li className="relative group">
+                  <NavLink
+                    to={"/pages"}
+                    className={
+                      "block py-4 font-medium text-white text-[15px] hover:text-blue-500 transition-colors duration-200"
+                    }
+                  >
+                    <Flex className={"gap-x-3"}>
                       {" "}
-                      Pages{" "}
-                    </li>
-                    <FaCaretDown className="text-white" />
-                  </Flex>
-                  <div className="absolute left-0 pl-9 py-6 bg-white">
-                    <ul className="flex items-center gap-x-4">
+                      Pages <FaCaretDown className="text-white" />
+                    </Flex>
+                  </NavLink>
+                  <div className="opacity-0 absolute left-0 top-14 pl-9 py-6 bg-white group-hover:opacity-100 transition-all duration-200">
+                    <ul className="gap-x-4">
+                      <NavLink to={"/*"}>
+                        <li className=" py-3 w-[150px] text-left text-black text-[15px] hover:text-blue-500 transition-colors duration-200">
+                          404
+                        </li>
+                      </NavLink>
                       <NavLink to={"/about"}>
-                        <li className="font-medium w-[150px] text-left text-black text-[15px] hover:text-blue-500 transition-colors duration-200">
+                        <li className=" py-3 w-[150px] text-left text-black text-[15px] hover:text-blue-500 transition-colors duration-200">
+                          About
+                        </li>
+                      </NavLink>
+                      <NavLink to={"/about"}>
+                        <li className=" py-3 w-[150px] text-left text-black text-[15px] hover:text-blue-500 transition-colors duration-200">
+                          About
+                        </li>
+                      </NavLink>
+                      <NavLink to={"/about"}>
+                        <li className=" py-3 w-[150px] text-left text-black text-[15px] hover:text-blue-500 transition-colors duration-200">
                           About
                         </li>
                       </NavLink>
                     </ul>
                   </div>
-                </NavLink>
+                </li>
 
                 {/* ================================================== */}
                 <NavLink to={"/contact"}>
