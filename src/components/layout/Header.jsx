@@ -6,6 +6,7 @@ import logo from "/src/assets/logo.png";
 import Button from "../Button";
 import { FaBars } from "react-icons/fa6";
 import { RxCross2 } from "react-icons/rx";
+import { FaCaretDown } from "react-icons/fa";
 import Para from "../Para";
 
 const Header = () => {
@@ -36,10 +37,13 @@ const Header = () => {
                   </li>
                 </NavLink>
                 <NavLink to={"/blog"}>
-                  <li className="font-medium text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
-                    {" "}
-                    Blog
-                  </li>
+                  <Flex className={"gap-x-3"}>
+                    <li className="font-medium text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
+                      {" "}
+                      Blog
+                    </li>
+                    <FaCaretDown className="text-white"/>
+                  </Flex>
                 </NavLink>
                 <NavLink to={"/pages"}>
                   <li className="font-medium text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
@@ -89,8 +93,8 @@ const Header = () => {
             >
               {!menu ? (
                 <>
-                <FaBars className="text-white" />
-                </> 
+                  <FaBars className="text-white" />
+                </>
               ) : (
                 <RxCross2 className="text-white" />
               )}
