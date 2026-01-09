@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <>
       <nav
-        className={`py-5 bg-gray-400 fixed top-0 left-0 w-full z-1000 hidden lg:block `}
+        className={`py-5 bg-gray-400 sticky top-0 left-0 w-full z-1000 hidden lg:block `}
       >
         <Container>
           <Flex className={"justify-between "}>
@@ -45,7 +45,7 @@ const Header = () => {
                 </NavLink>
 
                 {/* ================================================== */}
-                <li className="">
+                <li className="relative group">
                   <NavLink
                     to={"/blog"}
                     className={
@@ -58,6 +58,30 @@ const Header = () => {
                       <FaCaretDown className="text-white" />
                     </Flex>
                   </NavLink>
+                  <div className="absolute opacity-0 invisible left-0 top-full pl-9 py-6 bg-gray-400 group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                    <ul className="gap-x-4">
+                      <NavLink to={"/*"}>
+                        <li className=" py-3 w-[150px] text-left text-black text-[15px] hover:text-blue-500 transition-colors duration-200">
+                          404
+                        </li>
+                      </NavLink>
+                      <NavLink to={"/about"}>
+                        <li className=" py-3 w-[150px] text-left text-black text-[15px] hover:text-blue-500 transition-colors duration-200">
+                          About
+                        </li>
+                      </NavLink>
+                      <NavLink to={"/about"}>
+                        <li className=" py-3 w-[150px] text-left text-black text-[15px] hover:text-blue-500 transition-colors duration-200">
+                          About
+                        </li>
+                      </NavLink>
+                      <NavLink to={"/about"}>
+                        <li className=" py-3 w-[150px] text-left text-black text-[15px] hover:text-blue-500 transition-colors duration-200">
+                          About
+                        </li>
+                      </NavLink>
+                    </ul>
+                  </div>
                 </li>
 
                 {/* ================================================== */}
@@ -73,7 +97,7 @@ const Header = () => {
                       Pages <FaCaretDown className="text-white" />
                     </Flex>
                   </NavLink>
-                  <div className="opacity-0 absolute left-0 top-14 pl-9 py-6 bg-white group-hover:opacity-100 transition-all duration-200">
+                  <div className="absolute opacity-0 invisible left-0 top-full pl-9 py-6 bg-gray-400 group-hover:opacity-100 group-hover:visible transition-all duration-200">
                     <ul className="gap-x-4">
                       <NavLink to={"/*"}>
                         <li className=" py-3 w-[150px] text-left text-black text-[15px] hover:text-blue-500 transition-colors duration-200">
