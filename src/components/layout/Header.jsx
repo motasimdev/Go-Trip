@@ -23,21 +23,28 @@ const Header = () => {
             </picture>
             <div className="">
               <ul className="flex items-center gap-x-4 text-center">
+                {/* ================================================== */}
                 <NavLink to={"/"}>
                   <li className="font-medium text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
                     Home
                   </li>
                 </NavLink>
+
+                {/* ================================================== */}
                 <NavLink to={"/categories"}>
                   <li className="font-medium text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
                     Categories
                   </li>
                 </NavLink>
+
+                {/* ================================================== */}
                 <NavLink to={"/destination"}>
                   <li className="font-medium text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
                     Destination
                   </li>
                 </NavLink>
+
+                {/* ================================================== */}
                 <NavLink to={"/blog"}>
                   <Flex className={"gap-x-3"}>
                     <li className="font-medium text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
@@ -47,7 +54,9 @@ const Header = () => {
                     <FaCaretDown className="text-white" />
                   </Flex>
                 </NavLink>
-                <NavLink to={"/pages"}>
+
+                {/* ================================================== */}
+                <NavLink to={"/pages"} className={"relative"}>
                   <Flex className={"gap-x-3"}>
                     <li className="font-medium text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
                       {" "}
@@ -55,7 +64,18 @@ const Header = () => {
                     </li>
                     <FaCaretDown className="text-white" />
                   </Flex>
+                  <div className="absolute left-0 pl-9 py-6 bg-white">
+                    <ul className="flex items-center gap-x-4">
+                      <NavLink to={"/about"}>
+                        <li className="font-medium w-[150px] text-left text-black text-[15px] hover:text-blue-500 transition-colors duration-200">
+                          About
+                        </li>
+                      </NavLink>
+                    </ul>
+                  </div>
                 </NavLink>
+
+                {/* ================================================== */}
                 <NavLink to={"/contact"}>
                   <li className="font-medium text-white text-[15px] hover:text-blue-500 transition-colors duration-200">
                     {" "}
@@ -64,6 +84,8 @@ const Header = () => {
                 </NavLink>
               </ul>
             </div>
+
+            {/* ======================menu end============================ */}
             <Flex className="gap-x-4">
               <Button
                 className={
