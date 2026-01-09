@@ -52,7 +52,7 @@ const Blog_related = () => {
                 }}
                 modules={[Pagination, Navigation]}
                 breakpoints={{
-                  1024: { slidesPerView: 6 },
+                  1024: { slidesPerView: 4 },
                   768: { slidesPerView: 2 },
                   640: { slidesPerView: 1 },
                 }}
