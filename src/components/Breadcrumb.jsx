@@ -11,7 +11,7 @@ const Breadcrumb = ({pageOne, pageTwo, pageThree , pageOneLink, pageTwoLink, pag
       <section className="py-2 px-3 lg:px-0 lg:pt-[115px] lg:pb-5">
         <Container>
           <div className={"md:flex items-center justify-between"}>
-            <Para className={"text-textClr2!"}>
+            <div className={"text-textClr2 text-[10px] md:[12px] lg:text-[14px] "}>
               <Flex>
                 <Link to={pageOneLink} className="cursor-pointer">{pageOne}</Link>{" "}
                 <RxCaretRight className="text-lg" />{" "}
@@ -19,7 +19,7 @@ const Breadcrumb = ({pageOne, pageTwo, pageThree , pageOneLink, pageTwoLink, pag
                 <RxCaretRight className="text-lg" />{" "}
                 <Link to={pageThreeLink} className="text-textClr1 cursor-pointer">{pageThree}</Link>
               </Flex>
-            </Para>
+            </div>
             <Para className={"text-textClr2!"}>
               London Tourism: Best of London
             </Para>

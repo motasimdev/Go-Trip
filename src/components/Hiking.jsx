@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hiking = ({className}) => {
+const Hiking = ({ className }) => {
   return (
     <div>
       <svg
@@ -11,7 +11,7 @@ const Hiking = ({className}) => {
         xmlns="http://www.w3.org/2000/svg"
         className={`text-textClr3 ${className}`}
       >
-        <g clip-path="url(#clip0_2_4718)">
+        <g clipPath="url(#clip0_2_4718)">
           <path
             d="M10 18.5H8C7.44771 18.5 7 18.9477 7 19.5C7 20.0523 7.44771 20.5 8 20.5H10C10.5523 20.5 11 20.0523 11 19.5C11 18.9477 10.5523 18.5 10 18.5Z"
             fill="currentColor"

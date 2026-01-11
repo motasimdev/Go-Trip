@@ -6,6 +6,7 @@ import Button from "../Button";
 import { LuMapPin } from "react-icons/lu";
 import Para from "../Para";
 import ParaBase from "../ParaBase";
+import { Link } from "react-router";
 
 const Des_visiting = () => {
   return (
@@ -18,27 +19,14 @@ const Des_visiting = () => {
           </h3>
           <div className="lg:flex items-center justify-between mb-6 lg:mb-9">
             <div className="lg:w-[60%] mb-3 lg:mb-0">
-              <Para15>
-                London is a shining example of a metropolis at the highest peak
-                of modernity and boasts an economy and cultural diversity that’s
-                the envy of other global superpowers.{" "}
-                <div className="h-3 lg:h-7.5"></div> Take the opportunity to
-                acquaint yourself with its fascinating history chronicled by
-                institutions like the British Museum as well as see how far it
-                has come by simply riding the Tube and passing by celebrated
-                landmarks like Buckingham Palace, Westminster Abbey, and marvels
-                like Big Ben, the London Eye, and the Tower Bridge.{" "}
-                <div className="h-3 lg:h-7.5"></div> Take the opportunity to You
-                can also immerse yourself in its ever-evolving and impactful
-                culture by visiting places like the National Gallery, the Tate
-                Modern, West End, Abbey Road, the Royal Albert Hall, Oxford
-                Street and the Westfield Shopping Centers, and areas referenced
-                and seen in literature and film.
-                <div className="h-3 lg:h-7.5"></div>
-                <span className="border-b border-textClr3 text-textClr3! font-medium">
+              <Para15 text={" London is a shining example of a metropolis at the highest peak of modernity and boasts an economy and cultural diversity that’s the envy of other global superpowers."}/>
+               {" "}
+                <Para15 text={"Take the opportunity to acquaint yourself with its fascinating history chronicled by institutions like the British Museum as well as see how far it has come by simply riding the Tube and passing by celebrated landmarks like Buckingham Palace, Westminster Abbey, and marvels like Big Ben, the London Eye, and the Tower Bridge."} className="py-2 lg:py-2.5"/>{" "}
+                <Para15 text={"Take the opportunity to You can also immerse yourself in its ever-evolving and impactful culture by visiting places like the National Gallery, the Tate Modern, West End, Abbey Road, the Royal Albert Hall, Oxford Street and the Westfield Shopping Centers, and areas referenced and seen in literature and film."} className="py-2 lg:py-2.5"/>
+                <span className="py-2 lg:py-2.5"></span>
+                <Link to={"/destination"} className="border-b border-textClr3 text-textClr3! font-medium">
                   Show more
-                </span>
-              </Para15>
+                </Link>
             </div>
             <div className="relative lg:w-[35%]">
               <iframe
