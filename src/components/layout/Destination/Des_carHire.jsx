@@ -50,7 +50,7 @@ const Des_carHire = () => {
                 spaceBetween={30}
                 centeredSlides={false}
                 loop={true}
-                arrows={false}
+                //arrow nai
                 navigation={{
                   nextEl: ".custom-next",
                   prevEl: ".custom-prev",
@@ -179,7 +179,7 @@ const Des_carHire = () => {
                         city={"Vaticano Prati, Rome"}
                         placeTitle={
                           <>
-                           BMW 5 Series
+                            BMW 5 Series
                             <span className="text-[15px] text-textClr2">
                               {" "}
                               or similar

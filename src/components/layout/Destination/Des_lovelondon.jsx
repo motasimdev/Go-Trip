@@ -74,7 +74,7 @@ const Des_lovelondon = () => {
                   type: "progressbar",
                   el: ".custom-progressbar",
                 }}
-                arrows={false}
+                //arrow nai
                 navigation={{
                   nextEl: ".custom-next",
                   prevEl: ".custom-prev",

@@ -50,7 +50,7 @@ const Des_holiday = () => {
               spaceBetween={30}
               centeredSlides={false}
               loop={true}
-              arrows={false}
+              //arrow nai
               navigation={{
                 nextEl: ".custom-next",
                 prevEl: ".custom-prev",
@@ -91,9 +91,7 @@ const Des_holiday = () => {
                       cardPic={desPicTwo}
                       badgTxt={"Breakfast included"}
                       city={"Ciutat Vella, Barcelona"}
-                      placeTitle={
-                        "Luxury New Apartment With Private Garden"
-                      }
+                      placeTitle={"Luxury New Apartment With Private Garden"}
                       subTitle={"2 guests1 . bedroom . 1 bed"}
                     />
                   </Link>
@@ -110,7 +108,9 @@ const Des_holiday = () => {
                     <CardThree
                       cardPic={desPicThree}
                       badgTxt={"Best Seller"}
-                      placeTitle={"Premium One Bedroom Luxury Living in the Heart of Mayfair"}
+                      placeTitle={
+                        "Premium One Bedroom Luxury Living in the Heart of Mayfair"
+                      }
                       city={"Manhattan, New York"}
                       subTitle={"2 guests1 . bedroom . 1 bed"}
                     />
@@ -128,9 +128,7 @@ const Des_holiday = () => {
                     <CardThree
                       cardPic={desPicFour}
                       badgTxt={"Top Rated"}
-                      placeTitle={
-                        "Style, Charm & Comfort in Camberwell"
-                      }
+                      placeTitle={"Style, Charm & Comfort in Camberwell"}
                       city={"Vaticano Prati, Rome"}
                       subTitle={"2 guests1 . bedroom . 1 bed"}
                     />

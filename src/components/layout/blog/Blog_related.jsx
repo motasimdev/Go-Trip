@@ -45,7 +45,7 @@ const Blog_related = () => {
                 spaceBetween={30}
                 centeredSlides={false}
                 loop={true}
-                arrows={false}
+                //arrow nai
                 navigation={{
                   nextEl: ".custom-next",
                   prevEl: ".custom-prev",

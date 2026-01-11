@@ -1,4 +1,3 @@
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
@@ -17,19 +16,21 @@ import Container from "../../Container";
 import Heading from "../../Heading";
 import CardTwo from "../../CardTwo";
 
-
 const Des_trending = () => {
   AOS.init();
-      AOS.init({
-        duration: 800,
-        offset: 200,
-      });
+  AOS.init({
+    duration: 800,
+    offset: 200,
+  });
   return (
     <>
-    <section className="py-7.5 lg:py-20 px-3 lg:px-0">
+      <section className="py-7.5 lg:py-20 px-3 lg:px-0">
         <Container>
           <div className="">
-            <div className="mb-8 md:mb-9 lg:mb-11 text-center md:text-left" data-aos="fade-up">
+            <div
+              className="mb-8 md:mb-9 lg:mb-11 text-center md:text-left"
+              data-aos="fade-up"
+            >
               <Heading
                 title={"Trending Activity"}
                 subTitle={"Interdum et malesuada fames ac ante ipsum"}
@@ -49,7 +50,7 @@ const Des_trending = () => {
                 spaceBetween={30}
                 centeredSlides={false}
                 loop={true}
-                arrows={false}
+                //arrow nai
                 navigation={{
                   nextEl: ".custom-next",
                   prevEl: ".custom-prev",
@@ -71,7 +72,9 @@ const Des_trending = () => {
                       <CardTwo
                         cardPic={cardOne}
                         badgTxt={"Breakfast included"}
-                        placeTitle={"Stonehenge, Windsor Castle and Bath with Pub Lunch in Lacock"}
+                        placeTitle={
+                          "Stonehenge, Windsor Castle and Bath with Pub Lunch in Lacock"
+                        }
                         city={"Westminster Borough, London"}
                       />
                     </Link>
@@ -107,7 +110,9 @@ const Des_trending = () => {
                       <CardTwo
                         cardPic={cardThree}
                         badgTxt={"Best Seller"}
-                        placeTitle={"High-Speed Thames River RIB Cruise in London"}
+                        placeTitle={
+                          "High-Speed Thames River RIB Cruise in London"
+                        }
                         city={"Manhattan, New York"}
                       />
                     </Link>
@@ -157,7 +162,7 @@ const Des_trending = () => {
         </Container>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Des_trending
+export default Des_trending;

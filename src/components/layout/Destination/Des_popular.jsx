@@ -18,16 +18,19 @@ import CardTwo from "../../CardTwo";
 
 const Des_popular = () => {
   AOS.init();
-    AOS.init({
-      duration: 800,
-      offset: 200,
-    });
+  AOS.init({
+    duration: 800,
+    offset: 200,
+  });
   return (
     <>
       <section className="py-7.5 lg:py-20 px-3 lg:px-0">
         <Container>
           <div className="">
-            <div className="mb-8 md:mb-9 lg:mb-11 text-center md:text-left" data-aos="fade-up">
+            <div
+              className="mb-8 md:mb-9 lg:mb-11 text-center md:text-left"
+              data-aos="fade-up"
+            >
               <Heading
                 title={"Most Popular Tours"}
                 subTitle={"Interdum et malesuada fames ac ante ipsum"}
@@ -47,7 +50,7 @@ const Des_popular = () => {
                 spaceBetween={30}
                 centeredSlides={false}
                 loop={true}
-                arrows={false}
+                //arrow nai
                 navigation={{
                   nextEl: ".custom-next",
                   prevEl: ".custom-prev",
@@ -69,7 +72,9 @@ const Des_popular = () => {
                       <CardTwo
                         cardPic={cardOne}
                         badgTxt={"Breakfast included"}
-                        placeTitle={"Stonehenge, Windsor Castle and Bath with Pub Lunch in Lacock"}
+                        placeTitle={
+                          "Stonehenge, Windsor Castle and Bath with Pub Lunch in Lacock"
+                        }
                         city={"Westminster Borough, London"}
                       />
                     </Link>
@@ -105,7 +110,9 @@ const Des_popular = () => {
                       <CardTwo
                         cardPic={cardThree}
                         badgTxt={"Best Seller"}
-                        placeTitle={"High-Speed Thames River RIB Cruise in London"}
+                        placeTitle={
+                          "High-Speed Thames River RIB Cruise in London"
+                        }
                         city={"Manhattan, New York"}
                       />
                     </Link>
@@ -155,7 +162,7 @@ const Des_popular = () => {
         </Container>
       </section>
     </>
-  );  
+  );
 };
 
 export default Des_popular;

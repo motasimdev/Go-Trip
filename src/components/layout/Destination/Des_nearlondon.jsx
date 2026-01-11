@@ -44,7 +44,7 @@ const Des_nearlondon = () => {
                 spaceBetween={30}
                 centeredSlides={false}
                 loop={true}
-                arrows={false}
+                //arrow nai
                 navigation={{
                   nextEl: ".custom-next",
                   prevEl: ".custom-prev",
@@ -112,7 +112,7 @@ const Des_nearlondon = () => {
                     </div>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide>  
+                <SwiperSlide>
                   <div
                     className="w-full flex justify-center"
                     data-aos="fade-up"

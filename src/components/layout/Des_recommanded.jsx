@@ -27,7 +27,10 @@ const Des_recommanded = () => {
       <section className="py-7.5 lg:py-20 px-3 lg:px-0">
         <Container>
           <div className="">
-            <div className="mb-8 md:mb-9 lg:mb-11 text-center md:text-left" data-aos="fade-up">
+            <div
+              className="mb-8 md:mb-9 lg:mb-11 text-center md:text-left"
+              data-aos="fade-up"
+            >
               <Heading
                 title={"Recommended Hotels"}
                 subTitle={"Interdum et malesuada fames ac ante ipsum"}
@@ -47,7 +50,7 @@ const Des_recommanded = () => {
                 spaceBetween={30}
                 centeredSlides={false}
                 loop={true}
-                arrows={false}
+                //arrow nai
                 navigation={{
                   nextEl: ".custom-next",
                   prevEl: ".custom-prev",
