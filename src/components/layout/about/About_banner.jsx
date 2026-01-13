@@ -6,7 +6,9 @@ const About_banner = () => {
     <>
     <script className='py-20 lg:py-20 px-3 lg:px-0 bg-[url(/src/assets)]'>
         <Container>
-            <div className=""></div>
+            <div className="">
+              About Part start
+            </div>
         </Container>
     </script>
     </>
