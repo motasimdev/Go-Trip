@@ -6,9 +6,10 @@ const About_banner = () => {
     <>
     <script className='py-20 lg:py-20 px-3 lg:px-0 bg-[url(/src/assets/about/1.png)]'>
         <Container>
-          <div className="">
+          <p className="bg-red-800">
             asfasfa
-          </div>
+
+          </p>
         </Container>
     </script>
     </>
