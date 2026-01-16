@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <>
       <nav
-        className={`py-5 bg-gray-400 sticky top-0 left-0 w-full z-1000 hidden lg:block `}
+        className={`py-5 bg-transparent sticky top-0 left-0 w-full z-1000 hidden lg:block `}
       >
         <Container>
           <Flex className={"justify-between "}>
